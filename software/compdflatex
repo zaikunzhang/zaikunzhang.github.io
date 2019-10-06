@@ -1,0 +1,53 @@
+#!/bin/bash
+# Name: compdflatex
+# Usage: compdflatex PDFNAME1.pdf [PAGE RANGES] [PDFNAME2.pdf [PAGE  RANGES] ...].
+# The purpose is to coimbine some pages of input files into a pdf file.
+# The output will be written to output-`date +%Y%m%d%H%M%S`.pdf."
+
+USAGE="Usage: compdflatex PDFNAME1.pdf [PAGE RANGES] [PDFNAME2.pdf [PAGE RANGES] ...]."
+
+if [[ "$#" -eq "0" ]]
+then
+    echo "$USAGE"
+    exit 1
+fi
+
+OUTPUT="output-`date +%Y%m%d%H%M%S`"
+
+cat > "$OUTPUT.tex" << EOF
+\\documentclass{article} 
+\\usepackage{pdfpages} 
+\\begin{document}
+EOF
+
+while [[ "$#" -gt "0" ]]
+do
+    if [[ "${1: -4}" != ".pdf" ]] && [[ "${1: -4}" != ".PDF" ]]
+    then
+        echo "Error. Please provide the full file names, including the suffix ".pdf"."
+        exit 2
+    fi
+
+    if [[ "$#" -gt "1" ]] && [[ "${2: -4}" != ".pdf" ]] && [[ "${2: -4}" != ".PDF" ]]
+    then
+        cat >> "$OUTPUT.tex" << EOF
+\\includepdf[nup=1x1, delta=0mm 0mm, scale=1,pages={$2}]{$1}
+EOF
+# Make sure that there are no spaces before the "EOF" in last line.
+        shift
+        shift
+    else
+        cat >> "$OUTPUT.tex" << EOF
+\\includepdf[nup=1x1, delta=0mm 0mm, scale=1,pages=-]{$1}
+EOF
+# Make sure that there are no spaces before the "EOF" in last line.
+        shift
+    fi
+done
+
+cat >> "$OUTPUT.tex" << EOF
+\\end{document}
+EOF
+
+pdflatex $OUTPUT.tex
+rm -f $OUTPUT.tex $OUTPUT.log $OUTPUT.aux $OUTPUT.out

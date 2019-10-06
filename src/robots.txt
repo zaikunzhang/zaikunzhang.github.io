@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /~zhang/404.html
+Disallow: /~zhang/403.html
+Disallow: /~zhang/src/
+Disallow: /~zhang/figs/Dennis.jpg

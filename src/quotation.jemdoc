@@ -1,0 +1,665 @@
+# jemdoc: menu{MENU}{quotation.html},title{Quotations} showsource
+#= {{<a id="top"></a>}}Quotations
+#This page collects some quotations that I like. I try to clarify
+#their source. The page is updated from time to time, and you may skip to the [\#recent most recent] post. Before starting, remember that {{<span class="dotunder">}}you never need quotations to strengthen your belief if you have one, and it is never a good idea to believe in something merely because somebody famous said so (and it will be even worse if it turns out that he/she actually did not){{</span>}}.
+~~~
+{}{raw}
+<div id="toptitle">
+<h1><a id="top"></a>Quotations</h1>
+<div class="subtitle" id="subtitle">
+This page collects some quotations that I like. It is updated from time to time. I try to clarify the source of each quotation. Before starting, remember that <span class="dotunder">you never need quotations to justify your belief if you have one, and it is never a good idea to believe in something merely because some celebrity said so</span> (and it will be even worse if it turns out that she/he actually did not).
+<p class="right"> [<a href="#chinese">中文</a>]&nbsp; &nbsp;[<a href="#english">English</a>]&nbsp; &nbsp;[<a href="#latest">latest</a>]</p>
+</div>
+</div>
+~~~
+
+== Optimization
+
+{{<a id="english"></a>}}
+~~~
+:{Cum enim mundi universi fabrica sit perfectissima atque a Creatore sapientissimo absoluta, nihil omnino in mundo contingit, in quo non maximi minimive ratio quaepiam eluceat; quamobrem dubium prorsus est nullum, quin omnes mundi effectus ex causis finalibus ope methodi maximorum & minimorum aeque feliciter determinari queant, atque ex ipsis causis efficientibus. (For since the fabric of the universe is most perfect, and is the work of a most wise Creator, nothing whatsoever takes place in the universe in which some relation of maximum and minimum does not appear. Wherefore there is absolutely no doubt that every effect in the universe can be explained as satisfactorily from final causes, by the aid of the method of maxima and minima, as it can from the effective causes themselves.)} \n --- [https://en.wikipedia.org/wiki/Leonhard_Euler Leonhard Euler]\n
+[docs/quotation/Euler_Optimization.pdf "De Curvis Elasticis"], [docs/quotation/Euler_Methodus_Inveniendi_Lineas_Curvas_Maximi_Minimive_Proprietate_Gaudentes.pdf /Methodus Inveniendi Lineas Curvas Maximi Minimive Proprietate Gaudentes, sive Solutio Problematis Isoperimetrici Latissimo Sensu Accepti/], Additamentum I ([http://goo.gl/4OxqFp page 245]), Apud Marcum Michaelem Bousquet & Socios, 1744\n
+Translated from Latin to English by William A. Oldfather, C. A. Ellis, and Donald M. Brown, [http://goo.gl/3zWLc1 "Leonhard Euler's Elastic Curves"], [http://www.press.uchicago.edu/ucp/journals/journal/isis.html /Isis/], 20(1):72--160, Nov. 1933 \n
+This statement (in German) is quoted by Professor [http://lsec.cc.ac.cn/~yyx Ya-xiang Yuan] in "[http://lsec.cc.ac.cn/~yyx/chinese/yyxforcms.pdf 从瞎子爬山到优化方法]". It is also quoted by [http://www.zib.de/groetschel/ Martin Grötschel] in Introduction (page 3) of [https://www.zib.de/groetschel/publications/OptimizationStories.pdf /Optimization Stories/], an extra volume of [http://www.math.uiuc.edu/documenta/ /Documenta Mathematica/] on the occasion of [http://ismp2012.mathopt.org/ The 21st International Symposium on Mathematical Programming] (ISMP 2012, Berlin, Aug. 19--24, 2012). The comment on this statement is
+"Briefly and very freely translated: Nothing in the world takes place without optimization, and there is no doubt that all aspects of the world that have a rational basis can be explained by optimization methods. It is not so bad to hear such a statement from one of the greatest mathematicians of all time." 
+~~~
+
+~~~
+:{The subject of optimization is a fascinating blend of heuristics and rigour,
+of theory and experiment.} \n --- [http://en.wikipedia.org/wiki/Roger_Fletcher_(mathematician) Roger] [http://www.maths.dundee.ac.uk/fletcher/ Fletcher] \n Preface 
+#([docs/quotation/Fletcher_R__Practical_Methods_of_Optimization_2nd_ed__Wiley__2000.pdf page ix])
+(page ix)
+of [http://books.google.pt/books/about/Practical_Methods_of_Optimization.html?id=3EzvAAAAMAAJ&redir_esc=y /Practical Methods of Optimization/], second edition (Wiley, 1987).
+~~~
+
+~~~
+: {We consider optimization without derivatives one of the most important, open,
+and challenging areas in computational science and engineering, and one with
+enormous practical potential.} \n --- [http://www.research.ibm.com/people/a/arconn/ Andrew R. Conn], [http://coral.ie.lehigh.edu/~katyas/ Katya Scheinberg], and [http://www.mat.uc.pt/~lnv/ Luís Nunes Vicente] \n Section 1.1 
+#([docs/quotation/DFO.pdf page 1]) 
+(page 1)
+of [http://www.mat.uc.pt/~lnv/idfo/ /Introduction to Derivative-Free Optimization/] (SIAM, 2009).
+~~~
+
+~~~
+: {Why work on derivative-free optimization? Because the problems are important and cool.} 
+\n --- [https://en.wikipedia.org/wiki/John_E._Dennis John E.] [http://www.caam.rice.edu/~dennis/ Dennis,] [http://www.genealogy.ams.org/id.php?id=15193 Jr.]
+\n In the beginning of Dennis' talk 
+#"[figs/Dennis.jpg Reasons to Study Derivative-Free Algorithms]", 
+"Reasons to Study Derivative-Free Algorithms", 
+given on July 24, 2013 (the last talk of morning session), at the conference [docs/conferences/201307-toint.pdf Recent Advances on Optimization] dedicated to [http://perso.fundp.ac.be/~phtoint/toint.html Ph. L. Toint]'s 60th birthday, organized by [http://www.cerfacs.fr/ CERFACS] in Toulouse. Zaikun Zhang attended this talk.
+~~~
+
+== Mathematics
+
+
+{{<a id="coffee"></a>}}
+~~~
+:{A mathematician is a machine for turning coffee into theorems.}
+\n --- [https://en.wikipedia.org/wiki/Alfr%C3%A9d_R%C3%A9nyi Alfréd Rényi]
+\n This remark, generally attributed to [https://en.wikipedia.org/wiki/Paul_Erd%C5%91s Paul Erdős], was probably made by Alfréd Rényi. 
+In [https://plus.google.com/110050584459359486755 Bruce Schechter]'s biography of Erdős, /[https://books.google.com.hk/books/about/My_Brain_is_Open.html?id=_GsQiXvfNWkC&redir_esc=y My Brain is Open: The Mathematical Journeys of Paul Erdős]/ (Simon and Schuster, 1998), [https://goo.gl/Gimxso page 155] reads:
+"Rényi would become one of Erdős's most important collaborators ... Their long collaborative sessions were often fueled by endless cups of strong coffee. Caffeine is the drug of choice for most of the world's mathematicians and coffee is the preferred delivery system. Rényi, undoubtedly wired on espresso, summed this up in a famous remark almost always attributed to Erdős: `A mathematician is a machine for turning coffee into theorems.' ... {{<span class="dotunder">}}Turán ([https://goo.gl/XVcpRW Pál Turán]), after scornfully drinking a cup of American coffee, invented the corollary: `Weak coffee is only fit for lemmas.{{</span>}}'" Similar attribution is given in /[https://en.wikipedia.org/wiki/MacTutor_History_of_Mathematics_archive MacTutor History of Mathematics Archive]: [http://www-history.mcs.st-andrews.ac.uk/Biographies/Renyi.html Alfréd Rényi]/, where it is written that "Known to his many friends and colleagues by the nickname of 'Buba', he (Rényi) often remembered as the author of the anecdote: ... a mathematician is a machine for converting coffee into theorems. Turán developed the anecdote further by describing weak coffee as fit only for lemmas." Additionally, in [http://www.ams.org/samplings/feature-column/fcarc-networks6 Section 6] (The Erdős graph) of the essay "Complex Networks" ([http://www.ams.org/samplings/feature-column/fcbrowse?year=2004 Feature Column from the AMS, April 2004]), [http://www.york.cuny.edu/~malk/ Joseph Malkevitch] writes: "Erdős has often been associated with the observation that `a mathematician is a machine for converting coffee into theorems' but this `characterization' appears to be due to his friend, Alfred Rényi. This thought was developed further by Erdős' friend the Hungarian mathematician Paul Turán (1910--1976), who suggested that weak coffee was suitable `only for lemmas'." 
+#The same was written in page 731 of [https://books.google.com.hk/books/about/A_History_of_Mathematics.html?id=sT8gAQAAIAAJ&redir_esc=y /A History of Mathematics/] (Prentice Hall, 2002) by [https://sites.google.com/site/jeffsuzukiproject/ Jeff Suzuki]: "The first main result was by the Hungarian mathematician Alfred Renyi (March 20, 1921--February 1, 1970), who is best known for a saying of his: a mathematician is a machine for turning coffee into theorems."
+#Gyula O. H. Katona: Preface to 
+#See also page 8 (Preface by [https://en.wikipedia.org/wiki/Gyula_O._H._Katona Gyula O. H. Katona]) of /Ars Mathematica, Collected writings of Alfréd Rényi, TypoTeX/ (Budapest, 2005).
+\n However, it is also suggested that this sentence was originally formulated in German: "Ein Mathematiker ist eine Maschine, die Kaffee in Sätze verwandelt", where it can be interpreted as a wordplay on the double meaning of the word "[http://www.collinsdictionary.com/dictionary/german-english/satz Satz]", which can mean both "theorem" and "coffee grounds" ("Sätze" is its plural form).
+\n See [https://mathwithbaddrawings.com/about-2/ Math with Bad Drawings] for [https://mathwithbaddrawings.com/2014/04/02/a-mathematician-is-a-machine-for-turning-coffee-into-theorems/ interesting variants].
+~~~
+
+~~~
+:{From him ([https://en.wikipedia.org/wiki/Alexander_Grothendieck Alexander Grothendieck]) and his example, I have also learned not to take glory in the difficulty of a proof: difficulty means we have not understood. The ideal is to be able to paint a landscape in which the proof is obvious.}
+\n --- [https://en.wikipedia.org/wiki/Pierre_Deligne Pierre Deligne] 
+\n [https://en.wikipedia.org/wiki/Notices_of_the_American_Mathematical_Society /Notices of the American Mathematical Society/], Volume 63, [http://www.ams.org/journals/notices/201603/201603-full-issue.pdf Number 3], pp. 250, March 2016
+~~~
+
+~~~
+:{The idea of [https://en.wikipedia.org/wiki/Concentration_of_measure concentration of measure] (that was discovered by [https://en.wikipedia.org/wiki/Vitali_Milman V. Milman]) is arguably one of the great ideas of Analysis in our times.}
+\n --- [https://en.wikipedia.org/wiki/Michel_Talagrand Michel Talagrand]
+\n M. Talagrand, [https://projecteuclid.org/euclid.aop/1042644705 A new look at independence], [http://www.imstat.org/aop/ /Ann. Probab./], 24:1--34, 1996
+~~~
+
+~~~
+:{Roughly speaking, if a function of many independent random variables does not depend too much on any of the variables then it is concentrated in the sense that with high probability, it is close to its expected value.} 
+\n --- [http://stephane-v-boucheron.fr/ Stéphane Boucheron], [http://www.econ.upf.edu/~lugosi/ Gábor Lugosi], and [http://massart.pascal.free.fr/Site/Home.html Pascal Massart] 
+\n This quotation appears in an [http://stephane-v-boucheron.fr/concentration/ introduction] to the three authors' book [https://books.google.fr/books/about/Concentration_Inequalities.html?id=koNqWRluhP0C&redir_esc=y /Concentration Inequalities: A Nonasymptotic Theory of Independence/] (OUP Oxford, 2013). 
+~~~
+
+{{<a id="probability"></a>}}
+~~~
+:{The true Logic for this world is the Calculus of Probabilities, which takes account of the magnitude of the probability (which is, or which ought to be in a reasonable man's mind). This branch of Math., which is generally thought to favour gambling, dicing, and wagering, and therefore highly immoral, is the only `Mathematics for Practical Men', as we ought to be.}
+\n --- [https://en.wikipedia.org/wiki/James_Clerk_Maxwell James C. Maxwell] 
+\n This quotation comes from "Letter to [https://en.wikipedia.org/wiki/Lewis_Campbell_(classicist) Lewis Campbell], c. July 1850", [http://books.google.fr/books/about/The_Scientific_Letters_and_Papers_of_Jam.html?id=zfM8AAAAIAAJ&redir_esc=y /The Scientific Letters and Papers of James Clerk Maxwell: 1846--1862/], edited by Peter M. Harman, CUP Archive, 1990 ([http://goo.gl/AkFGIo page 197]).
+It was written in this letter that "As it is Saturday night I will not write very much more. I was thinking today of the duties of \[the\] cognitive faculty. It is universally admitted that duties are voluntary, and that the will governs understanding by giving or withholding Attention. They say that Understanding ought to work by the rules of right reason. These rules are, or ought to be, contained in Logic; but the actual science of Logic is conversant at present on with things either certain, impossible, or /entirely/ doubtful, none of which (fortunately) we have to reason on. Therefore the true Logic for this world is the Calculus of Probabilities, which takes account of the magnitude of the probability (which is, or which ought to be in a reasonable man's mind). This branch of Math., which is generally thought to favour gambling, dicing, and wagering, and therefore highly immoral, is the only `Mathematics for Practical Men', as we ought to be. Now, as human knowledge comes by the senses in such a way that the existence of things external is on inferred from the harmonious (not similar) testimony of the different senses, Understanding, acting by the laws of right reasoning, will assign to different truths (or facts, or testimonies, or what shall I call them) different degrees of probability."
+~~~
+
+{{<a id="mathwords"></a>}}
+~~~
+: {There is nothing that can be said by mathematical symbols and relations which cannot also be said by words. The converse, however, is false. Much that can be and is said by words cannot successfully be put into equations, because it is nonsense.}
+\n --- [https://en.wikipedia.org/wiki/Clifford_Truesdell Clifford A. Truesdell]
+\n In the very beginning of Chapter III (Thermodynamics of visco-elasticity, page 35) of [http://goo.gl/rxAnQU /Six Lectures on Modern Natural Philosophy/] (Springer-Verlag, 1966), Truesdell's comment on thermodynamics is: "Thermostatics, which even now is usually called thermodynamics, has an unfortunate history and a cancerous tradition. It arose in a chaos of metaphysical and indeed irrational controversy, the traces of which drip their poison even today ... The logical standards acceptable in thermostatics fail to meet the criteria of other exact sciences; in books and papers concerning it the proportion of words if not {{<span class="dotunder">}}prayers{{</span>}} to equations is high --- to proved theorems, {{<span class="dotunder">}}almost infinite{{</span>}}. There is nothing that can be said by mathematical symbols and relations which cannot also be said by words. The converse, however, is false. Much that can be and is said by words cannot successfully be put into equations, because it is nonsense. When a physical writer expresses an assertion in words only, he is refusing to stand up to the test."
+~~~
+
+{{<a id="analogy"></a>}}
+~~~
+: {Good mathematicians see analogies between theorems or theories; the very best ones see analogies between analogies.}
+\n --- [https://en.wikipedia.org/wiki/Stefan_Banach Stefan Banach]
+\n Quoted by [https://en.wikipedia.org/wiki/Stanislaw_Ulam Stanislaw M. Ulam] on page 203 of his autobiography [http://books.google.pt/books?id=U2_zEZOHdU4C&vq=analogies&source=gbs_navlinks_s /Adventures of a Mathematician/] (University of California Press, 1991); also quoted on page ix (Foreword) of the book [http://books.google.pt/books?id=kaJ4NVn1pm8C&dq /Analogies between Analogies: The Mathematical Reports of S. M. Ulam and His Los Alamos Collaborators/] 
+(University of California Press, 1990) edited by A. R. Bednarek and [http://en.wikipedia.org/wiki/Fran%C3%A7oise_Aron_Ulam Françoise A. Ulam].
+~~~
+
+~~~
+:{Young man, in mathematics you don't understand things. You just get used
+to them.} \n --- [http://en.wikipedia.org/wiki/John_von_Neumann John von Neumann]\n
+Reply to a physicist who worked at [http://www.lanl.gov/index.php Los Alamos]
+after World War II, 
+seeking help on a difficult problem and saying 
+"I'm afraid I don't understand the
+[http://en.wikipedia.org/wiki/Method_of_characteristics method of characteristics]",
+as quoted in the footnote on 
+#[docs/quotation/DancingMasters.pdf page 208] 
+page 208
+of [http://goo.gl/JhFPkE
+/The Dancing Wu Li Masters: An Overview of the New Physics/] 
+(Bantam Books, 1979) by [http://en.wikipedia.org/wiki/Gary_Zukav Gary Zukav], 
+who was related this story by 
+[https://www.sri.com/about/alumni/alumni-hall-fame-previous-years\#FSmith Felix T. Smith]
+(ex-Head of Molecular Physics, [http://www.sri.com/ Stanford Research Institute]).
+~~~
+
+~~~
+:{A large part of mathematics which becomes useful developed with
+absolutely no desire to be useful, and in a situation where nobody could
+possibly know in what area it would become useful; and there were no
+general indications that it ever would be so.}\n --- 
+[http://en.wikipedia.org/wiki/John_von_Neumann John von Neumann]\n
+This quotation comes from "The Role of Mathematics in the Sciences and in Society", Address at 4th Conference of Association of Princeton, Graduate Alumni, June 1954, pp. 16-29, \[Vol. VI, No. 34\],
+included in 
+[https://books.google.fr/books/about/Collected_Works_Theory_of_games_astrophy.html?id=0tjuAAAAMAAJ&redir_esc=y /Collected Works: Theory of Games, Astrophysics, Hydrodynamics and Meteorology/], volume 6 of [http://dl.acm.org/citation.cfm?id=1096478 /Collected Works/] of John von Neumann, edited by [https://en.wikipedia.org/wiki/Abraham_H._Taub Abraham H. Taub], Pergamon Press, 1963. The quotation appears on [https://goo.gl/rkvDH6  page 489] of the book, where it reads: "But still a large part of mathematics which becomes useful developed with absolutely no desire to be useful, and in a situation where nobody could possibly know in what area it would become useful; and there were no general indications that it ever would be so. By and large it is uniformly true in mathematics that there is a time lapse between a mathematical discovery and the moment when it is useful; and that this lapse of time can be anything from thirty to a hundred years, in some cases even more; and that the whole system seems to function without any direction, without any reference to usefulness, and without any desire to do things which are useful." 
+\n These sentences are quoted by [http://www.uiginn.com/maths/staff/thurley.shtml Ted Hurley], "Algebraic structures for communications", in [http://faculty.evansville.edu/rm43/ Robert F. Morse], Daniela Nikolova-Popova, and [http://www.math.tamu.edu/~sarah.witherspoon/ Sarah Witherspoon], eds., /Proceedings of the [http://math.fau.edu/GTCC2012/ International Conference on Group Theory, Combinatorics and Computing]/ (GTCC, Oct. 3--8, 2012, Boca Raton, Florida), pp. 59--77. In the last section ([https://goo.gl/WFfMrw Section 9: "Finally"]) of this paper, after quoting von Neumann, Hurley writes 
+"Indeed it took over 200 years for [https://en.wikipedia.org/wiki/Field_(mathematics) /Field Theory/] to become `useful' and this theory is now fundamental within the communications' areas. Which areas are now `useful' and which areas will become `useful'?"
+~~~
+
+~~~
+:{If people do not believe that mathematics is simple, it is only because
+they do not realize how complicated life is.}\n --- [http://en.wikipedia.org/wiki/John_von_Neumann John von Neumann]\n 
+This quotation is apparently not from a published work of von Neumann's, 
+but [http://en.wikipedia.org/wiki/Franz_Alt Franz Leopold Alt] recalls it 
+as a remark made from the podium by von Neumann as keynote speaker at the 
+first national meeting of the 
+[http://www.acm.org/ Association for Computing Machinery]
+in 1947. 
+The exchange at that meeting is described at the 
+end 
+#([docs/quotation/SimMathComLife.pdf the last paragraph]) 
+(the last paragraph) 
+of Alt's brief article 
+"[http://dl.acm.org/citation.cfm?id=361528&dl=ACM&coll=DL&CFID=271624458&CFTOKEN=92048268 
+Archaeology of Computers: Reminiscences, 1945--1947]", 
+which is published in 
+[http://goo.gl/mkMfJ 
+/Communications of the ACM/, volume 15, issue 7, July 1972, 
+special issue: Twenty-fifth anniversary of the 
+Association for Computing Machinery], pages 693--694. 
+Alt recalls that von Neumann said this sentence when talking about the 
+"new programming method" for 
+[http://en.wikipedia.org/wiki/ENIAC ENIAC].
+See  
+[http://www.math.uiowa.edu/~jorgen/vonneumannquotesource.html Quotations selected by Palle Jorgensen].
+~~~
+
+
+== {{<a id="science"></a>}} Science and research
+
+{{<a id="latest"></a>}}
+{{<a id="trans"></a>}}                                                     
+~~~
+:{If one has really technically penetrated a subject, things that previously seemed in complete contrast, might be purely mathematical transformations of each other.}
+\n --- [http://en.wikipedia.org/wiki/John_von_Neumann John von Neumann]\n 
+In "Method in the physical sciences" (published in /The Unity of Knowledge/, ed. L. Leary (1955), pp. 157-164; and also
+/John von Neumann Collected Works/, ed. A. Taub, Vol. VI, pp. 491-498.), von Neumann wrote:
+"Thus whether one chooses to say that classical mechanics is causal or
+teleological is purely a matter of literary inclination at the moment of
+talking. This is very important, since it proves, that if one has really
+technically penetrated a subject, things that previously seemed in
+complete contrast, might be purely mathematical transformations of each
+other. Things which appear to represent deep differences of principle and
+of interpretation, in this way may turn out not to affect any significant
+statements and any predictions. They mean nothing to the content of the
+theory."
+The sentence is quoted in Section 1.3 of the "Summary" part of the book /Proportions, Prices and Planning: A Mathematical Restatement of the Labor Theory of Value/ (North-Holland Publishing Company, Amsterdam, 1970) by [http://www.hetwebsite.net/het/profiles/brody.htm András Bródy] (Hungarian economist).
+~~~
+
+{{<a id="basic"></a>}}
+~~~
+:{Basic research is what I am doing when I don't know what I am doing. (Grundlagenforschung betreibe ich dann, wenn ich nicht weiß, was ich tue.)}
+\n --- [https://en.wikipedia.org/wiki/Wernher_von_Braun Wernher von Braun]
+\n In an interview in the New York Times (16 December 1957), cited in a footnote on [https://goo.gl/AAMcMS page 32] of [https://books.google.com.hk/books/about/Work_Society_and_Culture.html?id=8Uaqp-WlyucC&redir_esc=y /Work, Society, and Culture/] (Fordham University Press, 1986) by [https://en.wikipedia.org/wiki/Yves_Simon Yves René Marie Simon].  
+~~~
+
+{{<a id="eponymy"></a>}}
+~~~
+:{No scientific discovery is named after its original discoverer.}
+\n --- [https://en.wikipedia.org/wiki/Robert_K._Merton Robert K. Merton]
+\n Known as "[https://en.wikipedia.org/wiki/Stigler%27s_law_of_eponymy Stigler's law of eponymy]", this (exaggerated) observation about scientific discoveries was proposed by [https://en.wikipedia.org/wiki/Stephen_Stigler Stephen M. Stigler] in his 1980 publication [http://onlinelibrary.wiley.com/doi/10.1111/j.2164-0947.1980.tb02775.x/abstract "Stigler's law of eponymy"] (/Transactions of the New York Academy of Sciences/,
+Volume 39, [http://onlinelibrary.wiley.com/doi/10.1111/tnya.1980.39.issue-1/issuetoc Issue 1 Series II], pages 147--157, April 1980). While attributing this law to the sociologist Robert K. Merton, Stigler named it after himself to show that it follows its own decree. There is a [https://goo.gl/hk1n5X list of examples of Stigler's law] on Wikipedia. 
+~~~
+
+{{<a id="understand"></a>}}
+~~~
+:{The person who discovers something rarely understands it ... 
+If somebody else has created a field and he says this is the way to do it, you can entirely ignore it. On the other hand, when you create a field, remember to shut up. You don't really understand what you did.}
+\n --- [https://en.wikipedia.org/wiki/Richard_Hamming Richard W. Hamming]
+\n Hamming said these sentences during the "History of Computers --- Software" part of the course [https://savage.nps.edu/hamming/HammingLearningToLearnRecovered/ /The Art of Doing Science and Engineering: Learning to Learn/], which was given to the graduate students at the [https://en.wikipedia.org/wiki/Naval_Postgraduate_School Naval Postgraduate School] (NPS) in Monterey, California on Apr. 4, 1995. 
+The video of this lecture is [https://www.youtube.com/watch?v=2e5_Z6oZ0rM available on YouTube] and also [https://savage.nps.edu/hamming/HammingLearningToLearnRecovered/Presentation07.html archived by NPS] (as of July 22, 2015). See 15m42s--22m11s of the video. 
+\n Similar comments appear in Richard W. Hamming, [https://goo.gl/bQDpH9 /The Art of Doing Science and Engineering: Learning to Learn/], CRC Press, 2003 (Chapter 4, pages 27--28): 
+"History tends to be charitable in this matter. It gives credit for understanding what something means when we first to do it. But there is a wise saying, `Almost everyone who opens up a new field does not really understand it the way the followers do.' The evidence for this is, unfortunately, all too good. It has been said in physics no creator of any significant thing ever understood what he had done. I never found Einstein on the special relativity theory as clear as some later commentators. And at least one friend of mine has said, behind my back, `Hamming doesn't seem to understand error correcting codes!' He is probably right; I do not understand what I invented as clearly as he does. The reason this happens so often is the creators have to fight through so many dark difficulties, and wade through so much misunderstanding and confusion, they cannot see the light as others can, now the door is open and the path made easy. Please remember, the inventor often has a very limited view of what he invented, and some others (you?) can see much more. But also remember this when you are the author of some brilliant new thing; in time the same will probably be true of you. It has been said Newton was the last of the ancients and not the first of the moderns, though he was very significant in making our modern world."
+~~~
+
+{{<a id="followvlead"></a>}}
+~~~
+:{What you learn from others you can use to follow; What you learn for yourself you can use to lead.}
+\n --- [https://en.wikipedia.org/wiki/Richard_Hamming Richard W. Hamming]
+\n Richard W. Hamming, [https://goo.gl/bQDpH9 /The Art of Doing Science and Engineering: Learning to Learn/], CRC Press, 2003 (Chapter 22, page 160). 
+\n Hamming said this sentence also during the "Computer Aided Instruction" part of the course [https://savage.nps.edu/hamming/HammingLearningToLearnRecovered/ /The Art of Doing Science and Engineering: Learning to Learn/], which was given to the graduate students at the [https://en.wikipedia.org/wiki/Naval_Postgraduate_School Naval Postgraduate School] (NPS) in Monterey, California on May 16, 1995. 
+The video of this lecture is [https://www.youtube.com/watch?v=zA3-mLhajkk available on YouTube] and also [https://savage.nps.edu/hamming/HammingLearningToLearnRecovered/Presentation25.html archived by NPS] (as of June 9, 2015), and the quotation appears at 26m43s--26m49s. 
+#[https://www.youtube.com/watch?v=zA3-mLhajkk The video of this course] is available on YouTube (as of June 8, 2015), and the quotation appears at 26m43s--26m49s. 
+~~~
+
+{{<a id="chinese"></a>}}
+{{<a id="zen"></a>}}
+~~~
+:{老僧三十年前未参禅时，见山是山，见水是水；及至后来，亲见知识，有个入处，见山不是山，见水不是水；而今得个休歇处，依前见山祇是山，见水祇是水。}
+\n --- 青原惟信禅师 (宋)
+\n 此即所谓 "参禅三境"：见山是山，见水是水；见山不是山，见水不是水；见山祇是山，见水祇是水。语出南宋释普济[http://zh.wikipedia.org/wiki/%E4%BA%94%E7%81%AF%E4%BC%9A%E5%85%83 《五灯会元》][http://ctext.org/library.pl?if=gb&file=5135&page=89 卷第十七]："吉州青原惟信禅师，上堂：`老僧三十年前未参禅时，见山是山，见水是水；及至后来，亲见知识，有个入处，见山不是山，见水不是水；而今得个休歇处，依前见山祇是山，见水祇是水。大众，这三般见解，是同是别？有人缁素得出，许汝亲见老僧。'" 
+~~~
+
+~~~
+:{仅仅熟读了抽象的定义和方法而不知道它们具体来源的数学工作者是没有发展前途的，这样的人要搞深刻研究是可能会遇到无法克服的难关的。(One cannot go very far by merely learning bare definitions and methods from abstract notions without knowing the source of the definitions in the concrete situation. Indeed such an approach may lead to insurmountable difficulties later in research situations.)}
+\n --- [http://goo.gl/Wjefft 华罗庚] ([https://en.wikipedia.org/wiki/Hua_Luogeng Hua, Loo Keng])  
+\n 华罗庚, [http://goo.gl/Dy5ODi 《数论导引》], 北京: 北京科学出版社, 1957 年 (前言)
+\n Hua, Loo Keng, [http://www.springer.com/mathematics/numbers/book/978-3-642-68132-5 /Introduction to Number Theory/] (translated from the Chinese version by [http://www.genealogy.ams.org/id.php?id=27070 Peter Man-Kit Shiu] (萧文杰)), Springer-Verlag, 1982 (page VIII)
+~~~
+
+~~~
+:{When theory becomes inbred ---  when it has grown several generations away from its roots, until it has completely lost touch with the real world --- it degenerates and becomes sterile.}
+\n --- [https://en.wikipedia.org/wiki/Donald_Knuth Donald E. Knuth]\n
+Donald E. Knuth, [http://dl.acm.org/citation.cfm?id=129920 Theory and practice], /Theoretical Computer Science/, 90 (1), 1--15, 1991 (paragraph eight)
+#
+#http://www-history.mcs.st-and.ac.uk/Extras/Von_Neumann_Part_2.html
+#I think that it is a relatively good approximation to truth - which is
+#much too complicated to allow anything but approximations-that
+#mathematical ideas originate in empirics, although the genealogy is
+#sometimes long and obscure. But, once they are so conceived, the
+#subject begins to live a peculiar life of its own and is better
+#compared to a creative one, governed by almost entirely aesthetical
+#motivations, than to anything else and, in particular, to an empirical
+#science. There is, however, a further point which, I believe, needs
+#stressing. As a mathematical discipline travels far from its empirical
+#source, or still more, if it is a second and third generation only
+#indirectly inspired by ideas coming from "reality" it is beset with
+#very grave dangers. It becomes more and more purely aestheticizing,
+#more and more purely I'art pour I'art. This need not be bad, if the
+#field is surrounded by correlated subjects, which still have closer
+#empirical connections, or if the discipline is under the influence of
+#men with an exceptionally well-developed taste. But there is a grave
+#danger that the subject will develop along the line of least
+#resistance, that the stream, so far from its source, will separate into
+#a multitude of insignificant branches, and that the discipline will
+#become a disorganized mass of details and complexities. In other words,
+#at a great distance from its empirical source, or after much "abstract"
+#inbreeding, a mathematical subject is in danger of degeneration. At the
+#inception the style is usually classical; when it shows signs of
+#becoming baroque, then the danger signal is up. It would be easy to
+#give examples, to trace specific evolutions into the baroque and the
+#very high baroque, but this, again, would be too technical.
+#
+#In any event, whenever this stage is reached, the only remedy seems to
+#me to be the rejuvenating return to the source: the re-injection of
+#more or less directly empirical ideas. I am convinced that this was
+#a necessary condition to conserve the freshness and the vitality of the
+#subject and that this will remain equally true in the future.
+#~~~
+# at a great distance from its empirical source, or after much "abstract" inbreeding, a mathematical subject is in danger of degeneration. Whenever this stage is reached the only remedy seems to me to be the rejuvenating return to the source: the reinjection of more or less directly empirical ideas.
+# John von Neumann
+#"The Mathematician", in The Works of the Mind (1947) edited by R. B. Heywood, University of Chicago Press, Chicago
+~~~
+
+~~~
+:{My experiences also strongly confirmed my previous opinion that the best theory is inspired by practice and the best practice is inspired by theory.}
+\n --- [https://en.wikipedia.org/wiki/Donald_Knuth Donald E. Knuth]\n
+Donald E. Knuth, [http://dl.acm.org/citation.cfm?id=129920 Theory and practice], /Theoretical Computer Science/, 90 (1), 1--15, 1991 (paragraph 24)
+~~~
+
+#{{<a id="theory"></a>}}
+#~~~
+#:{There is nothing so practical as a good theory.}
+#\n --- [https://en.wikipedia.org/wiki/Kurt_Lewin Kurt Z. Lewin]\n
+#Kurt Z. Lewin, [https://goo.gl/HmDCd2 /Field Theory in Social Science: Selected Theoretical Papers/], (page 1 
+# Field Theory and Experiment in Social Psychology (1939).  
+#By Lewin, Gertrud Weiss
+#Kurt Z. Lewin, /Resolving social conflicts and field theory in social science/ Washington, DC, US: American Psychological Association, v, 422 pp.
+#~~~
+
+~~~
+:{How wonderful that we have met with a paradox. Now we have some hope of making progress.}
+\n --- [http://en.wikipedia.org/wiki/Niels_Bohr Niels Bohr]\n
+Quoted by Ruth E. Moore, /[http://books.google.fr/books/about/Niels_Bohr.html?id=bFcFAAAAMAAJ&redir_esc=y Niels Bohr: The Man, His Science, and the World They Changed]/, Alfred A. Knopf (New York), 1966, on Pages 140 and 196.
+~~~
+
+~~~
+:{We are all agreed that your theory is crazy. The question which divides us is whether it is crazy enough to have a chance of being correct. My own feeling is that it is not crazy enough.}
+\n --- [http://en.wikipedia.org/wiki/Niels_Bohr Niels Bohr]\n
+Quoted by [http://en.wikipedia.org/wiki/Freeman_Dyson Freeman J. Dyson] in [http://www.nature.com/scientificamerican/journal/v199/n3/pdf/scientificamerican0958-74.pdf "Innovation in Physics"], /Scientific American/, 199: 74--82, Sept. 1958, which reads: "A few months ago [http://en.wikipedia.org/wiki/Werner_Heisenberg Werner Heisenberg] and [http://en.wikipedia.org/wiki/Wolfgang_Pauli Wolfgang Pauli] believed that they had made an essential step forward in the direction of a theory of elementary particles.  Pauli happened to be passing through New York, and was prevailed upon to give a lecture explaining the new ideas to an audience which included Niels Bohr. Pauli spoke for an hour, and then there was a general discussion during which he was criticized rather sharply by the younger generation. Finally Bohr was called on to make a speech summing up the argument. `We are all agreed,' he said, `that your theory is crazy. The question which divides us is whether it is crazy enough to have a chance of being correct. My own feeling is that it is not crazy enough.' The objection that they are not crazy enough applies to all the attempts which have so far been launched at a radically new theory of elementary particles. It applies especially to crackpots. Most of the crackpot papers which are submitted to /The Physical Review/ are rejected, not because it is impossible to understand them, but because it is possible. Those which are impossible to understand are usually published. When the great innovation appears, it will almost certainly be in a muddled, incomplete and confusing form. To the discoverer himself it will be only half-understood; to everybody else it will be a mystery. For any speculation which does not at first glance look crazy, there is no hope."
+~~~
+
+~~~
+:{The opposite of a correct statement is a false statement. But the opposite of a profound truth may well be another profound truth.}
+\n --- [http://en.wikipedia.org/wiki/Niels_Bohr Niels Bohr]\n
+This quotation attributed to Bohr seems to be a popular but {{<span class="dotunder">}}unsourced{{</span>}} variant of the following sentences from N. Bohr, "[https://www.marxists.org/reference/subject/philosophy/works/dk/bohr.htm Discussion with Einstein on epistemological problems in atomic physics]", in: [http://en.wikipedia.org/wiki/Paul_Arthur_Schilpp P. A. Schilpp] /eds/., /Albert Einstein: Philosopher-Scientist/, volume 7 in [http://en.wikipedia.org/wiki/Library_of_Living_Philosophers /The Library of Living Philosophers/], Northwestern University Press (Illinois), 1949 (the penultimate paragraph): "In [http://en.wikipedia.org/wiki/Niels_Bohr_Institute the Institute in Copenhagen], where through those years a number of young physicists from various countries came together for discussions, we used, when in trouble, often to comfort ourselves with jokes, among them the old saying of the two kinds of truth. To the one kind belong statements so simple and clear that the opposite assertion obviously could not be defended. The other kind, the so-called `deep truths', are statements in which the opposite also contains deep truth." 
+~~~
+
+~~~
+: {The task of the theorist is to bring order into the chaos of the phenomena of nature, to invent a language by which a class of these phenomena can be described efficiently and simply.}
+\n --- [https://en.wikipedia.org/wiki/Clifford_Truesdell Clifford A. Truesdell] and [https://en.wikipedia.org/wiki/Walter_Noll Walter] [https://www.math.cmu.edu/math/faculty/Noll Noll]
+\n In Section 2 (Method and program of the non-linear theories, page 4), Chapter A of [http://goo.gl/YpcbYP /The Non-Linear Field Theories of Mechanics/] (second edition, Berlin: Springer-Verlag, 1992) by Truesdell and Noll, it reads: "While laymen and philosophers of science often believe, contend, or at least hope, that physical theories are directly inferred from experiments, anyone who has faced the problem of discovering a good constitutive equation or anyone who has sought and found the historical origin of the successful field theories knows how childish is such a prejudice. The task of the theorist is to bring order into the chaos of the phenomena of nature, to invent a language by which a class of these phenomena can be described efficiently and simply. Here is the place for `intuition', and here the old preconception, common among natural philosophers, that natural is simple and elegant, has led to many great successes. Of course, physical theory must be based on experience, but experiment comes after, rather than before, theory. Without theoretical concepts one would neither know what experiments to perform nor be able to interpret their outcome."
+~~~
+
+{{<a id="review"></a>}}
+~~~
+: {This paper, whose intent is stated in its title, gives wrong solutions to trivial problems. The basic error, however, is not new.}
+\n --- [https://en.wikipedia.org/wiki/Clifford_Truesdell Clifford A. Truesdell]
+\n This famous [https://en.wikipedia.org/wiki/Mathematical_Reviews /Mathematical Reviews/] quotation by Truesdell appears in /Mathematical Reviews/ 12, page 561. The review of a 1950 paper titled "Equations of finite vibratory motions in isotropic elastic media" reads:
+"This paper, whose intent is stated in its title, gives wrong solutions to trivial problems. The basic error, however, is not new: if the reviewer has correctly understood the author’s undefined notations and misprints, the stress-strain relations used are those once proposed by St.-Venant \[J. Math. Pures Appl. (2) 8, 257--295, 353--430 (1863); see §2\], whose incorrect confusion of coordinates in the deformed and undeformed states of the body was pointed out by Brill and Boussinesq \[cf. St. Venant, ibid. (2) 16, 275--307 (1871), see §7\]. The falsity of the author’s results is obvious, since for the speed of propagation of finite waves in isotropic bodies he obtains expressions which are not scalars unless the displacement gradients are infinitesimal." This quotation is recorded also in [https://en.wikipedia.org/wiki/John_M._Ball J. M.] [http://people.maths.ox.ac.uk/ball/ Ball] and [http://www.aem.umn.edu/people/faculty/bio/james.shtml R. D. James], "[http://link.springer.com/article/10.1007%2Fs002050100178 The Scientific Life and Influence of Clifford Ambrose Truesdell III]", /Archive for Rational Mechanics and Analysis/, 161(1): 1-26, 2002 (Section 4: Influence, personality and style).
+~~~
+
+~~~
+:{You insist that there is something a machine cannot do. If you will tell 
+me precisely what it is that a machine cannot do, then I can always make 
+a machine which will do just that!} \n --- [http://en.wikipedia.org/wiki/John_von_Neumann John von Neumann]\n  
+After giving a talk on computers at Princeton in 1948, John von Neumann 
+was met with an audience member who insisted that a "mere machine" 
+could never really think. Von Neumann's immortal reply was this, as quoted 
+in Section 1.3 
+#([docs/quotation/ProbabilityTheory.pdf page 7]) 
+(page 7) 
+of [http://books.google.pt/books/about/Probability_Theory.html?id=tTN4HuUNXjgC&redir_esc=yi
+ /Probability Theory: The Logic of Science/] (Cambridge University Press, 2003)
+by 
+[http://en.wikipedia.org/wiki/Edwin_Thompson_Jaynes Edwin Thompson Jaynes],
+an attendee of the talk. 
+~~~
+
+== {{<a id="education"></a>}} Education
+{{<a id="edueinstein"></a>}}
+~~~
+:{Education is that which remains, if one has forgotten everything he learned in school.}\n --- [https://en.wikipedia.org/wiki/Albert_Einstein Albert Einstein]\n 
+Einstein did write this quote in his essay "On Education" from 1936, which appeared as the 9th part of his book /Out of My Later Years/ (Philosophical Library, New York, 1950). However, Einstein attributed it to an unnamed "wit". He wrote that "If you have followed attentively my meditations up to this point, you will probably wonder about one thing. I have spoken fully about in what spirit, according to my opinion, youth should be instructed. But I have said nothing yet about the choice of subjects for instruction, nor about the method of teaching. Should language predominate or technical education in science? To this I answer: In my opinion all this is of secondary importance. If a young man has trained his muscles and physical endurance by gymnastics and walking, he will later be fitted for every physical work. This is also analogous to the training of the mind and the exercising of the mental and manual skill. Thus the wit was not wrong who defined education in this way: `{{<span class="dotunder">}}Education is that which remains, if one has forgotten everything he learned in school.{{</span>}}' For this reason I am not at all anxious to take sides in the struggle between the followers of the classical philologic-historical education and the education more devoted to natural science."\n
+This sentence is similar to the French saying "La culture est ce qui reste lorsque l’on a tout oublié" (Culture is that which remains, if one has forgotten everything), attributed to [https://en.wikipedia.org/wiki/%C3%89douard_Herriot Édouard Herriot].
+Another French variant is "La culture est ce qui reste lorsqu'on a oublié toutes les choses apprises" (Culture is that which remains if one has forgotten everything one has learned), which appears in the 1912 book /Propos Critiques/ by [https://en.wikipedia.org/wiki/Georges_Duhamel Georges Duhamel]. #, p. 14. 
+#Another English variant is "Culture is that which remains with a man when he has forgotten all he has learned" which appears in The Living Age: Volume 335 from 1929, p. 159, where it is attributed to "Edouard Herriot, French Minister of Education". Another English variant is "Education is that which remains behind when all we have learned at school is forgotten", which appears in The Education Outlook, vol. 60 p. 532 (from an issue dated 2 December 1907), where it is attributed to Ralph Waldo Emerson.
+~~~
+
+#~~~
+#:{从前愚民政策是不许人民受教育，现代愚民政策是只许人民受某一种教育。不受教育的人，因为不识字，上人的当，受教育的人，因为识了字，上印刷品的当。(The former policy of keeping the masses ignorant prevented the people from getting an education. The current policy of keeping the masses ignorant only allows the people to get a certain kind of education. The uneducated are fooled by others because they are illiterate. The educated are taken in by printed matter because they are literate.)}\n --- [https://goo.gl/E5pGq8 钱锺书] ([https://en.wikipedia.org/wiki/Qian_Zhongshu Qian] [https://fr.wikipedia.org/wiki/Qian_Zhongshu Zhongshu])\n 此语出自钱锺书[https://goo.gl/GOStZo 《围城》]中男主人公[https://goo.gl/t0bHoN 方鸿渐]之口："这不是大教授干政治，这是小政客办教育。从前愚民政策是不许人民受教育，现代愚民政策是只许人民受某一种教育。不受教育的人，因为不识字，上人的当，受教育的人，因为识了字，上印刷品的当，像你们的报纸宣传品、训练干部讲义之类。" 见[https://goo.gl/52GK4a 生活\M读书\M新知三联书店] 2001 年版《钱锺书集》之《围城》第 138 页。\n
+#This quotation comes from the novel /[https://en.wikipedia.org/wiki/Fortress_Besieged Fortress Besieged]/ by Qian Zhongshu. When commenting on politics and education, the protagonist Fang Hung-chien said: "That's not a great professor engaging in politics. It's a petty politician running education. The former policy of keeping the masses ignorant prevented the people from getting an education. The current policy of keeping the masses ignorant only allows the people to get a certain kind of education. The uneducated are fooled by others because they're illiterate. The educated are taken in by printed matter like your newspaper propaganda and lecture notes on training cadres because they are literate." The novel was translated into English by Jeanne Kelly and Nathan K. Mao (茅国权) in 1979 (Zhongshu Qian, Jeanne Kelly, Nathan K. Mao, /[https://goo.gl/jL2b6M Fortress Besieged]/, [https://en.wikipedia.org/wiki/New_Directions_Publishing New Directions Publishing], New York, 2004; see [https://goo.gl/6XI3y0 page 128]).
+#~~~
+
+{{<a id="threepeople"></a>}}
+~~~
+:{There are three kinds of people in the world: There are those who cause things to happen, there are those who stand around and watch, and a vast majority who don't even know anything is happening. I want you to be one of the first; if not the first, surely the second.} \n --- [https://en.wikipedia.org/wiki/Richard_Hamming Richard W. Hamming] \n
+This quotation comes from Hamming's Superintendent's Guest Lecture (SGL) entitled [https://savage.nps.edu/hamming/HammingLearningToLearnRecovered/Presentation03.html "Learning to Learn: The Art of Doing Science and Engineering"] given to all the students and faculty of the [https://en.wikipedia.org/wiki/Naval_Postgraduate_School Naval Postgraduate School] (NPS) in Monterey, California in on Apr. 30, 1990. The lecture  provides a synopsis overview of many of the most fundamental ideas in Hamming's career. 
+The video of this lecture is [https://www.youtube.com/watch?v=8LU-6LZoX-A available on YouTube] and also [https://savage.nps.edu/hamming/HammingLearningToLearnRecovered/Presentation03.html archived by NPS] (as of June 9, 2015), and the quotation appears at 33m56s--34m15s. 
+The first part of the quotation seems to be a common wisdom, also formulated as "There are three types of people in this world: those who make things happen, those who watch things happen, and those who wonder what happened." It is attributed on the Internet to various people including [https://en.wikipedia.org/wiki/Mary_Kay_Ash Mary Kay Ash], [https://en.wikipedia.org/wiki/Ask_Ann_Landers Ann Landers], [https://en.wikipedia.org/wiki/Jim_Lovell James A. Lovell, Jr.], and [https://en.wikipedia.org/wiki/Casey_Stengel Casey Stengel], but sources are barely given. 
+~~~
+
+{{<a id="eduvstr"></a>}}
+~~~
+:{Education is what, when, and why to do things; Training is how to do it. Most of your courses have been Training. I am trying to talk about the Education part.} \n --- [https://en.wikipedia.org/wiki/Richard_Hamming Richard W. Hamming] \n
+Hamming said this during the "Orientation" part of the course [https://savage.nps.edu/hamming/HammingLearningToLearnRecovered/ /The Art of Doing Science and Engineering: Learning to Learn/], which was given to the graduate students at the [https://en.wikipedia.org/wiki/Naval_Postgraduate_School Naval Postgraduate School] (NPS) in Monterey, California on Mar. 28, 1995. 
+The video of this lecture is [https://www.youtube.com/watch?v=AD4b-52jtos&spfreload=10 available on YouTube] and also [https://savage.nps.edu/hamming/HammingLearningToLearnRecovered/Presentation04.html archived by NPS] (as of June 9, 2015), 
+#[https://www.youtube.com/watch?v=AD4b-52jtos&spfreload=10 The video of this course] is available on YouTube,  (as of May 26, 2015), 
+and the quotation appears at 9m33s--9m46s. The first part of the quotation can also be found on page 2 of Hamming's book [https://goo.gl/bQDpH9 /The Art of Doing Science and Engineering: Learning to Learn/] (CRC Press, 2003). 
+~~~
+
+== {{<a id="liberty"></a>}} Liberty
+
+{{<a id="libcrime"></a>}}
+~~~
+:{O liberté, que de crimes on commet en ton nom ! (自由，自由，多少罪恶假汝之名而行！Oh liberty, what crimes are committed in thy name!)}\n --- [https://en.wikipedia.org/wiki/Madame_Roland Marie-Jeanne Phlippon Roland] \n The last words of Roland (well known as "Madame Roland") before she was executed on Nov. 8, 1793, during the [https://en.wikipedia.org/wiki/French_Revolution French Revolution]. She exclaimed the famous remark in front of the clay statue of Liberty in the [https://en.wikipedia.org/wiki/Place_de_la_Concorde Place de la Révolution] shortly before the guillotine dropped on her.  
+See Helen M. Williams, /Letters Containing a Sketch of the Politics of France/, vol. 1, London: G. G. and J. Robinson, 1795 ([http://goo.gl/3AYIy5 page 201]) and [https://en.wikiquote.org/wiki/Madame_Roland Wikiquote].
+According to Jehiel K. Hoyt, [http://www.bartleby.com/78/474.html /Hoyt's New Cyclopedia of Practical Quotations/] (compiled by Kate L. Roberts), New York and London: Funk & Wagnalls Company, 1922, 
+the actual expression used is said to have been "O liberté, comme on t'a jouée !" ("Oh liberty, how thou hast been played with!"). 
+~~~
+
+{{<a id="responsibility"></a>}}
+~~~
+:{Liberty means responsibility. That is why most men dread it. (自由即责任，世人多畏之。)} \n --- 
+[https://en.wikipedia.org/wiki/George_Bernard_Shaw George Bernard Shaw] \n 
+"[https://en.wikiquote.org/wiki/Man_and_Superman\#Maxims_for_Revolutionists Maxims for Revolutionists]", [https://en.wikiquote.org/wiki/Man_and_Superman /Man and Superman: A Comedy and a Philosophy/] (1903)
+~~~
+
+{{<a id="slavery"></a>}}
+~~~
+:{The appeal of slavery is that it offers a life free of responsibilities, and this is always the appeal of slavery.} \n --- [https://en.wikipedia.org/wiki/Rousas_John_Rushdoony Rousas John Rushdoony]
+\n "The fear of freedom", /California Farmer/ 242:3 (Feb. 1, 1975), pp. 55 (see [http://chalcedon.edu/research/articles/the-fear-of-freedom/ Chalcedon])
+~~~
+
+{{<a id="freetalent"></a>}}
+~~~
+:{Unless a man has talents to make something of himself, freedom is an irksome burden. (若无力驾驭，自由便是负担。)} \n --- [https://en.wikipedia.org/wiki/Eric_Hoffer Eric Hoffer] \n [https://en.wikipedia.org/wiki/The_True_Believer /The True Believer: Thoughts on the Nature of Mass Movements/] (Harper & Brothers, 1951)\n Section 26, Chapter 5 (The Poor), Part Two (The Potential Converts)
+~~~
+
+~~~
+:{They who clamor loudest for freedom are often the ones least likely to be happy in a free society.} \n --- [https://en.wikipedia.org/wiki/Eric_Hoffer Eric Hoffer] \n [https://en.wikipedia.org/wiki/The_True_Believer /The True Believer: Thoughts on the Nature of Mass Movements/] (Harper & Brothers, 1951)\n Section 28, Chapter 5 (The Poor), Part Two (The Potential Converts)
+~~~
+
+
+{{<a id="figaro"></a>}} 
+~~~
+:{Sans la liberté de blâmer, il n'est point d'éloge flatteur. (若批评不自由，则赞美无意义。Unless there is liberty to criticize, praise has no value.)}\n --- [https://fr.wikipedia.org/wiki/Pierre-Augustin_Caron_de_Beaumarchais Pierre-Augustin Caron de Beaumarchais] ([https://zh.wikipedia.org/wiki/%E5%8D%9A%E9%A9%AC%E8%88%8D 博马舍]) \n Cette citation se trouve dans [https://fr.wikipedia.org/wiki/Le_Mariage_de_Figaro /Le Mariage de Figaro/], une comédie de Pierre-Augustin Caron de Beaumarchais écrite en 1778. Dans [https://fr.wikisource.org/wiki/Le_Mariage_de_Figaro/Acte_V la troisième scène de l'Acte V], Figaro, le protagoniste, dit : « Je lui dirais ... que les sottises imprimées n'ont d'importance qu'aux lieux où l'on en gêne le cours ; que, sans la liberté de blâmer, il n'est point d'éloge flatteur ; et qu'il n'y a que les petits hommes qui redoutent les petits écrits. » Cette citation est la devise du journal [https://fr.wikipedia.org/wiki/Le_Figaro /Le Figaro/], qui a été nommé d'après Figaro, le personnage de Beaumarchais. Aujourd'hui (jusqu'au 15 mars 2016), on trouve cette phrase sous le titre du journal dans sa [docs/quotation/Figaro-15mars2016.pdf première page]. 
+\n This quotation comes from [https://en.wikipedia.org/wiki/The_Marriage_of_Figaro_(play) /The Marriage of Figaro/], a comedy by [https://en.wikipedia.org/wiki/Pierre_Beaumarchais Pierre-Augustin Caron de Beaumarchais] written in 1778. In the third scene of Act V, the protagonist Figaro says: "I'd tell him that stupidities acquire importance only in so far as their circulation is restricted, that [https://goo.gl/VLrV87 unless there is liberty to criticize, praise has no value], and that only trivial minds are apprehensive of trivial scribbling." See Pierre-Augustin Beaumarchais and John Wood, [https://books.google.fr/books?id=9uSo-214U8AC&dq=The+Barber+of+Seville+and+The+Marriage+of+Figaro&hl=fr&source=gbs_navlinks_s /The Barber of Seville and The Marriage of Figaro/], Penguin Books, 2005. The quotation is the motto of the French newspaper [https://en.wikipedia.org/wiki/Le_Figaro /Le Figaro/], which was named after Figaro, the protagonist of Beaumarchais' play. Nowadays (as of March 15, 2016) one can find this sentence on [docs/quotation/Figaro-15mars2016.pdf the first page] of the newspaper right below its title.  
+~~~
+
+#~~~
+#:{争你们个人的自由，便是为国家争自由！争你们自己的人格，便是为国家争人格！自由平等的国家不是一群奴才建造得起来的！}\n --- [https://goo.gl/xbKs1R 胡适]\n语出胡适为《胡适文选》自序《介绍我自己的思想》："现在有人对你们说：`牺牲你们个人的自由，去求国家的自由！' 我对你们说：`争你们个人的自由，便是为国家争自由！争你们自己的人格，便是为国家争人格！自由平等的国家不是一群奴才建造得起来的！'" 见[https://goo.gl/gkbX43 远流出版公司] 1986 年版《胡適作品集》第二册[https://goo.gl/Ft0HYY 《胡適文選》]序《介紹我自己的思想》[https://goo.gl/Xz4wwc 第二部分]。
+#~~~
+
+~~~
+:{独立之精神，自由之思想}\n --- [https://goo.gl/VZoASC 陈寅恪]\n
+语出陈寅恪为清华 [figs/wangxiansheng.jpg "海宁王静安先生纪念碑"] 所撰碑文[figs/duliziyou.jpg 《海宁王先生之碑铭》]："[https://goo.gl/pFeOvS 海宁王先生]自沉后二年，清华研究院同人咸怀思不能自已。其弟子受先生之陶冶煦育者有年，尤思有以永其念，佥曰：宜铭之贞珉，以昭示于无竟。因以刻石之辞命寅恪，数辞不获已，谨举先生之志事，以普告天下后世。其词曰：士之读书治学，盖将以脱心志于俗谛之桎梏，真理因得以发扬。思想而不自由，毋宁死耳。斯古今仁圣所同殉之精义，夫岂庸鄙之敢望。先生以一死见其独立自由之意志，非所论于一人之恩怨，一姓之兴亡。呜呼！树兹石于讲舍，系哀思而不忘。表哲人之奇节，诉真宰之茫茫。来世不可知者也，先生之著述，或有时而不章，先生之学说，或有时而可商。惟此独立之精神，自由之思想，历千万祀，与天壤而同久，共三光而永光。"
+~~~
+
+~~~
+:{Give me liberty or give me death! ([https://fr.wikipedia.org/wiki/Vivre_libre_ou_mourir Vivre libre ou mourir] !)}\n --- [https://en.wikipedia.org/wiki/Patrick_Henry Patrick Henry] \n
+This quotation is attributed to Patrick Henry from [http://avalon.law.yale.edu/18th_century/patrick.asp the famous speech] he made to [https://en.wikipedia.org/wiki/Virginia_Conventions The Second Virginia Convention] on Mar. 23, 1775, at [https://en.wikipedia.org/wiki/St._John%27s_Episcopal_Church_(Richmond,_Virginia) St. John's Episcopal Church] in Richmond, Virginia. Closing his speech, Patrick Henry exclaimed "It is in vain, sir, to extenuate the matter. Gentlemen may cry, Peace, Peace --- but there is no peace. The war is actually begun! The next gale that sweeps from the north will bring to our ears the clash of resounding arms! Our brethren are already in the field! Why stand we here idle? What is it that gentlemen wish? What would they have? Is life so dear, or peace so sweet, as to be purchased at the price of chains and slavery? Forbid it, Almighty God! I know not what course others may take; but as for me, give me liberty or give me death!" See [docs/quotation/LibertyOrDeath_Sketches_of_the_life_and_character_of_Patric_Henry.pdf pages 119--123] of [https://en.wikipedia.org/wiki/William_Wirt_(Attorney_General) William Wirt], /[https://goo.gl/P5pfFA Sketches of the Life and Character of Patrick Henry]/, the 15th edition, Derby & Jackson, 1860.
+~~~
+
+~~~
+:{Where freedom is real, equality is the passion of the masses. Where equality is real, freedom is the passion of a small minority.} \n --- [https://en.wikipedia.org/wiki/Eric_Hoffer Eric Hoffer] \n [https://en.wikipedia.org/wiki/The_True_Believer /The True Believer: Thoughts on the Nature of Mass Movements/] (Harper & Brothers, 1951)\n Section 29, Chapter 5 (The Poor), Part Two (The Potential Converts)
+~~~
+
+~~~
+:{To the frustrated, freedom from responsibility is more attractive than freedom from restraint.}\n --- [https://en.wikipedia.org/wiki/Eric_Hoffer Eric Hoffer] \n [https://en.wikipedia.org/wiki/The_True_Believer /The True Believer: Thoughts on the Nature of Mass Movements/] (Harper & Brothers, 1951)\n Section 93, Chapter 14 (Unifying Agents), Part Three (United Action and Self-sacrifice)
+~~~
+
+
+== {{<a id="misc"></a>}} Miscellaneous
+
+# Was mich nicht umbringt, macht mich stärker. What does not kill me, makes me stronger. Friedrich Nietzsche  Maxims and Arrows, 8.
+# Every evil to which we do not succumb, is a benefactor. Ralph Waldo Emerson http://www.gutenberg.org/files/2944/2944-h/2944-h.htm#link2H_4_0003 Essays: First Series, "Compensation"
+# http://www.nytimes.com/2012/01/15/books/review/american-nietzsche-by-jennifer-ratner-rosenhagen-book-review.html?_r=0
+
+#I am prepared for the worst, but hope for the best. 
+#https://goo.gl/M2RCcE
+#Benjamin Disraeli
+#The Wondrous Tale of Alroy 
+#https://en.wikipedia.org/wiki/David_Alroy
+#
+#To do a great and important work, two things are necessary—a definite plan, and not quite enough time.
+#http://www.barrypopik.com/index.php/new_york_city/entry/to_do_important_work_two_things_are_necessary_a_plan_and_not_quite_enough_t
+
+{{<a id="xiangshui"></a>}}
+~~~
+:{吾道南来原是[http://lsec.cc.ac.cn/~yyx/chinese/indexc.htm 濂溪]一脉\n大江东去无非[http://lsec.cc.ac.cn/~yyx/ 湘水]余波}\n --- [http://goo.gl/JPpjLL 王闿运]\n [http://goo.gl/TCMz7q 岳麓书院][http://goo.gl/bR10yV 文庙]大成殿左侧厢房 (现为 "历史馆") [figs/xiangshui.jpg 楹联]
+~~~
+
+~~~
+:{When a man has so far corrupted and prostituted the chastity of his mind, as to subscribe his professional belief to things he does not believe, he has prepared himself for the commission of every other crime.}
+\n ---[https://en.wikipedia.org/wiki/Thomas_Paine Thomas Paine]
+\n [https://en.wikipedia.org/wiki/The_Age_of_Reason /The Age of Reason: Being an Investigation of True and Fabulous Theology/], 1794 ([http://www.ushistory.org/paine/reason/reason1.htm Section 1, Part I])
+~~~
+
+~~~
+:{You only live once, but living once means living many times, as a series of similar but technically different people, who know each other, but only in one direction, and who can help each other, but only in the other direction.}
+\n --- [https://en.wikipedia.org/wiki/Michael_Stevens_(educator) Michael Stevens]
+\n This sentence is an extension of "You only live once" ([https://en.wikipedia.org/wiki/YOLO_(motto) YOLO]), an English motto that resembles the Latin aphorism "[https://en.wikipedia.org/wiki/Carpe_diem Carpe diem]" ("seize the day"). It comes from Michael Stevens' [https://en.wikipedia.org/wiki/Vsauce Vsauce] video "[https://www.youtube.com/watch?v=xn7ZaT3AgoU Misnomers]", which covers various topics including linguistic discussions on nomenclature and philosophical discussions on identity. See 10m38s--11m03s of the [https://www.youtube.com/watch?v=xn7ZaT3AgoU video on YouTube]. 
+~~~
+
+~~~
+:{Mankind was born on earth. It was never meant to die here.}\n --- [https://en.wikipedia.org/wiki/Christopher_Nolan Christopher Nolan] and [https://en.wikipedia.org/wiki/Jonathan_Nolan Jonathan Nolan]
+\n This quotation comes from the 2014 movie [https://en.wikipedia.org/wiki/Interstellar_(film) /Interstellar/], the director being Christopher Nolan, and the script writer being Christopher Nolan and Jonathan Nolan. It is similar to the sentence [http://web.archive.org/web/20060421175318/http://www.uranos.eu.org/biogr/ciolke.html "Earth is the cradle of humanity, but one cannot live in a cradle forever."] (Планета есть колыбель разума, но нельзя вечно жить в колыбели, more precisely translated as "The planet is the cradle of the mind, but you cannot live forever in the cradle"), which was written by [https://en.wikipedia.org/wiki/Konstantin_Tsiolkovsky Konstantin E. Tsiolkovsky] (Константин Эдуардович Циолковский, Russian and Soviet rocket scientist and pioneer of the astronautic theory) in a [https://web.archive.org/web/20140219031703/http://www.rf.com.ua/article/388 letter] in 1911.
+\n The quotation resembles a fact about mathematics: Mathematics starts from intuition, but it is never meant to stay there; /ou/: Good mathematicians start from intuition (and most likely return there in the end), while lousy ones stay there (without ever leaving). To see what it means, read [https://en.wikipedia.org/wiki/Terence_Tao Terence Tao]'s essay on the three stages of mathematical education ("[https://terrytao.wordpress.com/career-advice/there’s-more-to-mathematics-than-rigour-and-proofs/ There’s more to mathematics than rigour and proofs]") and the [\#zen quotation on the three stages of Zen]. Do not confuse the first stage with the third one. 
+~~~
+
+{{<a id="talk"></a>}}
+~~~
+:{A talk is greatly improved if the audience recognise they are being /talked to/ rather than being /talked at/.}\n --- [https://en.wikipedia.org/wiki/Simon_Peyton_Jones Simon P. Jones], [https://en.wikipedia.org/wiki/John_Hughes_(computer_scientist) John Hughes], and [http://www.darpa.mil/staff/dr-john-launchbury John Launchbury]\n [http://www.ece.cmu.edu/~ece743/talk.pdf How to give a good research talk], [http://dl.acm.org/citation.cfm?id=J706&CFID=530214744&CFTOKEN=48151163 /SIGPLAN Notices/], 28(11), Nov. 1993
+~~~
+
+~~~
+:{你要看一个国家的文明，只消考察三件事：第一，看他们怎样待小孩子；第二，看他们怎样待女人；第三，看他们怎样利用闲暇的时间。}\n --- [https://goo.gl/xbKs1R 胡适]\n 
+#《胡适文存》第三集第九卷《慈幼的问题》开篇："我的一个朋友对我说过一句很深刻的话：`你要看一个国家的文明，只消考察三件事：第一，看他们怎样待小孩子；第二，看他们怎样待女人；第三，看他们怎样利用闲暇的时间。' 这三点都很扼要，只可惜我们中国禁不起这三层考察。" 见[https://goo.gl/gkbX43 远流出版公司] 1986 年版《胡適作品集》第十四册 [https://books.google.fr/books?id=hc23AAAAQBAJ&dq=%E4%B8%89%E7%99%BE%E5%B9%B4%E4%B8%AD%E7%9A%84%E5%A5%B3%E4%BD%9C%E5%AE%B6++%E8%83%A1+%E9%81%A9&hl=fr&source=gbs_navlinks_s "三百年中的女作家:《胡適文存》第三集第七\M八\M九卷"] 第[https://goo.gl/7D8ZyE 二四三页]。 
+《胡适文存》第三集第九卷《慈幼的问题》开篇："我的一个朋友对我说过一句很深刻的话：`你要看一个国家的文明，只消考察三件事：第一，看他们怎样待小孩子；第二，看他们怎样待女人；第三，看他们怎样利用闲暇的时间。' " 见[https://goo.gl/gkbX43 远流出版公司] 1986 年版《胡適作品集》第十四册 [https://books.google.fr/books?id=hc23AAAAQBAJ&dq=%E4%B8%89%E7%99%BE%E5%B9%B4%E4%B8%AD%E7%9A%84%E5%A5%B3%E4%BD%9C%E5%AE%B6++%E8%83%A1+%E9%81%A9&hl=fr&source=gbs_navlinks_s "三百年中的女作家:《胡適文存》第三集第七\M八\M九卷"] 第[https://goo.gl/7D8ZyE 二四三页]。 
+~~~
+
+~~~
+:{君子之交淡若水，小人之交甘若醴。}\n --- [https://goo.gl/la8iOs 《庄子》]\n
+[http://ctext.org/zhuangzi/tree-on-the-mountain/zhs 《庄子\M外篇\M山木》]载：孔子问子桑雽曰："吾再逐于鲁，伐树于宋，削迹于卫，穷于商、周，围于陈、蔡之间。吾犯此数患，亲交益疏，徒友益散，何与？"
+子桑雽曰："子独不闻假人之亡与？林回弃千金之璧，负赤子而趋。或曰：`为其布与？赤子之布寡矣。为其累与？赤子之累多矣。弃千金之璧，负赤子而趋，何也？' 林回曰：`彼以利合，此以天属也。' 夫以利合者，迫穷祸患害相弃也；以天属者，迫穷祸患害相收也。夫相收之与相弃亦远矣。且君子之交淡若水，小人之交甘若醴；君子淡以亲，小人甘以绝。彼无故以合者，则无故以离。"
+~~~
+
+~~~
+:{我们十年来读些书是干甚么呢？难道学几句爱皮西靠做将来的衣饭碗不成？难道跟着那些江湖名士，讲几句激昂慷慨的口头话，拿着无可奈何四个字，就算个议论的结束吗？}\n --- [https://goo.gl/ik8I4Z 梁启超]\n
+[https://goo.gl/uUsmuh 《新中国未来记》](1902 年发表，录于 1989 年中华书局版[https://goo.gl/DXeyLF 《饮冰室合集》]第十一本，目次 "饮冰室专集之八十九") 第三回 "求新学三大洲环游 论时局两名士舌战"。
+小说中黄克强 (虚构)、李去病二人游学海外，于癸卯 (1906) 年回国，途径山海关，触景生情，辩论时局。梁启超借黄克强之口写道："兄弟，你是读过历史的。你看世界上那一国不是靠着国民再造一番，才能强盛吗？现在我和你两个，虽然是一介青年，无权无勇，但是我们十年来读些书是干甚么呢？(青年读书诸君想想。) 难道学几句爱皮西靠做将来的衣饭碗不成？(青年读书诸君想想。) 难道跟着那些江湖名士，讲几句激昂慷慨的口头话，拿着无可奈何四个字，就算个议论的结束吗？(青年读书诸君想想。) 我想一国的事业，原是一国人公同担荷的责任。(眉批：知责任者大，大夫之始也。任责任者大，大夫之终也。) 若使四万万人，各各把自己面分的担荷起来，这责任自然是不甚吃力的。但系一国的人，多半还在睡梦里头，他还不知道有这个责任，叫他怎么能够担荷它呢？既然如此，那些已经知道的人，少不免要把他们的担子，一齐都放在自己的肩膀上头了。(青年读书诸君想想。) 兄弟，我们两个虽算不得甚么人物，但已经受了国民的恩典，读了这点子书，得了这点子见识，这个责任，是平日知道熟了。今日回到本国，只要尽自己的力量去做，做得一分是一分。安见中国的前途，就一定不能挽救呢？" 文中批注为梁启超所作。另外，"爱皮西" 似为 "ABC" 之意。
+~~~
+
+
+{{<a id="hero"></a>}}
+~~~
+:{ \- Grandpa, were you a hero in the war?\n - No... but I served in a company of heroes.} \n --- Sergeant [https://en.wikipedia.org/wiki/Myron_N._Ranney Myron N. Ranney] (with his grandson), WWII veteran \n This dialog between Ranney and his grandson was quoted by Major [https://en.wikipedia.org/wiki/Richard_Winters Richard D. Winters] in the World War II miniseries /[https://en.wikipedia.org/wiki/Band_of_Brothers_(TV_miniseries) Band of Brothers]/ ([https://en.wikipedia.org/wiki/HBO HBO], 2011). During the [http://www.youtube.com/watch?v=V6TrbOexkUc interview segment] at the very end of the miniseries, Winters quoted a passage from a letter that he received from Ranney: "I cherish the memories of a question my grandson asked me the other day, when he said, `Grandpa, were you a hero in the war?' Grandpa said `No... but I served in a company of heroes.'" The dialog was also quoted in the book /[http://goo.gl/TD8E70 Band of Brothers: E Company, 506th Regiment, 101st Airborne from Normandy to Hitler's Eagle's Nest]/ (Simon & Schuster, 2002) by Stephen E. Ambrose (on page 425) and in /[http://goo.gl/vqcNXX Beyond Band of Brothers: The War Memoirs of Major Dick Winters]/ (Random House, 2011) by Richard D. Winters and Cole C. Kingseed (on page 262).
+~~~
+
+~~~
+:{When you realize you want to spend the rest of your life with somebody, you want the rest of your life to start as soon as possible.}\n --- [https://en.wikipedia.org/wiki/Nora_Ephron Nora Ephron] \n At the end of the movie /[http://goo.gl/T1suGd When Harry Met Sally...]/ (1989, written by Nora Ephron and directed by [https://en.wikipedia.org/wiki/Rob_Reiner Rob Reiner]), Harry's [https://www.youtube.com/watch?v=rNsu6CeTKpc declaration of love] to Sally on New Year's Eve: "I love that you get cold when it's 71 degrees out. I love that it takes you an hour and a half to order a sandwich. I love that you get a little crinkle above your nose when you're looking at me like I'm nuts. I love that after I spend the day with you, I can still smell your perfume on my clothes. And I love that you are the last person I want to talk to before I go to sleep at night. And it's not because I'm lonely, and it's not because it's New Year's Eve. I came here tonight because when you realize you want to spend the rest of your life with somebody, you want the rest of your life to start as soon as possible." 
+~~~
+
+#~~~
+#:{That's why I want to marry you, my dear.}\n --- [https://en.wikipedia.org/wiki/Abi_Morgan Abi Morgan] \n 
+#In the movie /[https://en.wikipedia.org/wiki/The_Iron_Lady_(film) The Iron Lady]/ (2011, written by Abi Morgan and directed by [https://en.wikipedia.org/wiki/Phyllida_Lloyd Phyllida Lloyd]), replying to [https://en.wikipedia.org/wiki/Denis_Thatcher Denis Thatcher]'s proposal, [https://en.wikipedia.org/wiki/Margaret_Thatcher Margaret Thatcher] ("Margaret Hilda Roberts" at that time) said: "I love you so much but, I will never be one of those women, Denis, who stays silent and pretty on the arm of her husband, or remote and alone in the kitchen --- doing the washing up, for that matter ... One's life must matter, Denis. Beyond all the cooking and the cleaning and the children. One's life must mean more than that. I cannot die washing up a teacup! I mean it, Denis. {{<span class="dotunder">}}Say you understand{{</span>}}." Denis Thatcher answered: "That's why I want to marry you, my dear."
+
+#"After I'm dead I'd rather have people ask why I have no monument than why I have one." Cato the Elder
+#
+#If you're not failing every now and again, it's a sign you're not doing anything very innovative.
+#
+
+#Quan l’edifici té simplement el que li cal amb els mitjans disponibles, té caràcter, o té dignitat, que és el mateix. 
+#when the building has just what you need with the resources available it has character, or dignity, which is the same thing.
+#Antoni Gaudí 
+
+#
+#-Mathematics is the art of giving the same name to different things.
+#Henri Poincaré.
+#(This was in response to "Poetry is the art of giving different names to
+#the same thing.")
+#
+#-The difference between mathematicians and physicists is that after
+#physicists prove a big result they think it is fantastic but after
+#mathematicians prove a big result they think it is trivial.
+#Lucien Szpiro during Algebra 1 lecture.
+#
+#-Oh, he seems like an okay person, except for being a little strange in
+#some ways. All day he sits at his desk and scribbles, scribbles,
+#scribbles. Then, at the end of the day, he takes the sheets of paper
+#he's scribbled on, scrunches them all up, and throws them in the trash
+#can. --J. von Neumann's housekeeper, describing her employer.
+#
+#-You know, for a mathematician, he did not have enough imagination. But
+#he has become a poet and now he is fine.
+#
+#D. Hilbert, talking about an ex-student.
+#
+#-The art of doing mathematics is finding that special case that contains
+#all the germs of generality.
+# --- David Hilbert
+#
+#- Everyone knows what a curve is, until he has studied enough mathematics
+#to become confused through the countless number of possible exceptions.
+#--- F. Klein (from Reed & Simon: Methods of modern mathematical physics)
+#
+#- A mathematician is a person who can find analogies between theorems;
+#a better mathematician is one who can see analogies between proofs and
+#the best mathematician can notice analogies between theories. One can
+#imagine that the ultimate mathematician is one who can see analogies
+#between analogies.
+#
+#--Stefan Banach
+#
+#- Good mathematicians see analogies between theorems or theories. The
+#very best ones see analogies between analogies.
+#
+#--Stanislaw M. Ulam quoting Stefan Banach
+#
+#- Mathematics, rightly viewed, possesses not only truth, but supreme beauty
+#-- a beauty cold and austere, like that of sculpture, without appeal to
+#any part of our weaker nature, without the gorgeous trappings of
+#painting or music, yet sublimely pure, and capable of a stern perfection
+#such as only the greatest art can show. The true spirit of delight, the
+#exaltation, the sense of being more than Man, which is the touchstone of
+#the highest excellence, is to be found in mathematics as surely as
+#poetry.
+#Bertrand Russell, in Study of Mathematics, about the beauty of
+#Mathematics.
+#
+#- If I feel unhappy, I do mathematics to become happy. If I am happy, I do
+#mathematics to keep happy.
+#------ Alfréd Rényi
+#
+#- "Obvious" is the most dangerous word in mathematics.
+#
+#- Anyone who cannot cope with mathematics is not fully human. At best he
+#is a tolerable subhuman who has learned to wear shoes, bathe and not
+#make messes in the house.
+#Lazarus Long, "Time Enough for Love", (Robert A. Heinlein)
+#
+#- Since the mathematicians have invaded the theory of relativity, I do not
+#understand it myself anymore. --Albert Einstein 
+#
+#- Mathematics may be defined as the subject in which we never know what we
+#are talking about, nor whether what we are saying is true.
+#Bertrand Russell, referring to the axiomatic method, where certain
+#properties of an (otherwise unknown) structure are assumed and
+#consequences thereof are then logically derived.
+#
+#- Do not worry about your problems with mathematics, I assure you mine are
+#far greater. --- Albert Einstein 
+#
+#- Das Wesen der Mathematik ist ihre Freiheit. 
+#--- Cantor
+#
+#- The simplest schoolboy is now familiar with facts for which Archimedes
+#would have sacrificed his life. --Ernest Renan
+#
+#- If I have seen farther than others, it is because I have stood on the
+#shoulders of giants.
+#--Isaac Newton
+#
+#- If I have not seen as far as others, it is because there were giants
+#standing on my shoulders.
+#
+#--Hal Abelson
+#
+#"Mathematicians are like Frenchmen: whatever you say
+#     to them they translate into their own language and 
+#          forthwith it is something entirely different."
+#                -- Johann Wolfgang von Goethe
+# 
+# 10. "Everything that is really great and inspiring is created by the 
+#       individual who can labor in freedom."
+#             -- Albert Einstein
+#   26. "You know we all became mathematicians for the same reason: 
+#         we were lazy."
+#               -- Max Rosenlicht
+#
+# The art of doing mathematics consists in finding that special case
+# which contains all the germs of generality. --Hilbert
+# Quoted in Constance Reid, "Hilbert" (1970)
+#
+#                  "Q.E.D. (Quod Erat Demonstrandum: Which was to be
+#                  proven.)"
+#                        -- Euclid
+#           "Philosophy is a game with objectives and no rules. 
+#                 Mathematics is a game with rules and no objectives."
+# "When I am working on a problem, I never think about beauty.
+#       I think only of how to solve the problem. But when I have
+#             finished, if the solution is not beautiful, I know it is
+#             wrong." 
+#                   -- Richard Buckminster Fuller 
+#
+# "Beauty is the first test: there is no permanent place
+#       in the world for ugly mathematics."
+#             -- Godfrey Harold Hardy, A Mathematician's Apology (1940)
+#
+#"It is impossible to be a mathematician without being a poet in soul."
+#      -- Sophia Kovalevskaya
+#      "A mathematician who is not also something of a poet will
+#            never be a complete mathematician."
+#                  -- Karl Weierstrass.
+#                  "Math is like love -- a simple idea but it can get
+#                  complicated."
+#          
+#          Mathematics is made of 50 percent formulas, 50 percent
+#          proofs, and 50 percent imagination.
+#== Society 
+#http://todayinsci.com/H/Hamming_Richard/HammingRichard-Quotations.htm

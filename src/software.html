@@ -1,0 +1,165 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta name="Description" content="A collection of software on optimization
+and numerical linear algebra. Collected by Zaikun Zhang.
+See also http://zhangzk.net, http://www.zzk.me" />
+<meta name="keywords" content="software,code,algorithm,package,optimization,powell,numerical linear algebra,numerical analysis"/>
+<meta name="author" content="Zaikun Zhang"/>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Software</title>
+<!-- MathJax -->
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+	  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+<!-- End MathJax -->
+</head>
+<body>
+<table id="tlayout">
+<tr class="top">
+<td id="layout-menu">
+<div class="menu-category">ZHANG Zaikun</div>
+<div class="menu-item"><a href="http://zhangzk.net/index.html">Home</a></div>
+<div class="menu-item"><a href="http://zhangzk.net/docs/cv.pdf">Vitæ</a></div>
+<div class="menu-item"><a href="http://zhangzk.net/index.html#contact">Contact</a></div>
+<div class="menu-item"><a href="http://zhangzk.net/teaching.html">Teaching</a></div>
+<div class="menu-item"><a href="http://zhangzk.net/software.html" class="current">Software</a></div>
+<div class="menu-item"><a href="http://zhangzk.net/coauthor.html">Co-authors</a></div>
+<div class="menu-item"><a href="http://zhangzk.net/powell.html">Prof.&nbsp;Powell</a></div>
+<div class="menu-item"><a href="http://zhangzk.net/conference.html">Conferences</a></div>
+<div class="menu-item"><a href="http://zhangzk.net/misc.html">Miscellaneous</a></div>
+<div class="menu-category">Links</div>
+<div class="menu-item"><a href="http://lsec.cc.ac.cn/~optim">Yuan&nbsp;Group</a></div>
+<div class="menu-item"><a href="http://lsec.cc.ac.cn/~siamstuc">CAS&nbsp;SIAM</a></div>
+<div class="menu-item"><a href="http://www.xintian.org/">Xin&nbsp;Tian</a></div>
+<div class="menu-item"><a href="http://sites.mathdoc.fr/archives-bourbaki/">Bourbaki</a></div>
+<div class="menu-item"><a href="https://terrytao.wordpress.com/">Tao&nbsp;Blog</a></div>
+<div class="menu-item"><a href="http://genealogy.math.ndsu.nodak.edu/id.php?id=164992">Math.&nbsp;Gene.</a></div>
+<div class="menu-item"><a href="http://mathoverflow.net">MathOverflow</a></div>
+<div class="menu-item"><a href="http://www.oeis.org">OEIS</a></div>
+<div class="menu-item"><a href="http://xkcd.com/">XKCD</a></div>
+<div class="menu-item"><a href="http://www.snopes.com/">Snopes</a></div>
+<div class="menu-item"><a href="http://iccf-holland.org/">ICCF&nbsp;Holand</a></div>
+<div class="menu-item"><a href="http://www.vim.org/">Vim</a></div>
+<div class="menu-item"><a href="https://logological.org/word">No&nbsp;M$-Word</a></div>
+<div class="menu-item"><a href="http://www.getgnulinux.org/">GNU/Linux</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1><a id="top"></a>Software</h1>
+</div>
+<h2><a id="powell_software"></a>Software by Professor <a href="powell.html">M. J. D. Powell</a></h2>
+<p>During his last days, Professor Powell kindly sent me the source code of his optimization software and authorized me to maintain it here. 
+Now the software is also maintained at <a href="https://ccpforge.cse.rl.ac.uk/gf/project/powell">CCPForge</a> by Professor <a href="http://www.numerical.rl.ac.uk/people/nimg/">Nick Gould</a> and me.
+If you have problems in downloading, please feel free to <a href="index.html#contact">contact me</a>. 
+In case of technical questions on the code or the algorithms, you may also <a href="mailto:nick.gould@stfc.ac.uk,zaikunzhang@gmail.com?subject=MJD Powell Software Technical Question">contact us</a> and we will do our best to help. </p>
+<p>Each package here includes an &ldquo;email.txt&rdquo; file. It is an email from Professor Powell giving details of the corresponding software.  
+To use the software, you need a Fortran compiler (e.g., <a href="https://en.wikipedia.org/wiki/F2c">f77</a>, <a href="https://en.wikipedia.org/wiki/Intel_Fortran_Compiler">IFORT</a>,  <a href="https://en.wikipedia.org/wiki/GNU_Fortran">GFortran</a>, <a href="https://en.wikipedia.org/wiki/G95">G95</a>). Makefiles are provided for the usage under Unix, and they might need modifications according to your compiler. <span class="dotunder">Plans are underway to provide MATLAB, Python, and (possibly) C interfaces.</span>  </p>
+<p>Please notice that <span class="dotunder">Professor Powell decided to release his optimization software with the <a href="https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License">GNU Lesser General Public License</a></span>. If you are using a version of the software without the license, please update it. If you are archiving the software somewhere else, please make sure to include the license. </p>
+<ul>
+<li><p><a id="tolmin"></a><a href="software/tolmin.tar.gz">TOLMIN</a>, an algorithm that minimizes a general differentiable nonlinear function subject to linear constraints. 
+
+[<a href="software/tolmin.tar.gz">.tar.gz</a>] [<a href="software/tolmin.zip">.zip</a>]
+[<a href="http://link.springer.com/article/10.1007%2FBF01589118">paper</a>]
+[<a href="https://en.wikipedia.org/wiki/TOLMIN_(optimization_software)">wikipedia</a>]</p>
+</li>
+</ul>
+<ul>
+<li><p><a id="cobyla"></a><a href="software/cobyla.tar.gz">COBYLA</a> (Constrained Optimization BY Linear Approximations), 
+an algorithm that seeks the least value of a nonlinear function 
+subject to nonlinear inequality constraints, without using derivatives of the 
+objective function or the constraints.
+Single precision only.
+[<a href="software/cobyla.tar.gz">.tar.gz</a>] [<a href="software/cobyla.zip">.zip</a>]
+[<a href="http://link.springer.com/chapter/10.1007/978-94-015-8330-5_4">paper</a>] 
+[<a href="http://en.wikipedia.org/wiki/COBYLA">wikipedia</a>]</p>
+</li>
+</ul>
+<ul>
+<li><p><a id="uobyqa"></a><a href="software/uobyqa.tar.gz">UOBYQA</a> (Unconstrained Optimization BY Quadratic Approximation), 
+an algorithm that solves unconstrained optimization problems without using derivatives. 
+
+For general usage, <a href="#newuoa">NEWUOA</a> is recommended to replace UOBYQA. 
+[<a href="software/uobyqa.tar.gz">.tar.gz</a>] [<a href="software/uobyqa.zip">.zip</a>]
+[<a href="http://link.springer.com/article/10.1007%2Fs101070100290">paper</a>]
+[<a href="http://en.wikipedia.org/wiki/UOBYQA">wikipedia</a>]</p>
+</li>
+</ul>
+<ul>
+<li><p><a id="newuoa"></a><a href="software/newuoa.tar.gz">NEWUOA</a>, an algorithm that solves unconstrained optimization 
+problems without using derivatives. 
+
+In general it is much more efficient than <a href="#uobyqa">UOBYQA</a> and is capable of solving problems with several hundreds of variables.
+[<a href="software/newuoa.tar.gz">.tar.gz</a>] [<a href="software/newuoa.zip">.zip</a>]
+[<a href="http://www.damtp.cam.ac.uk/user/na/NA_papers/NA2004_08.pdf">paper</a>]
+[<a href="http://en.wikipedia.org/wiki/NEWUOA">wikipedia</a>]</p>
+</li>
+</ul>
+<ul>
+<li><p><a id="bobyqa"></a><a href="software/bobyqa.tar.gz">BOBYQA</a> (Bound Optimization BY Quadratic Approximation), 
+an algorithm that seeks the least value of a nonlinear function 
+subject to bound constraints, without using derivatives of the objective function. 
+
+[<a href="software/bobyqa.tar.gz">.tar.gz</a>] [<a href="software/bobyqa.zip">.zip</a>]
+[<a href="http://www.damtp.cam.ac.uk/user/na/NA_papers/NA2009_06.pdf">paper</a>]
+[<a href="http://en.wikipedia.org/wiki/BOBYQA">wikipedia</a>]</p>
+</li>
+</ul>
+<ul>
+<li><p><a id="lincoa"></a><a href="software/lincoa.tar.gz">LINCOA</a> (LINearly Constrained Optimization Algorithm),
+an algorithm that seeks the least value of a nonlinear function 
+subject to linear inequality constraints, without using 
+derivatives of the objective function. 
+
+[<a href="software/lincoa.tar.gz">.tar.gz</a>] [<a href="software/lincoa.zip">.zip</a>]
+[<a href="http://www.damtp.cam.ac.uk/user/na/NA_papers/NA2014_02.pdf">paper</a>]
+[<a href="http://en.wikipedia.org/wiki/LINCOA">wikipedia</a>]</p>
+</li>
+</ul>
+<h2>Software that I use (and recommend)</h2>
+<ul>
+<li><p>OS: <a href="http://en.wikipedia.org/wiki/Xubuntu">Xubuntu</a></p>
+</li>
+<li><p>text editor: <a href="http://en.wikipedia.org/wiki/Vim_(text_editor)">Vim</a> (thanks to Dr. Zhang Yang, who introduced it to me), <a href="http://vim-latex.sourceforge.net/">Vim-LaTeX</a> (thanks to Dr. <a href="http://www.mcs.anl.gov/~jlarson/">Jeff Larson</a>, who taught it to me)</p>
+</li>
+<li><p>typesetting: <a href="http://en.wikipedia.org/wiki/TeX_Live">TeX Live</a> (thanks to Professor <a href="http://math.jlu.edu.cn/?act=view&amp;id=173&amp;mod=info">Tian Dong</a>, who taught me <a href="https://en.wikipedia.org/?title=TeX">TeX</a>)</p>
+</li>
+<li><p>scientific computing: <a href="http://en.wikipedia.org/wiki/GNU_Octave">GNU Octave</a>
+
+</p>
+</li>
+<li><p>web-page creator: <a href="http://jemdoc.jaboc.net/">jemdoc</a><a href="https://github.com/wsshin/jemdoc_mathjax">+MathJax</a> (thanks to Professor <a href="http://lsec.cc.ac.cn/~liuxin">Xin Liu</a>, who introduced jemdoc to me)</p>
+</li>
+<li><p>graphics editor: <a href="https://en.wikipedia.org/wiki/GIMP">GIMP</a>, <a href="https://en.wikipedia.org/wiki/Inkscape">Inkscape</a>
+
+</p>
+</li>
+</ul>
+<p><a href="docs/no_ms_email.txt">Please do not send me Microsoft files</a> (doc, xls, ppt, etc.). If really necessary, let us use <a href="http://www.google.com/docs/about/">Google Docs</a> instead. Thanks a lot. </p>
+<div id="footer">
+<div id="footer-text">
+<h6 class="myleft">
+Page updated in Oct 2019.
+&nbsp;
+</h6>
+<h6 class="myright">
+<a href="http://zhangzk.net/index.html">Home</a>
+&nbsp;
+<a href="http://zhangzk.net/index.html#contact">Contact</a>
+&nbsp;
+<a href="#toptitle">TOP&uarr;</a>
+</h6>
+</div>
+<div style="clear: both"></div>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>

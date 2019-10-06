@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /~zhang/404.html
+Disallow: /~zhang/src/

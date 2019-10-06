@@ -1,0 +1,206 @@
+%% start of file `template_en.tex'.
+%% Copyright 2006-1008 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11.6pt,a4paper]{moderncv}
+
+% moderncv themes
+%\moderncvtheme[black]{casual}                 % optional argument are 'black' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+\moderncvtheme[black]{classic}                % idem
+
+\usepackage{marvosym}
+\usepackage{marvosym}                                                       
+\usepackage{xeCJK}                                                          
+\input{fontsetup.tex}
+
+% adjust the page margins
+\usepackage[scale=0.810]{geometry}
+\setlength{\hintscolumnwidth}{3.16cm}						% if you want to change the width of the column with the dates
+\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+
+% personal data
+%\firstname{Zhang,} \familyname{Zaikun}
+\firstname{ {\heiti{张在坤}}\\[6mm] \mbox{Zhang, Zaikun}} \familyname{}
+
+%\title{Resum title (optional)}               % optional, remove the line if not wanted
+\address{F 325, ENSEEIHT, 2 rue Camichel\\31071 Toulouse CEDEX 7, France
+}{{\Large{\ComputerMouse}}~\href{http://www.zzk.me}{http://www.zzk.me}}    % optional, remove the line if not wanted
+%\mobile{+86-159-0152-1357}                    % optional, remove the line if not wanted
+%\phone{+351 239 793 061}                      % optional, remove the line if not wanted
+\email{zhang@cerfacs.fr}
+%\extrainfo{additional information (optional)} % optional, remove the line if not wanted
+%\photo[64pt]{picture}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
+%\quote{Some quote (optional)}                 % optional, remove the line if not wanted
+
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+%\homepage{http://www.zhangzk.net}
+
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+%\vskip-1cm
+\section{Basic Information}
+\vskip-0.9cm
+\cventry{Date of birth}{Aug.~1985}{}{}{}{}
+\cventry{Place of birth}{Shandong Province,~China}{}{}{}{}
+\cventry{Gender}{Male}{}{}{}{}
+\cventry{Nationality}{Chinese}{}{}{}{}
+
+\vskip-0.3cm
+\section{Education}
+\cventry{\mbox{Sept.\ 2007--July 2012}}{Ph.D.,~computational mathematics}{}{Institute of
+Computational Mathematics and Scientific/Engineering Computing, Chinese
+Academy of Sciences, China, supervised by Professor
+{Ya-xiang Yuan}}{thesis:\,On derivative-free
+optimization methods}{}{}  % arguments 3 to 6 are optional
+\cventry{May 2010--Aug.\ 2010}{Visiting student}{}{\textcolor{black}{Institute for Computer Science, University  of Bayreuth, Germany}}{\textcolor{black}{
+visiting Professor \mbox{Klaus Schittkowski},
+funded by Alexander von Humboldt Foundation}}{}
+\cventry{\mbox{Sept.\ 2003--July 2007}}{B.Sc.,~computational
+mathematics}{}{College of Mathematics, Jilin University, China}{}{}  % arguments 3 to 6 are optional
+
+\vskip-0.3cm
+\section{Positions}
+\cventry{\mbox{Apr.\ 2014--present}}{postdoc,
+CERFACS-IRIT joint lab on computational applied 
+mathematics, France}{}{in the team of Professor Serge Gratton,
+funded by Fondation STAE}{}{}
+\cventry{\mbox{Sept.\ 2012--Apr.\ 2014}}{
+postdoc, Department of Mathematics,
+University of Coimbra, Portugal}{}{in the group of Professor Lu\'{i}s Nunes Vicente,
+funded by FCT grant PTDC/MAT/116736/2010}{}{}
+
+\vskip-0.3cm
+\section{Research Interests}
+%\cventry{}{Nonlinear Optimization and Its Applications}{}{}{}{}
+%\cventry{}{Derivative-free Optimization}{}{}{}{}      
+\cventry{}{Nonlinear optimization and its applications, derivative-free
+optimization}{}{}{}{}
+
+%\vskip-0.2cm
+%\section{Ph.D.\ Thesis}
+%\cventry{}{On Derivative-Free Optimization Methods}{}{}{}{}
+
+\vskip-0.3cm
+\section{Publication}
+\cventry{}{[1] Z.\,\,Zhang}{}{Sobolev seminorm of quadratic functions
+with applications to derivative-free optimization, 
+\textit{{Math. Program.}}, 146(1-2): 77–96, 2014 
+(based on Sections 4.3--4.5 of Ph.D.\ thesis)}{}{}
+
+\vskip-0.3cm
+\section{Working Papers}
+\cventry{}{[1] S.\ Gratton, C.\ W.\ Royer, L.\ N.\ Vicente, Z.\ Zhang}{}{
+Direct search based on probabilistic descent, preprint 14-11, 
+Dept. Mathematics, Univ. Coimbra, submitted}{}{}
+
+\cventry{}{[2] Z.\ Zhang}{}{A derivative-free optimization algorithm with
+low-dimensional subspace techniques for large-scale problems, in preparation
+(based on Section 5.3 of \mbox{Ph.D.\ thesis})}{}{}
+
+\cventry{}{[3] S.\ Gratton, L.\ N.\ Vicente, Z.\ Zhang}{}{A subspace
+decomposition framework for nonlinear optimization: Global convergence
+and global rates, in preparation}{}{}
+
+%\nocite{*}
+% Publications from a BibTeX file
+%\bibliographystyle{plain}
+%\bibliography{publications}       % 'publications' is the name of a BibTeX file
+
+\vskip-0.3cm
+\section{Selected Conference Presentations}
+
+\cventry{July 28, 2014}{\textcolor{black}{Optimization 2014} (Guimar\~{a}es, Portugal)}{}
+{A subspace decomposition framework for nonlinear optimization: Global convergence and global rates}{organized-session talk
+%, invited by S. Gratton
+}{}
+\cventry{July 17, 2014}{\textcolor{black}{The 20th Conference of the International 
+Federation of Operational Research Societies} (IFORS, Barcelona, Spain)}{}
+{Direct search based on probabilistic descent}{organized-session talk
+%, invited by Y. Yuan and X. Liu
+}{}
+%, joint work with S. Gratton, C. W. Royer, and L. N. Vicente}{}
+\cventry{May 22, 2014}{\textcolor{black}{SIAM Conference on Optimization 2014} 
+(SIOPT, San Diego, US)}{}
+{Direct search based on probabilistic descen}{mini-symposium talk
+%, invited by P. Richt\'{a}rik
+}{}
+%, joint work with S. Gratton, C. W. Royer, and L. N. Vicente}{}
+\cventry{July 29, 2013}{\textcolor{black}{The Fourth International Conference
+on Continuous Optimization} (ICCOPT, Lisbon, Portugal)}{}
+{A derivative-free optimization algorithm with low-dimensional subspace
+techniques for large-scale problems}{organized-session talk
+%, invited by J. Larson
+}{}
+%\cventry{Sept.\ 12, 2013}{\textcolor{black}{The Ninth International
+%Conference on Numerical Optimization and Numerical Linear Algebra}
+%(Changchun, China)}{}
+%{A subspace decomposition framework for nonlinear optimization: Global
+%convergence and global rates}{contributed talk}{}
+%\cventry{July 25, 2013}{\textcolor{black}{Recent Advances on Optimization}
+%(Toulouse, France, dedicated to Ph.\ Toint's 60th birthday)}{}
+%{A subspace decomposition framework for nonlinear optimization: Global
+%convergence and global rates}{contributed talk}{}
+%\cventry{Nov.\ 8, 2011}{\textcolor{black}{The Eighth International Conference
+%on Numerical Optimization and Numerical Linear Algebra} (Xiamen,
+%China)}{}
+%{Sobolev seminorm of quadratic functions with applications to
+%derivative-free optimization}{contributed talk}{}
+%\cventry{Sept.\ 26,  2011}{\textcolor{black}{The Fifth Sino-Japan Optimization
+%Meeting} (Beijing, China)}{}
+%{Sobolev seminorm of quadratic functions with applications to
+%derivative-free optimization}{contributed talk}{}
+
+\vskip-0.3cm
+\section{Selected Awards}
+\cventry{2012}{\textcolor{black}{Pacemaker Award to Outstanding Students}}{}{awarded by Chinese Academy of Sciences}{}{}
+%\cventry{2010, 2012}{\textcolor{black}{Yong-An Scholarship, Ge-Lin Scholarship}}{}{awarded by Academy of Mathematics and Systems Science, Chinese Academy of Sciences}{}{}
+\cventry{2010, 2011}{\textcolor{black}{Outstanding Student Awards}}{}{awarded by Chinese Academy of Sciences}{}{}
+\cventry{2007}{\textcolor{black}{Outstanding Graduate Award}}{}{awarded by Jilin University}{}{}
+\cventry{2004, 2005, 2006}{First Class Scholarships}{}{awarded by Jilin University}{}{}
+\cventry{2004}{{National Scholarship}}{}{awarded by the \textcolor{black}{Ministry of Education of China}}{}{}
+
+\vskip-0.3cm
+\section{Organization of Events and Participation in Boards}
+\cventry{2013}{\textcolor{black}{Member of the Organizing Committee of
+The Fourth International Conference on Continuous Optimization (ICCOPT,
+July 27--Aug.\ 1, 2013, Lisbon, Portugal)}}{}{}{}{}
+\cventry{2011--2012}{\textcolor{black}{Founding president of SIAM
+Student Chapter at Chinese Academy of Sciences (the first SIAM Student Chapter in East Asia)}}{}{}{}{}
+\cventry{2011}{\textcolor{black}{Secretary of {The Fifth Sino-Japan
+Optimization Meeting (SJOM, Sept.\ 26--29, 2011, Beijing, China)}}}{}{}{}{}
+
+\vskip-0.3cm
+\section{Refereeing}
+\cventry{}{SIAM Journal on Optimization, Science China Mathematics, Optimization Methods and
+Software, Computational Optimization and Applications, Applied
+Mathematics and Computation, Optimization and Engineering}{}{}{}{}
+
+\vskip-0.3cm
+\section{Membership}
+%\cventry{Feb.\ 2014--present}{\textcolor{black}{Society for Industrial
+%and Applied Mathematics (SIAM) and SIAM Activity Group on
+%Optimization (SIAG/OPT)}}{}{}{}{}
+\cventry{Sept.\ 2012--Aug.\ 2014}{\textcolor{black}{Numerical
+Analysis and Optimization Group,
+the Centre for Mathematics of University of Coimbra (CMUC)}}{}{}{}{}
+
+\vskip-0.3cm
+%\vskip-0.2cm
+\section{Computer Skills}
+\cventry{}{Linux; Fortran, C, Matlab}{}{}{}{}
+
+\vskip-0.3cm
+\section{Language Skills}
+\cventry{}{Native Chinese, fluent English}{}{}{}{}
+%\cventry{}{Fluent English}{}{}{}{}
+%\cventry{}{Basic Portuguese}{}{}{}{}
+\end{document} 

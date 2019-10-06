@@ -1,0 +1,23 @@
+% 定义字体。*.ttf 为字体文件名。字体文件由使用者提供并置于当前目录下。
+\setCJKmainfont[BoldFont={[simhei.ttf]},ItalicFont={[simkai.ttf]}]{[simsun.ttf]}
+\setCJKsansfont{[simhei.ttf]}
+\setCJKmonofont{[simfang.ttf]}
+
+\setCJKfamilyfont{zhsong}{[simsun.ttf]}
+\setCJKfamilyfont{zhhei}{[noto-l.otf]}
+\setCJKfamilyfont{zhkai}{[simkai.ttf]}
+\setCJKfamilyfont{zhfs}{[simfang.ttf]}
+\setCJKfamilyfont{zhli}{[simli.ttf]}
+\setCJKfamilyfont{zhyou}{[simyou.ttf]}
+\setCJKfamilyfont{zhxingkai}{[stxingkai.ttf]}
+\setCJKfamilyfont{zhxinwei}{[stxinwei.ttf]}
+
+% 定义字体调用命令。
+\newcommand*{\songti}{\CJKfamily{zhsong}} % 宋体
+\newcommand*{\heiti}{\CJKfamily{zhhei}}   % 黑体
+\newcommand*{\kaiti}{\CJKfamily{zhkai}}  % 楷书
+\newcommand*{\fangsong}{\CJKfamily{zhfs}} % 仿宋
+\newcommand*{\liti}{\CJKfamily{zhli}}    % 隶书
+\newcommand*{\youyuan}{\CJKfamily{zhyou}} % 幼圆
+\newcommand*{\xinwei}{\CJKfamily{zhxinwei}}    % 新魏
+\newcommand*{\xingkai}{\CJKfamily{zhxingkai}}    % 行楷

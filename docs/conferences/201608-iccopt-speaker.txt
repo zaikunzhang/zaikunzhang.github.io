@@ -1,0 +1,57 @@
+-- Y. Akimoto, Shinshu University, Japan, Comparison-based Stochastic Algorithm with Adaptive Gaussian Model for Large-Scale Continuous Optimization
+
+-- S. Amaran, Carnegie Mellon University, U.S., On the Implementation of a Trust Region-based Algorithm for Derivative-free Optimization over Stochastic Simulations 
+
+-- A. Auger, Inria Saclay - Île-de-France, France, On the Linear Convergence of Comparison-based Step-size Adaptive Randomized Search
+
+-- D. Brockhoff, Inria Lille - Nord Europe, France, Benchmarking Bi-Objective Derivative-free Optimizers with COCO
+
+-- A.-S. Crélot, Université de Namur, Belgium, Surrogate Strategies for Mixed-Variable Derivative-free Optimization
+
+-- M. Diez, CNR-INSEAN, Italy, A Hybrid Global/Local Multi-Objective Approach to Simulation-based Design Optimization: Deterministic Particle Swarm with Derivative-free Local Searches
+
+-- L. Dumas, Université de Versailles-Saint Quentin en Yvelines, France, A New DFO Algorithm for the Optimization of Partially Separable Functions
+
+-- J. Eason, Carnegie Mellon University, U.S., A Trust Region Method for Glass Box/Black Box Optimization
+
+-- U. García-Palomares, Universidade de Vigo, Spain, An Approach for Solving Mixed Integer Nonlinear Optimization Problems via Derivative Free Optimization Techniques
+
+-- H. Ghanbari, Lehigh University, U.S., AUC Maximization and Tuning Parameters of Cost Sensitive Logistic Regression via Derivative Free Optimization
+
+-- G. N. Grapiglia, Universidade Federal do Paraná, Brazil, Nonmonotone Derivative-free Trust-Region Algorithms for Composite Nonsmooth Optimization
+
+-- S. Gratton, IRIT/ENSEEIHT, France, Direct Search Based on Inaccurate Function Values
+
+-- W. Hare, University of British Columbia, Canada, Global Derivative-free Quasi-Newton Methods for Bound-constrained Nonlinear Systems 
+
+-- P. Koch (replaced by J. D. Griffin), SAS Institute, U.S., Derivative Free Optimization for Automated, Efficient Tuning of Predictive Models  
+
+-- D. E. Kvasov, Università della Calabria, Italy, On Numerical Comparison of Deterministic and Stochastic Derivative-free Global Optimization Algorithms
+
+-- J. Larson, Argonne National Laboratory, U.S., Asynchronously Parallel Optimization Solver for Finding Multiple Minima
+
+-- S. Le Digabel, École Polytechnique de Montréal, Canada, The Mesh Adaptive Direct Search Algorithm for Discrete Blackbox Optimization
+
+-- M. Menickelly, Lehigh University, U.S., Probabilistically Fully Linear Models in STORM
+
+-- G. Nannicini, Singapore University of Technology and Design, Singapore, RBFOpt: An Open-Source Library for Surrogate Model Based Optimization
+
+-- A. Papini, Università degli Studi di Firenze, Italy, An Implicit Filtering-based Algorithm for Derivative Free Multiobjective Optimization
+
+-- R. Pasupathy, Purdue University, U.S., Adaptive Sampling Recursions for Simulation Optimization
+
+-- M. Porcelli, Università degli Studi di Firenze, Italy, Global Derivative-free Quasi-Newton Methods for Bound-constrained Nonlinear Systems
+
+-- F. Rinaldi, Università di Padova, Italy, A New Derivative-free Method for Integer Programming Problems
+
+-- C. A. Shoemaker, National University of Singapore, Singapore, Efficient Mulit Objective Surrogate Global Optimization in Parallel with MOPLS and pySOT Toolbox
+
+-- N. Soualmi, CERFACS, France, An Indicator for the Switch from Derivative-free to Derivative-based Optimization
+
+-- S. U. Stich, Université catholique de Louvain, Belgium, Efficiency of Random Search on Structured Problems
+
+-- S. Wessing,  TU Dortmund, Germany, Improved Sampling for Two-Stage Methods
+
+-- S. Wild, Argonne National Laboratory, U.S., Model-based Methods for Composite Blackbox Optimization
+
+-- E. Zhou, Georgia Institute of Technology, U.S., Gradient-based Stochastic Search for Simulation Optimization

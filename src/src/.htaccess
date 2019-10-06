@@ -1,0 +1,2 @@
+ErrorDocument 403 http://zhangzk.net/errors/404.html
+ErrorDocument 404 http://zhangzk.net/errors/404.html

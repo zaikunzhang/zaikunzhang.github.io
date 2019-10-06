@@ -1,0 +1,40 @@
+# jemdoc: menu{MENU}{codes.html},title{Codes} showsource
+= Codes
+This page collects some codes that I write. The codes are written in the 
+hope that they are helpful, but there is no guarantee that they will work 
+properly. The codes probably call some subroutines that are not provided here,
+and I try to instruct in the comments how to obtain those subroutines.
+This page is updated from time to time. 
+
+== Optimization
+- A fortran [codes/trs/trs.f subroutine] to solve a trust region subproblem
+~~~
+\(
+\begin{array}{rl}
+    \min&\frac{1}{2} d^\top B d + g^\top d\\
+    \textnormal{s.t.}&\|d\| \le \Delta.
+\end{array}
+\)
+~~~
+
+- A fortran [codes/trb/trb.f subroutine] to solve a trust region subproblem with 
+box constrains, namely
+~~~
+\(
+\begin{array}{rl}
+    \min&\frac{1}{2} d^\top B d + g^\top d\\
+    \textnormal{s.t.}&\|d\| \le \Delta,\\
+                     & l\le d\le u.
+\end{array}
+\)
+~~~
+
+
+== Numerical Linear Algebra
+- A fortran [codes/ple/ple.f subroutine] to solve a linear system 
+with a positive definite coefficient matrix.
+
+- A fortran [codes/eig/eigvalue.f subroutine] to calculate all the 
+eigenvalues of a symmetric matrix.
+- A fortran [codes/eig/eig.f subroutine] to calculate the largest $k$ 
+eigenvalues of a symmetric matrix and the corresponding eigenvectors.

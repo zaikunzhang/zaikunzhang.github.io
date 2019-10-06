@@ -1,0 +1,268 @@
+# jemdoc: menu{MENU}{quotes.html},title{Quotes} showsource
+= {{<a id="top"></a>}}Quotes
+This page collects some quotes that I like. I try to clarify where 
+the quotes originally came from. This page is updated from time to time. 
+Most of the materials are from internet.
+
+
+== Optimization
+
+~~~
+:{The subject of optimization is a fascinating blend of heuristics and rigour,
+of theory and experiment.} \n --- [http://en.wikipedia.org/wiki/Roger_Fletcher_(mathematician) Roger] [http://www.maths.dundee.ac.uk/fletcher/ Fletcher] \n Preface 
+#([docs/quotes/Fletcher_R__Practical_Methods_of_Optimization_2nd_ed__Wiley__2000.pdf page ix])
+(page ix)
+of [http://books.google.pt/books/about/Practical_Methods_of_Optimization.html?id=3EzvAAAAMAAJ&redir_esc=y /Practical Methods of Optimization/], second edition (Wiley, 2000).
+~~~
+
+~~~
+: {In fact, we consider optimization without derivatives one of the most important, open,
+and challenging areas in computational science and engineering, and one with
+enormous practical potential.} \n --- [http://www.research.ibm.com/people/a/arconn/ Andrew R. Conn], [http://coral.ie.lehigh.edu/~katyas/ Katya Scheinberg], and [http://www.mat.uc.pt/~lnv/ Luís Nunes Vicente] \n Section 1.1 
+#([docs/quotes/DFO.pdf page 1]) 
+(page 1)
+of [http://www.mat.uc.pt/~lnv/idfo/ /Introduction to Derivative-Free Optimization/] (SIAM, 2009).
+~~~
+
+~~~
+: {Why work on derivative-free optimization? Because the problems are important and cool.} 
+\n --- [https://en.wikipedia.org/wiki/John_E._Dennis John E.] [http://www.caam.rice.edu/~dennis/ Dennis,] [http://www.genealogy.ams.org/id.php?id=15193 Jr.]
+\n In the beginning of Dennis' talk "Reasons to Study Derivative-Free Algorithms", given on July 24, 2013, at the conference [docs/conferences/201307-toint.pdf Recent Advances on Optimization] dedicated to [http://perso.fundp.ac.be/~phtoint/toint.html Ph. Toint], organized by [http://www.cerfacs.fr/ CERFACS] in Toulouse (Zaikun Zhang attended this talk). 
+~~~
+
+== Mathematics
+
+{{<a id="analogy"></a>}}
+~~~
+: {Good mathematicians see analogies between theorems or theories; the very best ones see analogies between analogies.}
+\n --- [https://en.wikipedia.org/wiki/Stefan_Banach Stefan Banach]
+\n Quoted by [https://en.wikipedia.org/wiki/Stanislaw_Ulam Stanislaw M. Ulam] on page 203 of his autobiography [http://books.google.pt/books?id=U2_zEZOHdU4C&vq=analogies&source=gbs_navlinks_s /Adventures of a Mathematician/] (University of California Press, 1991); also quoted on page ix (Foreword) of the book [http://books.google.pt/books?id=kaJ4NVn1pm8C&dq /Analogies between Analogies: The Mathematical Reports of S. M. Ulam and his Los Alamos Collaborators/] 
+(University of California Press, 1990) edited by A. R. Bednarek and [http://www.legacy.com/obituaries/santafenewmexican/obituary.aspx?pid=150769924 Françoise Ulam].
+~~~
+
+~~~
+:{Young man, in mathematics you don't understand things. You just get used
+to them.} \n --- [http://en.wikipedia.org/wiki/John_von_Neumann John von Neumann]\n
+Reply to a physicist who worked at [http://www.lanl.gov/index.php Los Alamos]
+after World War II, 
+seeking help on a difficult problem and saying 
+"I'm afraid I don't understand the
+[http://en.wikipedia.org/wiki/Method_of_characteristics method of characteristics]",
+as quoted in the footnote on 
+#[docs/quotes/DancingMasters.pdf page 208] 
+page 208
+of [http://en.wikipedia.org/wiki/The_Dancing_Wu_Li_Masters 
+/The Dancing Wu Li Masters: An Overview of the New Physics/] 
+(Bantam Books, 1979) by [http://en.wikipedia.org/wiki/Gary_Zukav Gary Zukav], 
+who was related this story by 
+ [http://www-outside.sri.com/hofbios/Felix%20T.%20Smith%201998.htm Felix T. Smith] 
+(Head of Molecular Physics, [http://www.sri.com/ Stanford Research Institute]).
+~~~
+
+~~~
+:{A large part of mathematics which becomes useful developed with
+absolutely no desire to be useful, and in a situation where nobody could
+possibly know in what area it would become useful; and there were no
+general indications that it ever would be so.}\n --- 
+[http://en.wikipedia.org/wiki/John_von_Neumann John von Neumann]\n
+/The Role of Mathematics in the Sciences and in Society/,
+ an address to 
+[http://alumni.princeton.edu/communities/graduate/ Princeton Graduate Alumni]
+ (June 16, 1954), published in 
+/John von Neumann : Collected Works/ (1963) edited by 
+[http://en.wikipedia.org/wiki/Abraham_Haskel_Taub Abraham Haskel Taub];
+also quoted in 
+[http://books.google.pt/books/about/Out_of_the_mouths_of_mathematicians.html?id=Pu_uAAAAMAAJ&redir_esc=y /Out of the Mouths of Mathematicians: A Quotation Book for Philomaths/]
+ (Mathematical Association of America, 1993) by Rosemary Schmalz. 
+See [http://en.wikiquote.org/wiki/John_von_Neumann Wikiquote].
+
+~~~
+
+~~~
+:{If people do not believe that mathematics is simple, it is only because
+they do not realize how complicated life is.}\n --- [http://en.wikipedia.org/wiki/John_von_Neumann John von Neumann]\n 
+This quote is apparently not from a published work of von Neumann's, 
+but [http://en.wikipedia.org/wiki/Franz_Alt Franz Leopold Alt] recalls it 
+as a remark made from the podium by von Neumann as keynote speaker at the 
+first national meeting of the 
+[http://www.acm.org/ Association for Computing Machinery]
+in 1947. 
+The exchange at that meeting is described at the 
+end 
+#([docs/quotes/SimMathComLife.pdf the last paragraph]) 
+(the last paragraph) 
+of Alt's brief article 
+[http://dl.acm.org/citation.cfm?id=361528&dl=ACM&coll=DL&CFID=271624458&CFTOKEN=92048268 
+/Archaeology of Computers: Reminiscences, 1945--1947/], 
+which is published in 
+[http://goo.gl/mkMfJ 
+Communications of the ACM, volume 15, issue 7, July 1972, 
+special issue: Twenty-fifth anniversary of the 
+Association for Computing Machinery], pages 693--694. 
+Alt recalls that von Neumann said this quote when talking about the 
+"new programming method" for 
+[http://en.wikipedia.org/wiki/ENIAC ENIAC].
+See  
+[http://www.math.uiowa.edu/~jorgen/vonneumannquotesource.html Quotes selected by Palle Jorgensen].
+~~~
+
+~~~
+:{You insist that there is something a machine cannot do. If you will tell 
+me precisely what it is that a machine cannot do, then I can always make 
+a machine which will do just that!} \n --- [http://en.wikipedia.org/wiki/John_von_Neumann John von Neumann]\n  
+After giving a talk on computers at Princeton in 1948, John von Neumann 
+was met with an audience member who insisted that a "mere machine" 
+could never really think. Von Neumann's immortal reply was this, as quoted 
+in Section 1.3 
+#([docs/quotes/ProbabilityTheory.pdf page 7]) 
+(page 7) 
+of [http://books.google.pt/books/about/Probability_Theory.html?id=tTN4HuUNXjgC&redir_esc=yi
+ /Probability Theory: The Logic of Science/] (Cambridge University Press, 2003)
+by 
+[http://en.wikipedia.org/wiki/Edwin_Thompson_Jaynes Edwin Thompson Jaynes],
+an attendee of the talk. 
+~~~
+
+#-If one has really technically penetrated a subject, things that
+#previously seemed in complete contrast, might be purely mathematical
+#transformations of each other.
+#--- John von Neumann
+#
+#-Mathematics is the art of giving the same name to different things.
+#Henri Poincaré.
+#(This was in response to "Poetry is the art of giving different names to
+#the same thing.")
+#
+#-The difference between mathematicians and physicists is that after
+#physicists prove a big result they think it is fantastic but after
+#mathematicians prove a big result they think it is trivial.
+#Lucien Szpiro during Algebra 1 lecture.
+#
+#-Oh, he seems like an okay person, except for being a little strange in
+#some ways. All day he sits at his desk and scribbles, scribbles,
+#scribbles. Then, at the end of the day, he takes the sheets of paper
+#he's scribbled on, scrunches them all up, and throws them in the trash
+#can. --J. von Neumann's housekeeper, describing her employer.
+#
+#-You know, for a mathematician, he did not have enough imagination. But
+#he has become a poet and now he is fine.
+#
+#D. Hilbert, talking about an ex-student.
+#
+#-The art of doing mathematics is finding that special case that contains
+#all the germs of generality.
+# --- David Hilbert
+#
+#- Everyone knows what a curve is, until he has studied enough mathematics
+#to become confused through the countless number of possible exceptions.
+#--- F. Klein (from Reed & Simon: Methods of modern mathematical physics)
+#
+#- A mathematician is a person who can find analogies between theorems;
+#a better mathematician is one who can see analogies between proofs and
+#the best mathematician can notice analogies between theories. One can
+#imagine that the ultimate mathematician is one who can see analogies
+#between analogies.
+#
+#--Stefan Banach
+#
+#- Good mathematicians see analogies between theorems or theories. The
+#very best ones see analogies between analogies.
+#
+#--Stanislaw M. Ulam quoting Stefan Banach
+#
+#- Mathematics, rightly viewed, possesses not only truth, but supreme beauty
+#-- a beauty cold and austere, like that of sculpture, without appeal to
+#any part of our weaker nature, without the gorgeous trappings of
+#painting or music, yet sublimely pure, and capable of a stern perfection
+#such as only the greatest art can show. The true spirit of delight, the
+#exaltation, the sense of being more than Man, which is the touchstone of
+#the highest excellence, is to be found in mathematics as surely as
+#poetry.
+#Bertrand Russell, in Study of Mathematics, about the beauty of
+#Mathematics.
+#
+#- If I feel unhappy, I do mathematics to become happy. If I am happy, I do
+#mathematics to keep happy.
+#------ Alfréd Rényi
+#
+#- "Obvious" is the most dangerous word in mathematics.
+#
+#- Anyone who cannot cope with mathematics is not fully human. At best he
+#is a tolerable subhuman who has learned to wear shoes, bathe and not
+#make messes in the house.
+#Lazarus Long, "Time Enough for Love", (Robert A. Heinlein)
+#
+#- Since the mathematicians have invaded the theory of relativity, I do not
+#understand it myself anymore. --Albert Einstein 
+#
+#- Mathematics may be defined as the subject in which we never know what we
+#are talking about, nor whether what we are saying is true.
+#Bertrand Russell, referring to the axiomatic method, where certain
+#properties of an (otherwise unknown) structure are assumed and
+#consequences thereof are then logically derived.
+#
+#- Do not worry about your problems with mathematics, I assure you mine are
+#far greater. --- Albert Einstein 
+#
+#- Das Wesen der Mathematik ist ihre Freiheit. 
+#--- Cantor
+#
+#- The simplest schoolboy is now familiar with facts for which Archimedes
+#would have sacrificed his life. --Ernest Renan
+#
+#- If I have seen farther than others, it is because I have stood on the
+#shoulders of giants.
+#--Isaac Newton
+#
+#- If I have not seen as far as others, it is because there were giants
+#standing on my shoulders.
+#
+#--Hal Abelson
+#
+#"Mathematicians are like Frenchmen: whatever you say
+#     to them they translate into their own language and 
+#          forthwith it is something entirely different."
+#                -- Johann Wolfgang von Goethe
+# 
+# 10. "Everything that is really great and inspiring is created by the 
+#       individual who can labor in freedom."
+#             -- Albert Einstein
+#   26. "You know we all became mathematicians for the same reason: 
+#         we were lazy."
+#               -- Max Rosenlicht
+#
+# A mathematician is a device for turning coffee into theorems. – Alfréd
+#Rényi  (- Paul Erdos? ) ... is only for lemma.
+#
+#"The difference between an introvert mathematician and an 
+#      extrovert mathematicians is: An introvert mathematician looks 
+#            at his shoes while talking to you. An extrovert
+#            mathematician 
+#                  looks at your shoes." 
+#                  "Q.E.D. (Quod Erat Demonstrandum: Which was to be
+#                  proven.)"
+#                        -- Euclid
+#           "Philosophy is a game with objectives and no rules. 
+#                 Mathematics is a game with rules and no objectives."
+# "When I am working on a problem, I never think about beauty.
+#       I think only of how to solve the problem. But when I have
+#             finished, if the solution is not beautiful, I know it is
+#             wrong." 
+#                   -- Richard Buckminster Fuller 
+#
+# "Beauty is the first test: there is no permanent place
+#       in the world for ugly mathematics."
+#             -- Godfrey Harold Hardy, A Mathematician's Apology (1940)
+#
+#"It is impossible to be a mathematician without being a poet in soul."
+#      -- Sophia Kovalevskaya
+#      "A mathematician who is not also something of a poet will
+#            never be a complete mathematician."
+#                  -- Karl Weierstrass.
+#                  "Math is like love -- a simple idea but it can get
+#                  complicated."
+#          
+#          Mathematics is made of 50 percent formulas, 50 percent
+#          proofs, and 50 percent imagination.
+#== Society 
+#

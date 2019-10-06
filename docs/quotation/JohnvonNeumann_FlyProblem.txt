@@ -1,0 +1,26 @@
+When he was given a problem while standing, Johnny at one stage would
+dance from foot to foot. Although this practice caused some spills at
+his crowded cocktail parties, it forms one of the first stories half
+against him: his reaction to the fly puzzle. Two cyclists are 20 miles
+apart and head toward each other at 10 miles per hour each. At the same
+time a fly traveling at a steady 15 miles per hour starts from the front
+wheel of the northbound bicycle. It lands on the front wheel of the
+southbound bicycle, and then instantly turns around and flies back, and
+after next landing instantly flies north again. Question: What total
+distance did the fly cover before it was crushed between the two front
+wheels?
+
+The slow way of answering is to calculate the distance that the fly
+travels on its first trip to the southbound front wheel, then the
+distance it travels on its next trip to the northbound wheel, and
+finally to sum the infinite series so obtained. It is extraordinary how
+many mathematicians can be fooled into doing that long sum. The short
+way is to note that the bicycles will meet exactly one hour after
+starting, by which time the 15-miles-per-hour fly must have covered 15
+miles. When the question was put to Johnny, he danced and answered
+immediately, "15 miles". "Oh, you've heard the trick before," said
+the disappointed questioner. "What trick?" asked the puzzled Johnny.
+"I simply summed the infinite series." 
+
+It is worth adding that, when ribbed on this later, Johnny said "the 
+figures actually put to me were not so simple."

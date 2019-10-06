@@ -1,0 +1,366 @@
+%% start of file `template_en.tex'.
+%% Copyright 2006-1008 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt]{moderncv}
+%\def\member{1} % Show membership
+\def\member{0} % Do not show membership
+% moderncv themes
+%\moderncvtheme[black]{casual}                 % optional argument are 'black' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+\moderncvtheme[black]{classic}                % idem
+
+\usepackage{marvosym}
+\usepackage{xeCJK}                                                          
+\input{fontsetup.tex}
+
+% adjust the page margins
+\usepackage[a4paper,scale=0.88]{geometry}
+\setlength{\hintscolumnwidth}{3.16cm}						% if you want to change the width of the column with the dates
+\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+
+% personal data
+%\firstname{Zhang,} \familyname{Zaikun}
+\firstname{ {\heiti{张在坤}}\\[6mm] \mbox{ZHANG Zaikun}} \familyname{}
+
+%\title{Resum title (optional)}               % optional, remove the line if not wanted
+\address{TU824, Department of Applied Mathematics\\
+  The Hong Kong Polytechnic University\\ 
+  Hung Hom, Kowloon, Hong Kong, China
+}{{\Large{\ComputerMouse}}~\href{http://www.mypolyuweb.hk/~zkzhang/}{www.mypolyuweb.hk/{\raise.17ex\hbox{$\scriptstyle\sim$}}zkzhang/}}    % optional, remove the line if not wanted
+%\mobile{+86-159-0152-1357}                    % optional, remove the line if not wanted
+\email{zaikun.zhang@polyu.edu.hk}
+\phone{+852-27664592}                      % optional, remove the line if not wanted
+%\extrainfo{additional information (optional)} % optional, remove the line if not wanted
+%\photo[64pt]{picture}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
+%\quote{Some quote (optional)}                 % optional, remove the line if not wanted
+
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+%\homepage{http://www.zhangzk.net}
+
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\vskip-1cm
+\maketitle
+\section{Basic Information}
+\vskip-0.86cm
+\cventry{Year of birth}{1985}{}{}{}{}
+\cventry{Place of birth}{Shandong,~China}{}{}{}{}
+%\cventry{Gender}{Male}{}{}{}{}
+%\cventry{Nationality}{Chinese}{}{}{}{}
+
+\vskip-0.5cm
+\section{Education}
+\nopagebreak
+\cventry{\mbox{Sept.\ 2007--July 2012}}{Ph.D.,~computational mathematics}{}{Institute of
+Computational Mathematics and Scientific/Engineering Computing (ICMSEC), Chinese
+Academy of Sciences, China, supervised by Professor
+{Ya-xiang Yuan}}{thesis:\,\textit{On Derivative-free Optimization
+Methods}}{}{}  % arguments 3 to 6 are optional
+\cventry{May 2010--Aug.\ 2010}{Visiting student}{}{\textcolor{black}{Institute for Computer Science, University  of Bayreuth, Germany}}{\textcolor{black}{
+visiting Professor \mbox{Klaus Schittkowski},
+funded by Alexander von Humboldt Foundation}}{}
+\cventry{\mbox{Sept.\ 2003--July 2007}}{B.Sc.,~computational
+mathematics}{}{College of Mathematics, Jilin University, China}{}{}  % arguments 3 to 6 are optional
+
+\vskip-0.5cm
+\section{Positions}
+\nopagebreak
+\cventry{\mbox{Apr.\ 2016--present}}{Assistant Professor (Research
+Assistant Professor up until Jan.\ 2018), Department of Applied Mathematics, Hong Kong Polytechnic University, Hong Kong, China}{}{}{}{}
+%\cventry{\mbox{Apr.\ 2016--Jan.\ 2018}}{Research assistant professor, Department of Applied Mathematics, Hong Kong Polytechnic University, Hong Kong, China}{}{}{}{}
+\cventry{\mbox{May\ 2014--Mar.\ 2016}}{Postdoc,
+CERFACS-IRIT join lab and IRIT-ENSEEIHT, Toulouse, France}{}{in the
+  group of Professor Serge Gratton,
+  funded by Foundation STAE and {IRT Saint Exup\'{e}ry}}{}{}
+\cventry{\mbox{Sept.\ 2012--Aug.\ 2014}}{
+Postdoc, Department of Mathematics,
+University of Coimbra, Portugal}{}{in the group of Professor Lu\'{i}s Nunes Vicente
+%, funded by FCT grant PTDC/MAT/116736/2010
+}{}{}
+
+\vskip-0.5cm
+\section{Research Interests}
+\nopagebreak
+%\cventry{}{Nonlinear Optimization and Its Applications}{}{}{}{}
+%\cventry{}{Derivative-free Optimization}{}{}{}{}      
+\cventry{}{Theory and algorithms of mathematical optimization, especially
+randomized algorithms, derivative-free algorithms, noisy problems, and large-scale problems}{}{}{}{}
+
+%\vskip-0.2cm
+%\section{Ph.D.\ Thesis}
+%\cventry{}{On Derivative-Free Optimization Methods}{}{}{}{}
+
+\vskip-0.5cm
+\section{Papers}
+\nopagebreak
+\cventry{}{[1] S.\ Gratton, C.\ W.\ Royer, L.\ N.\ Vicente, Z.\
+Zhang}{}{Direct search based on probabilistic feasible descent for
+  bound and linearly constrained problems, \textit{Comput. Optim.
+  Appl.}, 2019}{}{}
+\cventry{}{[2] X.\ Chen, C.\ T.\ Kelley, F.\ Xu, Z.\ Zhang}{}
+{A smoothing direct search method for Monte Carlo-based bound
+  constrained composite nonsmooth optimization, \textit{SIAM J. Sci.
+  Comput.}, 40(4):\ A2174--A2199, 2018}{}{}
+\cventry{}{[3] S.\ Gratton, C.\ W.\ Royer, L.\ N.\ Vicente, Z.\
+Zhang}{}{Complexity and global rates of trust-region methods based on
+  probabilistic models, \textit{IMA J. Numer. Anal.}, 38(3):\ 1579--1597,
+2018}{}{}
+\cventry{}{[4] M.\ Dodangeh, L.\ N.\ Vicente, Z.\ Zhang}{}{ On the
+  optimal order of worst case~complexity of direct search,
+  \textit{Optim.\ Lett.}, 10(4): 699--708, 2016}{}{}
+\cventry{}{[5] S.\ Gratton, C.\ W.\ Royer, L.\ N.\ Vicente, Z.\ Zhang}{}{
+Direct search based on probabilistic descent, \textit{SIAM J. Optim.},
+25(3): 1515--1541, 2015}{}{}
+\cventry{}{[6] Z.\,\,Zhang}{}{Sobolev seminorm of quadratic functions
+with applications to derivative-free optimization, 
+\textit{{Math. Program.}}, 146(1--2): 77–96, 2014}{}{}
+
+\vskip-0.3cm
+\section{Works in Progress}
+\nopagebreak
+\cventry{}{[1] S.\ Gratton, L.\ N.\ Vicente, Z.\ Zhang}{}{A space
+transformation framework for nonlinear optimization}{}{}
+\cventry{}{[2] F.\ Delbos, S.\ Gratton, B.\ Pauwels,  Z.
+Zhang}{}{Direct search for noisy functions
+}{}{}
+\cventry{}{[3] Z.\ Zhang}{}{A derivative-free optimization algorithm with
+low-dimensional subspace techniques for large-scale problems
+}{}{}
+
+%\nocite{*}
+% Publications from a BibTeX file
+%\bibliographystyle{plain}
+%\bibliography{publications}       % 'publications' is the name of a BibTeX file
+
+\vskip-0.3cm
+\section{External Grants}
+\nopagebreak
+\cventry{Jan.\ 2018--Dec.\ 2020}{Nonlinear Optimization Based on
+Inaccurate Information, PI, awarded by the Research Grants Council of
+Hong Kong under the Early Career Scheme}{}{}{}{}
+
+\cventry{Jan.\ 2017--Dec.\ 2018}{Space Decomposition Methods for
+Constrained Optimization with Engineering Applications, Hong Kong PI
+(French PI:~S.~Gratton; French Co-I: A. Gazaix), jointly awarded by the
+Research Grants Council of Hong Kong and the Consulate General of France in
+Hong Kong under the PROCORE - France/Hong Kong Joint Research Scheme}{}{}{}{}
+
+%\vskip-0.3cm
+%\section{Selected Conference Presentations}
+%\nopagebreak
+%%\vskip-0.1cm
+%\cventry{June 30, 2017}{\textcolor{black}{Conference on Approximation
+%and Optimization: Algorithms, Complexity, and Applications
+%} (Athens, Greece)}{} {A space transformation framework for nonlinear
+%optimization}{invited talk}{}
+%\cventry{May 24, 2017}{\textcolor{black}{SIAM Conference on Optimization
+%2017} (Vancouver, Canada)}{} {A space transformation framework for nonlinear optimization}{mini-symposium talk}{}
+%\cventry{Aug.\ 9, 2016}{The Fifth International Conference on Continuous Optimization (Tokyo, Japan)}{}
+%{A space transformation framework for nonlinear
+%optimization}{invited-session talk 
+%%invited by Ph.~Toint 
+%}{}
+%\cventry{Aug.\ 12, 2015}{The Eighth International Congress on Industrial
+%and Applied Mathematics (Beijing, China)}{}
+%{A subspace decomposition framework for nonlinear
+%optimization}{mini-symposium talk 
+%%invited by S.~Gratton 
+%}{}
+%\cventry{July 13, 2015}{The 22nd International Symposium on Mathematical Programming (Pittsburgh, U.S.)}{}
+%{A subspace decomposition framework for nonlinear optimization}{invited-session talk 
+%%invited by S.~Gratton 
+%}{}
+%\cventry{June 14, 2015}{\textcolor{black}{CORS/INFORMS 2015 Joint
+%International Meeting} (Montr\'eal, Canada)}{}
+%{A subspace decomposition framework for nonlinear optimization}{invited-session talk 
+%%invited by J.~Larson and S.~Wild 
+%}{}
+%\cventry{July 28, 2014}{\textcolor{black}{Optimization 2014} (Guimar\~{a}es, Portugal)}{}
+%{A subspace decomposition framework for nonlinear optimization: Global
+%convergence and global rates}{invited-session talk %invited by S.~Gratton
+%}{}
+%\cventry{July 17, 2014}{\textcolor{black}{The 20th Conference of the International 
+%Federation of Operational Research Societies} (Barcelona, Spain)}{}
+%{Direct search based on probabilistic descent}{invited-session talk
+%%invited by Y. Yuan and X. Liu
+%}{}
+%%, joint work with S. Gratton, C. W. Royer, and L. N. Vicente}{}
+%\cventry{May 22, 2014}{\textcolor{black}{SIAM Conference on Optimization 2014} 
+%(San Diego, U.S.)}{}
+%{Direct search based on probabilistic descent}{mini-symposium talk
+%%invited by P. Richt\'{a}rik
+%}{}
+%%, joint work with S. Gratton, C. W. Royer, and L. N. Vicente}{}
+%\cventry{July 29, 2013}{\textcolor{black}{The Fourth International Conference
+%on Continuous Optimization} (Lisbon, Portugal)}{}
+%{A derivative-free optimization algorithm with low-dimensional subspace
+%techniques for large-scale problems}{invited-session talk
+%%invited by J. Larson
+%}{}
+%%\cventry{Sept.\ 12, 2013}{\textcolor{black}{The Ninth International
+%%Conference on Numerical Optimization and Numerical Linear Algebra}
+%%(Changchun, China)}{}
+%%{A subspace decomposition framework for nonlinear optimization: Global
+%%convergence and global rates}{contributed talk}{}
+%%\cventry{July 25, 2013}{\textcolor{black}{Recent Advances on Optimization}
+%%(Toulouse, France, dedicated to Ph.\ Toint's 60th birthday)}{}
+%%{A subspace decomposition framework for nonlinear optimization: Global
+%%convergence and global rates}{contributed talk}{}
+%%\cventry{Nov.\ 8, 2011}{\textcolor{black}{The Eighth International Conference
+%%on Numerical Optimization and Numerical Linear Algebra} (Xiamen,
+%%China)}{}
+%%{Sobolev seminorm of quadratic functions with applications to
+%%derivative-free optimization}{contributed talk}{}
+%%\cventry{Sept.\ 26,  2011}{\textcolor{black}{The Fifth Sino-Japanese Optimization
+%%Meeting} (Beijing, China)}{}
+%%{Sobolev seminorm of quadratic functions with applications to
+%%derivative-free optimization}{contributed talk}{}
+
+%\vskip-0.2cm
+%\section{Selected Awards}
+%\nopagebreak
+%\cventry{2012}{\textcolor{black}{Pacemaker Award to Outstanding Students}}{}{awarded by Chinese Academy of Sciences}{}{}
+%%\cventry{2010, 2012}{\textcolor{black}{Yong-An Scholarship, Ge-Lin Scholarship}}{}{awarded by Academy of Mathematics and Systems Science, Chinese Academy of Sciences}{}{}
+%%\cventry{2010, 2011}{\textcolor{black}{Outstanding Student Awards}}{}{awarded by Chinese Academy of Sciences}{}{}
+%\cventry{2007}{\textcolor{black}{Outstanding Graduate Award}}{}{awarded by Jilin University}{}{}
+%%\cventry{2004, 2005, 2006}{First Class Scholarships}{}{awarded by Jilin University}{}{}
+%\cventry{2004}{{National Scholarship}}{}{awarded by the \textcolor{black}{Ministry of Education of China}}{}{}
+
+\vskip-0.3cm
+\section{Teaching}
+\nopagebreak
+\cventry{2019}{Best Teacher Award 2018/19, Department of Applied
+Mathematics, Hong Kong Polytechnic University
+}{}{}{}{}
+\cventry{2018--present}{
+  ``Probability and Distributions for Risk Management'',
+  Hong Kong Polytechnic University 
+%, 36 hours, 121/127 students
+}{}{}{}{}
+\cventry{2016--present}{
+  ``Basic Mathematics II: Calculus and Linear Algebra'' 
+(Subject Leader since 2018),
+  Hong Kong Polytechnic University 
+%, 36 hours, 145/165 students
+}{}{}{}{}
+\cventry{2016--present}{
+  ``Mathematics II'',
+  Hong Kong Polytechnic University 
+%, 36 hours, 121/127 students
+}{}{}{}{}
+\cventry{2015}{
+  ``Concentration of Probability in Numerical Optimization'',
+  ENSEEIHT, France 
+%, 10 hours, 15 students
+}{}{}{}{}
+%\cventry{2015}{
+%  ``TP d'Equations Diff\'{e}rentielles Ordinaires'' (practice session of
+%  the course ``Ordinary Differential Equations''), % by J. Gergaud) %, 16 hours, 21 students
+%  ENSEEIHT, France 
+%}{}{}{}{}
+
+\vskip-0.3cm
+\section{Refereeing}
+\nopagebreak
+%\cventry{2012--present}{\textit{Math.~Program.},
+%\mbox{\textit{SIAM J.~Optim.}},
+%\mbox{\textit{SIAM J.~Numer.~Anal.}},
+%\mbox{\textit{Math.~Oper.~Res.}},
+%\mbox{\textit{Comput.~Optim.~Appl.}},
+%\mbox{\textit{Optim.~Methods Softw.}},
+%\mbox{\textit{J.~Global Optim.}},
+%\mbox{\textit{Optim.~Eng.}},
+%\mbox{\textit{J.~Sci.~Comput.}},
+%\mbox{\textit{Appl.~Math.~Comput.}},
+%\mbox{\textit{Sci.~China Math.}},
+%\mbox{\textit{etc}.}
+\cventry{2012--present}{Mathematical Programming, SIAM Journal on Optimization, Mathematics of Operations Research, 
+  SIAM Journal on Numerical Analysis, 
+  %Computational Optimization and Applications, 
+  %Optimization Methods \& Software, 
+  %Journal of Global Optimization, 
+  %Optimization and Engineering, 
+  ACM Transactions on Mathematical Software,
+  Journal of Scientific Computing, 
+  %Applied Mathematics and Computation, 
+  %Science China.~Mathematics, 
+  \textit{etc}.
+  %%%%%%
+% Only journals with impact factor above 1 is listed
+%  International Journal of Computer Mathematics,
+%  Journal of Computational Mathematics, 
+%  Asia-Pacific Journal of Operational Research,
+%  Acta Mathematica Sinica 
+}{}{}{}{}
+
+\vskip-0.2cm
+%\section{Organization of Events and Participation in Boards}
+\section{Professional Services}
+\nopagebreak
+\vskip-0.26cm
+\cventry{2015--present}{Maintainer (with N. I. M. Gould) of Professor M. J. D.
+Powell's optimization software: TOLMIN, COBYLA, UOBYQA, NEWUOA, BOBYQA, and
+LINCOA}{}{}{}{}
+\cventry{2017, 2019}{Member of the Organizing Committees of The 11th and 12th
+International Conference on Numerical Optimization and Numerical Linear
+Algebra (a biennial conference organized by Professor Ya-xiang Yuan)}{}{}{}{}
+\cventry{2017}{Co-chair (with X. Liu) of the invited workshop
+on ``Big Data Analysis with Applications'' at The Third International
+Conference on Engineering and Computational Mathematics (May 31--June 2,
+2017, Hong Kong, China)}{}{}{}{}
+\cventry{2016}{\textcolor{black}{Co-chair (with F. Rinaldi) of the
+cluster on ``Derivative-free and Simulation-based Optimization'' at The
+Fifth International Conference on Continuous Optimization
+(\mbox{Aug.~6--11,~2016}, Tokyo, Japan)}}{}{}{}{}
+%\cventry{2015}{\textcolor{black}{Session/mini-symposium organizer at 
+%The CORS/INFORMS 2015 Joint International Meeting (June 14--17, 2015, Montr\'eal, Canada), The 22nd International
+%Symposium on Mathematical Programming (July 12--17, 2015, Pittsburgh, U.S.), and The Eighth International
+%Congress on Industrial and Applied Mathematics (Aug. 10--14, 2015, Beijing,
+%China)}}{}{}{}{}
+\cventry{2013}{\textcolor{black}{Member of the Organizing Committee of
+The Fourth International Conference on Continuous Optimization (July 27--Aug.\ 1, 2013, Lisbon, Portugal)}}{}{}{}{}
+%\cventry{2011--2012}{\textcolor{black}{Founding president of the SIAM
+%Student Chapter at Chinese Academy of Sciences (the first SIAM Student
+%Chapter in East Asia)}}{}{}{}{}
+%\cventry{2011}{\textcolor{black}{Secretary of {The Fifth Sino-Japanese Optimization Meeting (Sept.\ 26--29, 2011, Beijing, China)
+%, in charge of international communications
+%}}}{}{}{}{}
+%\cventry{Jan. 2009--Oct. 2011}{Coordinator of the optimization seminar at ICMSEC, Chinese Academy of Sciences}{}{}{}{}
+
+\if\member1
+\vskip-0.2cm
+\section{Memberships}
+\nopagebreak
+\cventry{}{Chinese Mathematical Society, China Society for Industrial
+  and Applied Mathematics, Operations Research Society of China,
+  Mathematical Optimization Society (MOS), Society for Industrial and
+  Applied Mathematics (SIAM)}{}{}{}{}
+%\cventry{2018--present}{\textcolor{black}{Chinese Mathematical Society (CMS)}}{}{}{}{}
+%\cventry{2017--present}{\textcolor{black}{China Society for Industrial and Applied Mathematics (CSIAM)}}{}{}{}{}
+%\cventry{2016--present}{\textcolor{black}{Operations Research Society of China (ORSC)}}{}{}{}{}
+%\cventry{2016--present}{\textcolor{black}{Mathematical Optimization Society (MOS)}}{}{}{}{}
+%\cventry{2011--present}{\textcolor{black}{Society for Industrial and Applied Mathematics (SIAM)}}{}{}{}{}
+\fi
+
+\vskip-0.2cm
+%\vskip-0.7cm
+\section{Computer Skills}
+\nopagebreak
+\cventry{}{Linux; Fortran, C, MATLAB}{}{}{}{}
+
+\vskip-0.5cm
+\section{Language Skills}
+\nopagebreak
+\cventry{}{Native Chinese, fluent English, intermediate French (B1--B2),
+  elementary German (A1--A2)
+%(le Cadre Europ\'{e}en Commun de R\'{e}f\'{e}rence pour les Langues: A2--B1)
+}{}{}{}{}
+\end{document} 

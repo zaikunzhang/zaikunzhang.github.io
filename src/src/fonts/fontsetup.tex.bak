@@ -1,0 +1,33 @@
+\setCJKmainfont[BoldFont={[fonts/simhei.ttf]},ItalicFont={[fonts/simkai.ttf]}]
+  {[fonts/simsun.ttf]}
+\setCJKsansfont{[fonts/simhei.ttf]}
+\setCJKmonofont{[fonts/simfang.ttf]}
+
+\setCJKfamilyfont{zhsong}{[fonts/simsun.ttf]}
+\setCJKfamilyfont{zhhei}{[fonts/simhei.ttf]}
+\setCJKfamilyfont{zhkai}{[fonts/simkai.ttf]}
+\setCJKfamilyfont{zhfs}{[fonts/simfang.ttf]}
+\setCJKfamilyfont{zhli}{[fonts/simli.ttf]}
+\setCJKfamilyfont{zhyou}{[fonts/simyou.ttf]}
+\setCJKfamilyfont{zhxingkai}{[fonts/stxingkai.ttf]}
+\setCJKfamilyfont{zhxinwei}{[./fonts/stxinwei.ttf]}
+\setCJKfamilyfont{zhxingkaifan}{[fonts/fzxkf.ttf]}
+%\setCJKfamilyfont{zhzhuanfan}{[fonts/zhuanfan.ttf]}
+%\setCJKfamilyfont{zhzhuanfancu}{[fonts/zhuanfancu.ttf]}
+
+
+\newcommand*{\songti}{\CJKfamily{zhsong}} % 宋体
+\newcommand*{\heiti}{\CJKfamily{zhhei}}   % 黑体
+\newcommand*{\kaiti}{\CJKfamily{zhkai}}  % 楷书
+\newcommand*{\fangsong}{\CJKfamily{zhfs}} % 仿宋
+\newcommand*{\liti}{\CJKfamily{zhli}}    % 隶书
+\newcommand*{\youyuan}{\CJKfamily{zhyou}} % 幼圆
+\newcommand*{\xinwei}{\CJKfamily{zhxinwei}}    % 新魏
+\newcommand*{\xingkai}{\CJKfamily{zhxingkai}}    % 新魏
+\newcommand*{\xingkaifan}{\CJKfamily{zhxingkaifan}}    % 新魏
+%\newcommand*{\zhuanfan}{\CJKfamily{zhzhuanfan}}    % 新魏
+%\newcommand*{\zhuanfancu}{\CJKfamily{zhzhuanfancu}}    % 新魏
+
+\setCJKmainfont{[fonts/simsun.ttf]}
+%\setCJKmainfont{[fonts/stxingkai.ttf]}
+%\setmainfont{[times.ttf]}

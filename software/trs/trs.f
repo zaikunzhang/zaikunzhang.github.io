@@ -1,0 +1,111 @@
+      SUBROUTINE TRS (N, D, B, G, DELTA)
+
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+C     Zaikun ZHANG, 26 March 2013.
+
+C     TRS seeks an inexact solution to the trust region subproblem
+C     min 0.5*D'*B*D + G'*D
+C     s.t. ||D|| <= DELTA.
+C     Only the lower triangular part of B is used.
+C     The main computation is done by subroutine TRSAPP in NEWUOA
+C     by Professor M.J.D. Powell. Please see line 43 of this subroutine 
+C     and trsapp.f in NEWUOA for details. 
+C
+C     Please ask Professor Powell (mjdp@damtp.cam.ac.uk) for the 
+C     code of NEWUOA, and see 
+C     www.springerlink.com/index/x7m14k3477273072.pdf 
+C     for a paper on NEWUOA.
+C
+C     Please contact Zaikun ZHANG (www.zhangzk.net) for any problem
+C     concerning TRS.
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+      IMPLICIT NONE
+
+CCCCCCCCCCCCCCCCCCCC BEGIN DUMMIES CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+      INTEGER(KIND = 4), INTENT(IN) :: N
+      REAL(KIND = 8), INTENT(OUT) :: D(N)
+      REAL(KIND = 8), INTENT(IN) :: B(N,N) 
+      REAL(KIND = 8), INTENT(IN) :: G(N)
+      REAL(KIND = 8), INTENT(IN) :: DELTA
+CCCCCCCCCCCCCCCCCCCC END DUMMIES CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+CCCCCCCCCCCCCCCCCCCC BEGIN WORKING-VARIABLES CCCCCCCCCCCCCCCCCCCCCCCCCC
+      INTEGER(KIND = 4) :: NPT, I, J, IH
+      REAL(KIND = 8) :: XOPT(N), XPT(0,N), HQ(N*(N+1)/2), PQ(0), 
+     1 W(4*N), CRVMIN
+CCCCCCCCCCCCCCCCCCCC END WORKING-VARIABLES CCCCCCCCCCCCCCCCCCCCCCCCCCCC
+        
+CCCCCCCCCCCCCCCCCCCC BEGIN MAIN-PROCEDURE CCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+      NPT = 0
+      XOPT = 0.0D0
+      XPT = 0.0D0
+      DO I = 1, N
+        DO J = 1, I
+            IH = IH + 1
+            HQ(IH) = B(I, J)
+        END DO
+      END DO
+      PQ = 0.0D0
+
+      CALL TRSAPP (N,NPT,XOPT,XPT,G,HQ,PQ,DELTA,D,W,W(N+1),
+     1  W(2*N+1),W(3*N+1),CRVMIN)
+CCCCCCCCCCCCCCCCCCCC END MAIN-PROCEDURE CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+      RETURN
+      END
+
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CC     Another version. The only difference lies in the data structure of
+CC     B.
+C
+C      SUBROUTINE TRS (N, D, B, G, DELTA)
+C
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CC     Zaikun ZHANG, 26 March 2013.
+C
+CC     TRS seeks an inexact solution to the trust region subproblem
+CC     min 0.5*D'*B*D + G'*D
+CC     s.t. ||D|| <= DELTA.
+CC     B holds the lower triangular part of B, in this order: B(1,1),
+CC     B(2,1), B(2,2), B(3,1), B(3,2), B(3,3), ..., B(N,N)
+CC     The main computation is done by subroutine TRSAPP in NEWUOA
+CC     by Professor M.J.D. Powell. Please see line 43 of this subroutine 
+CC     and trsapp.f in NEWUOA for details. 
+CC
+CC     Please ask Professor Powell (mjdp@damtp.cam.ac.uk) for the 
+CC     code of NEWUOA, and see 
+CC     www.springerlink.com/index/x7m14k3477273072.pdf 
+CC     for a paper on NEWUOA.
+CC
+CC     Please contact Zaikun ZHANG (www.zhangzk.net) for any problem
+CC     concerning TRS.
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+C
+C      IMPLICIT NONE
+C
+CCCCCCCCCCCCCCCCCCCCC BEGIN DUMMIES CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+C      INTEGER(KIND = 4), INTENT(IN) :: N
+C      REAL(KIND = 8), INTENT(OUT) :: D(N)
+C      REAL(KIND = 8), INTENT(IN) :: B(N*(N+1)/2) 
+C      REAL(KIND = 8), INTENT(IN) :: G(N)
+C      REAL(KIND = 8), INTENT(IN) :: DELTA
+CCCCCCCCCCCCCCCCCCCCC END DUMMIES CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+C
+CCCCCCCCCCCCCCCCCCCCC BEGIN WORKING-VARIABLES CCCCCCCCCCCCCCCCCCCCCCCCCC
+C      INTEGER(KIND = 4) :: NPT
+C      REAL(KIND = 8) :: XOPT(N), XPT(0,N), PQ(0), W(4*N), CRVMIN
+CCCCCCCCCCCCCCCCCCCCC END WORKING-VARIABLES CCCCCCCCCCCCCCCCCCCCCCCCCCCC
+C        
+CCCCCCCCCCCCCCCCCCCCC BEGIN MAIN-PROCEDURE CCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+C      NPT = 0
+C      XOPT = 0.0D0
+C      XPT = 0.0D0
+C      PQ = 0.0D0
+C
+C      CALL TRSAPP (N,NPT,XOPT,XPT,G,B,PQ,DELTA,D,W,W(N+1),
+C     1  W(2*N+1),W(3*N+1),CRVMIN)
+CCCCCCCCCCCCCCCCCCCCC END MAIN-PROCEDURE CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+C
+C      RETURN
+C      END

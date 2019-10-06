@@ -1,0 +1,652 @@
+/* Modified css file by Zaikun. */
+
+table#tlayout {
+    border: none;
+    border-collapse: separate;
+    background: white;
+}
+
+body {
+/* Zaikun, 04 Feb 2014 */
+/***************************************************/
+	font-family: HELVETICA, Arial, sans-serif, sans, 'Noto Sans S Chinese Light', 'Noto Sans S Chinese', \5FAE\8F6F\6B63\9ED1\4F53, 'Microsoft JhengHei', \5FAE\8F6F\96C5\9ED1, 'Microsoft YaHei', \9ED1\4F53, 'SimHei', \534E\6587\7EC6\9ED1, 'STHeiti Light', \534E\6587\9ED1\4F53, 'STHeiti', 'WenQuanYi Zen Hei', 'WenQuanYi Micro Hei';  /* Chinese fonts are set: STHeiti Light, Microsoft Jhenhei,  Microsoft YaHei, SimHei, STHeiti, WenQuanYi Zen Hei, WenQuanYi Micro Hei*/
+    /*color: #262728;*/
+    color: #404142;
+/***************************************************/
+	padding-bottom: 8px;
+/*	margin: 0;*/
+    margin: 0 auto;
+    min-width: 780px;
+/* Zaikun, 04 April 2014 */
+/***************************************************/
+    max-width: 1260px;
+    /*max-width: 1080px;*/
+/***************************************************/
+    background-color: #CCCCCC;
+}
+
+#layout-menu {
+	background: #f6f6f6;
+	border: 1px solid #dddddd;
+	padding-top: 0.5em;
+	padding-bottom: 2em;
+	padding-left: 1.6em;
+	padding-right: 1.6em;
+	width: auto;
+	white-space: nowrap;
+    text-align: left;
+    vertical-align: top;
+	font-size: medium;
+	font-weight: normal;
+}
+
+#layout-menu td {
+	background: #f4f4f4;
+    vertical-align: top;
+}
+
+#layout-content {
+	padding-top: 0.0em;
+	padding-left: 3.4em;
+	padding-right: 5.0em;
+    border: none;
+    background: white;
+    text-align: left;
+    vertical-align: top;
+}
+
+#layout-menu a {
+	/*line-height: 1.5em;*/
+/* Zaikun, 04 Feb 2014 */
+/***************************************************/
+	line-height: 1.6;
+/***************************************************/
+	margin-left: 0.5em;
+}
+
+tt {
+    background: #ffffdd;
+}
+
+pre, tt {
+	font-size: 90%;
+	font-family: monaco, monospace;
+/* Zaikun, 04 Feb 2014 */
+/***************************************************/
+	line-height: 1.25;
+/***************************************************/
+}
+
+a, a > tt {
+	color: #22368d;
+	/*color: #263666;*/
+	/*color: #263066;*/
+	text-decoration: none;
+}
+
+/*	Zaikun, 04 Feb 2014  */
+/***************************************************/
+/*a:link, a:visited {
+	color: #527bbd;
+	text-decoration: none;
+}
+/***************************************************/
+
+a:hover {
+	/*border-bottom: 1px gray dotted;*/
+/*	Zaikun, 04 Feb 2014  */
+/***************************************************/
+/*	border-bottom: 1px #c0c0c0 dotted; */
+	/*color: #000668;*/
+	/*color: #022b6d;*/
+	color: #000000;
+/***************************************************/
+}
+
+
+#layout-menu a.current:link, #layout-menu a.current:visited {
+	/*color: #022b6d;*/
+	color: #000000;
+	/*border-bottom: 1px #d8d8d8 solid;*/
+/*	Zaikun, 04 Feb 2014  */
+/***************************************************/
+	border-bottom: 1px #c0c0c0 solid;
+/***************************************************/
+}
+
+/*#layout-menu a:link, #layout-menu a:visited, #layout-menu a:hover {*/
+/*	Zaikun, 04 Feb 2014  */
+#layout-menu a:link, #layout-menu a:visited {
+	/*color: #527bbd;*/
+	/*color: #262728;*/
+	/*color: #464748;*/
+	color: #565758;
+	text-decoration: none;
+}
+#layout-menu a:hover {
+	text-decoration: none;
+/*	Zaikun, 04 Feb 2014  */
+/***************************************************/
+	/*color: #022b6d;*/
+	color: #000000;
+/***************************************************/
+}
+
+div.menu-category {
+	/*border-bottom: 1px solid gray;*/
+/*	Zaikun, 04 Feb 2014  */
+/***************************************************/
+	border-bottom: 1px solid #e0e0e0;
+/***************************************************/
+	margin-top: 0.8em;
+	padding-top: 0.2em;
+	/*padding-bottom: 0.1em;*/
+/*	Zaikun, 04 Feb 2014  */
+/***************************************************/
+	padding-bottom: 0.2em;
+/*	font-weight: bold; */
+    font-size: 110%;
+	line-height: 1.25;
+    white-space: nowrap;
+/***************************************************/
+}
+
+div.menu-item {
+	padding-left: 16px;
+	text-indent: -16px;
+}
+
+div#toptitle {
+	padding-bottom: 0.2em;
+	margin-bottom: 1.5em;
+	/*border-bottom: 3px double gray;*/
+/*	Zaikun, 04 Feb 2014  */
+/***************************************************/
+	margin-top: 0.0em;
+	border-bottom: 3px double #e0e0e0;
+/***************************************************/
+}
+
+/* Reduce space if we begin the page with a title. */
+div#toptitle + h2, div#toptitle + h3 {
+	margin-top: -0.7em;
+}
+
+div#subtitle {
+	margin-top: 0.0em;
+	margin-bottom: 0.0em;
+	padding-top: 0em;
+	padding-bottom: 0.1em;
+}
+
+em {
+	font-style: italic;
+}
+
+strong {
+	font-weight: bold;
+}
+
+
+h1, h2, h3 {
+	/*color: #527bbd;*/
+/* Zaikun, 04 Feb 2014 */
+/***************************************************/
+	/*color: #515253;*/
+	color: #444546;
+/***************************************************/
+	margin-top: 0.7em;
+	margin-bottom: 0.3em;
+	padding-bottom: 0.2em;
+	/*line-height: 1.0;*/
+/* Zaikun, 04 Feb 2014 */
+/***************************************************/
+	line-height: 1.6;
+/***************************************************/
+	padding-top: 0.5em;
+	/*border-bottom: 1px solid #aaaaaa;*/
+/* Zaikun, 04 Feb 2014 */
+/***************************************************/
+	border-bottom: 1px solid #e0e0e0;
+/***************************************************/
+}
+
+h1 {
+	/*font-size: 165%;*/
+/* Zaikun, 04 Feb 2014 */
+/***************************************************/
+	font-size: 150%;
+    font-weight: normal;
+/***************************************************/
+}
+
+h2 {
+	padding-top: 0.8em;
+	font-size: 125%;
+/* Zaikun, 8 May 2014 */
+/***************************************************/
+    font-weight: normal;
+/***************************************************/
+}
+
+h2 + h3 {
+    padding-top: 0.2em;
+}
+
+h3 {
+	font-size: 110%; 
+/* Zaikun, 15 Mar 2014 */
+/***************************************************/
+/*	font-size: 112%; */
+/***************************************************/
+	border-bottom: none;
+/* Zaikun, 15 Mar 2014 */
+/***************************************************/
+    font-weight: normal;
+/***************************************************/
+}
+
+p {
+	margin-top: 0.0em;
+	margin-bottom: 0.8em;
+	padding: 0;
+	/*line-height: 1.3;*/
+/* Zaikun, 04 Feb 2014 */
+/***************************************************/
+	line-height: 1.6;
+/***************************************************/
+}
+
+pre {
+	padding: 0;
+	margin: 0;
+}
+
+/* Zaikun, 06 Feb 2014 */
+/***************************************************/
+h6 {
+	font-size: small;
+	margin-top: 0em;
+	margin-bottom: 0em;
+	padding-bottom: 0em;
+	padding-top: 0em;
+	border-bottom: none; 
+    font-weight: normal;
+}
+.myleft {
+    float: left;
+    text-align: left;
+}
+.myright {
+    float: right;
+    text-align: right;
+}
+.mycenter {
+    /*float: center;*/ /*center is not a valid float value*/
+    text-align: center;
+}
+/***************************************************/
+
+div#footer {
+	font-size: small;
+/*	border-top: 1px solid #c0c0c0;*/
+/*	padding-top: 0.1em; */
+/* Zaikun, 04 Feb 2014 */
+/***************************************************/
+	border-top: 1px solid #e0e0e0;
+	padding-top: 0.5em;
+/*	padding-bottom: 4em; */
+/***************************************************/
+	margin-top: 5.0em;
+	margin-bottom: 5.0em;
+    background: white;
+	color: #707070;
+}
+
+div#footer a {
+	/*color: #80a0b0;*/
+/* Zaikun, 04 Feb 2014 */
+/***************************************************/
+	color: #6070b0;
+/***************************************************/
+}
+div#footer a:hover {
+/* Zaikun, 04 Feb 2014 */
+/***************************************************/
+	/*color: #306080;*/
+	/*color: #022b6d;*/
+	color: #000000;
+/***************************************************/
+}
+
+/*div#footer-text { */
+	/*float: left;*/
+/*	padding-bottom: 4em;*/
+/*}*/
+
+ul, ol, dl {
+	margin-top: 0.2em;
+	padding-top: 0;
+	margin-bottom: 0.8em;
+}
+
+dt {
+	margin-top: 0.5em;
+	margin-bottom: 0;
+    /* Zaikun 03 April 2015 */
+/***************************************************/
+    line-height: 1.6;
+/***************************************************/
+}
+
+dl {
+	margin-left: 20px;
+}
+
+dd {
+    /* Zaikun 03 April 2015 */
+/***************************************************/
+	/*  color: #222222; */
+    font-size: 98%; 
+/***************************************************/
+}
+
+dd > *:first-child {
+	margin-top: 0;
+}
+
+ul {
+	list-style-position: outside;
+	list-style-type: disc;
+	/*list-style-type: square;*/
+}
+
+p + ul, p + ol {
+	margin-top: -0.5em;
+}
+
+li ul, li ol {
+	margin-top: -0.3em;
+}
+
+ol {
+	list-style-position: outside;
+	list-style-type: decimal;
+}
+
+li p, dd p {
+	margin-bottom: 0.3em;
+}
+
+
+ol ol {
+	list-style-type: lower-alpha;
+}
+
+ol ol ol {
+	list-style-type: lower-roman;
+}
+
+p + div.codeblock {
+/*	Zaikun, 04 Feb 2014  */
+	/*margin-top: -0.6em;*/
+}
+
+div.codeblock, div.infoblock {
+	margin-right: 0%;
+	margin-top: 1.2em;
+	margin-bottom: 1.3em;
+}
+
+div.blocktitle {
+/*	Zaikun, 04 Feb 2014  */
+/***************************************************/
+/*	font-weight: bold; */
+/***************************************************/
+	color: #cd7b62;
+	margin-top: 1.2em;
+	margin-bottom: 0.1em;
+}
+
+div.blockcontent {
+	/*border: 1px solid silver;*/
+/*	Zaikun, 04 Feb 2014  */
+/***************************************************/
+	border: 1px solid #efefef;
+/***************************************************/
+	padding: 0.3em 0.5em;
+    width:auto;
+}
+
+div.infoblock > div.blockcontent {
+	background: #fbfcff;
+}
+
+div.blockcontent p + ul, div.blockcontent p + ol {
+	margin-top: 0.4em;
+}
+
+div.infoblock p {
+	margin-bottom: 0em;
+}
+
+div.infoblock li p, div.infoblock dd p {
+	margin-bottom: 0.5em;
+}
+
+div.infoblock p + p {
+	margin-top: 0.8em;
+}
+
+div.codeblock > div.blockcontent {
+	background: #f6f6f6;
+}
+
+span.pycommand {
+	color: #000070;
+}
+
+span.statement {
+	color: #008800;
+}
+span.builtin {
+	color: #000088;
+}
+span.special {
+	color: #990000;
+}
+span.operator {
+	color: #880000;
+}
+span.error {
+	color: #aa0000;
+}
+span.comment, span.comment > *, span.string, span.string > * {
+	color: #606060;
+}
+
+@media print {
+	#layout-menu { display: none; }
+}
+
+#fwtitle {
+	margin: 2px;
+}
+
+#fwtitle #toptitle {
+	padding-left: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+#layout-content h1:first-child, #layout-content h2:first-child, #layout-content h3:first-child {
+	margin-top: -0.7em;
+}
+
+div#toptitle h1, #layout-content div#toptitle h1 {
+	margin-bottom: 0.0em;
+	padding-bottom: 0.1em;
+	padding-top: 0;
+	margin-top: 0.5em;
+	border-bottom: none;
+}
+
+img.eq {
+	padding: 0;
+	padding-left: 0.1em;
+	padding-right: 0.1em;
+	margin: 0;
+}
+
+img.eqwl {
+	padding-left: 2em;
+	padding-top: 0.6em;
+	padding-bottom: 0.2em;
+	margin: 0;
+}
+
+/* Zaikun, 06 Feb 2014 */
+/***************************************************/
+img.name {
+	padding-left: 0em;
+	padding-right: 0em;
+	padding-top: 0em;
+	padding-bottom: 0em;
+	margin-left: 0em;
+	margin-right: 0em;
+	margin-top: 0em;
+	margin-bottom: -0.15em;
+    height: 1.05em;
+}
+
+img.China {
+	padding-left: 0em;
+	padding-right: 0em;
+	padding-top: 0em;
+	padding-bottom: 0em;
+	margin-left: 0em;
+	margin-right: 0em;
+	margin-top: 0em;
+	margin-bottom: -0.05em;
+    height: 0.9em;
+}
+
+img.email {
+	padding-left: 0em;
+	padding-right: 0em;
+	padding-top: 0em;
+	padding-bottom: 0em;
+	margin-left: 0em;
+	margin-right: 0em;
+	margin-top: 0em;
+	margin-bottom: -0.28em;
+    height: 1.06em;
+}
+
+img.button {
+	padding-left: 0em;
+	padding-right: 0em;
+	padding-top: 0em;
+	padding-bottom: 0em;
+	margin-left: 0em;
+	margin-right: 0em;
+	margin-top: 0em;
+	margin-bottom: 0em;
+    height: 1em;
+}
+/***************************************************/
+
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 2px;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    text-align: center;
+    border: 1px solid gray;
+}
+
+table + table {
+    margin-top: 1em;
+}
+
+tr.heading {
+/* Zaikun, 04 Feb 2014 */
+/***************************************************/
+/*    font-weight: bold; */
+/***************************************************/
+    border-bottom: 2px solid black;
+}
+
+/* Zaikun, 07 Feb 2014 */
+/***************************************************/
+tr.top {
+    vertical-align: top;
+}
+/***************************************************/
+
+img {
+    border: none;
+}
+
+table.imgtable, table.imgtable td {
+    border: none;
+    text-align: left;
+}
+
+/* Zaikun, 06 Feb 2014 */
+/***************************************************/
+.upref {
+    font-size: xx-small;
+    font-weight: normal;
+}
+.reference {
+    font-size: small;
+    font-weight: normal;
+}
+.date { /* For date and place in blog titles */
+    font-size: 90%;
+    font-weight: normal;
+}
+.norm { 
+    font-size: 100%;
+    font-weight: normal;
+}
+.zhtitle { /* For Chinese blog titles */
+    font-size: 100%;
+    font-weight: 400;
+}
+.poemtitle { /* For poem titles */
+    font-size: 110%;
+    font-weight: 500;
+}
+.poemauthor { /* For poem authors */
+    font-size: 90%;
+    font-weight: normal;
+}
+p.right{
+    text-align: right;
+}
+.dotunder{
+	border-bottom: 1px #a0a1a2 dotted;
+}
+.light{
+    font-size: 90%;
+	font-weight: 100; 
+}
+.subtitle{
+    line-height: 1.6;
+	font-size: 100%;
+}
+/***************************************************/
+
+/* Zaikun 03 April 2015 */
+/***************************************************/
+.adaptline {
+    line-height: 1.6;
+}
+
+ 

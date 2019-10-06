@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for http://mat.uc.pt/~zhang/</title>
+  <link>http://mat.uc.pt/~zhang/</link>
+
+<item>
+     <link>http://mat.uc.pt/~zhang/</link>
+     <title>Homepage of Zaikun Zhang</title>
+     <description>Homepage of Zaikun Zhang. 张在坤个人主页.
+See http://www.zzk.me/ , http://mat.uc.pt/~zhang/</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://mat.uc.pt/~zhang/index.html</link>
+     <title>Homepage of Zaikun Zhang</title>
+     <description>Homepage of Zaikun Zhang. 张在坤个人主页.
+See http://www.zzk.me/ , http://mat.uc.pt/~zhang/</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://mat.uc.pt/~zhang/docs/cv.pdf</link>
+     <title></title>
+     
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://mat.uc.pt/~zhang/blog.html</link>
+     <title>Blog of Zaikun</title>
+     <description>Blog of Zaikun Zhang.
+See also http://www.zzk.me/ , http://mat.uc.pt/~zhang/</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://mat.uc.pt/~zhang/teaching.html</link>
+     <title>Teaching</title>
+     <description>Teaching activities of Zaikun Zhang.
+See also http://www.zzk.me/ , http://mat.uc.pt/~zhang/</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://mat.uc.pt/~zhang/software.html</link>
+     <title>Software</title>
+     <description>A collection of software on optimization
+and numerical linear algebra. Collected by Zaikun Zhang.
+See also http://www.zzk.me/ , http://mat.uc.pt/~zhang/</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://mat.uc.pt/~zhang/coauthor.html</link>
+     <title>Co-authors</title>
+     <description>Co-authors of Zaikun Zhang.
+See also http://www.zzk.me/ , http://mat.uc.pt/~zhang/</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://mat.uc.pt/~zhang/quotation.html</link>
+     <title>Quotations</title>
+     <description>A collection of quotations on mathematics,
+science, research, life, education, and society. Collected by Zaikun Zhang.
+See also http://www.zzk.me/ , http://mat.uc.pt/~zhang/</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://mat.uc.pt/~zhang/powell.html</link>
+     <title>A Memorial Page Dedicated to Professor Powell</title>
+     <description>A memorial page dedicated to Professor
+M. J. D. Powell, by Zaikun Zhang.
+See also http://www.zzk.me/ , http://mat.uc.pt/~zhang/</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://mat.uc.pt/~zhang/conference.html</link>
+     <title>Conferences and Presentations</title>
+     <description>Conferences that Zaikun Zhang attended
+or organized, and selected presentations that he gave. See also http://www.zzk.me/ , http://mat.uc.pt/~zhang/</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://mat.uc.pt/~zhang/misc.html</link>
+     <title>Miscellaneous</title>
+     <description>Miscellaneous of Zaikun Zhang.
+See also http://www.zzk.me/ , http://mat.uc.pt/~zhang/</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://mat.uc.pt/~zhang/docs/publications/2014oods.pdf</link>
+     <title></title>
+     
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://mat.uc.pt/~zhang/docs/publications/2015dspd.pdf</link>
+     <title></title>
+     
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://mat.uc.pt/~zhang/docs/publications/thesis.pdf</link>
+     <title></title>
+     
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://mat.uc.pt/~zhang/docs/publications/2014snq.pdf</link>
+     <title></title>
+     
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://mat.uc.pt/~zhang/docs/publications/thesis-abs.pdf</link>
+     <title></title>
+     
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://mat.uc.pt/~zhang/docs/conferences/201307-iccopt.pdf</link>
+     <title></title>
+     
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://mat.uc.pt/~zhang/docs/SIAMStudentFlyer.pdf</link>
+     <title></title>
+     
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://mat.uc.pt/~zhang/docs/conferences/201109-sjom.pdf</link>
+     <title></title>
+     
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://mat.uc.pt/~zhang/docs/quotation/Barbier_1860.pdf</link>
+     <title></title>
+     
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://mat.uc.pt/~zhang/docs/blog/Lebesgue_Sur_les_domaines_de_largeur_constante.pdf</link>
+     <title></title>
+     
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://mat.uc.pt/~zhang/docs/no_ms_email.txt</link>
+     <title></title>
+     
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://mat.uc.pt/~zhang/docs/quotation/Euler_Optimization.pdf</link>
+     <title></title>
+     
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://mat.uc.pt/~zhang/docs/quotation/Euler_Methodus_Inveniendi_Lineas_Curvas_Maximi_Minimive_Proprietate_Gaudentes.pdf</link>
+     <title></title>
+     
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://mat.uc.pt/~zhang/docs/conferences/201307-toint.pdf</link>
+     <title></title>
+     
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://mat.uc.pt/~zhang/docs/quotation/LibertyOrDeath_Sketches_of_the_life_and_character_of_Patric_Henry.pdf</link>
+     <title></title>
+     
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://mat.uc.pt/~zhang/docs/conferences/201508-iciam.pdf</link>
+     <title></title>
+     
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://mat.uc.pt/~zhang/docs/conferences/201508-icnonla.pdf</link>
+     <title></title>
+     
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://mat.uc.pt/~zhang/docs/conferences/201507-ismp.pdf</link>
+     <title></title>
+     
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://mat.uc.pt/~zhang/docs/conferences/201506-cors_informs.pdf</link>
+     <title></title>
+     
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://mat.uc.pt/~zhang/docs/conferences/201407-optimization.pdf</link>
+     <title></title>
+     
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://mat.uc.pt/~zhang/docs/conferences/201407-ifors.pdf</link>
+     <title></title>
+     
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://mat.uc.pt/~zhang/docs/conferences/201405-siopt.pdf</link>
+     <title></title>
+     
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://mat.uc.pt/~zhang/docs/conferences/201309-icnonla.pdf</link>
+     <title></title>
+     
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://mat.uc.pt/~zhang/docs/talks/20130912-icnonla-subdcp.pdf</link>
+     <title></title>
+     
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://mat.uc.pt/~zhang/docs/talks/20130729-iccopt-lstlsp.pdf</link>
+     <title></title>
+     
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://mat.uc.pt/~zhang/docs/talks/20130725-toint-subdcp.pdf</link>
+     <title></title>
+     
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://mat.uc.pt/~zhang/docs/conferences/201111-icnonla.pdf</link>
+     <title></title>
+     
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://mat.uc.pt/~zhang/docs/talks/20150818-lsec.pdf</link>
+     <title></title>
+     
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  
