@@ -35,6 +35,15 @@ and
 #</div></div> 
 #~~~
 
+~~~
+{}{raw}
+<div class="infoblock"> <div class="blockcontent"> 
+<p class="right">
+<a href="https://www.polyu.edu.hk/ama/events/conference/op20">SIAM Conference on Optimization 2020</a> invites <a href="https://www6.polyu.edu.hk/ama/op20/ms/submission.php">minisymposium proposals</a>.
+</p>
+</div></div> 
+~~~
+
 == {{<a id="position"></a>}}Positions
 
 - Apr. 2016--present, Assistant Professor (Research Assistant Professor up until Jan. 2018), [http://www.polyu.edu.hk/ama/ Department of Applied Mathematics], [https://www.polyu.edu.hk/ Hong Kong Polytechnic University], Hong Kong, China
