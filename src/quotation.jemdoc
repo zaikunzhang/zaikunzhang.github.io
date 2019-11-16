@@ -68,6 +68,27 @@ given on July 24, 2013 (the last talk of morning session), at the conference [do
 #Mathematics is a collection of examples; a theorem is a statement about a collection of examples and the purpose of proving theorems is to classify and explain the examples.
 
 {{<a id="latest"></a>}}
+{{<a id="wissen"></a>}} 
+~~~
+:{Wir müssen wissen, wir werden wissen! (We must know, we will know!)}
+\n --- [https://en.wikipedia.org/wiki/David_Hilbert David Hilbert]\n
+This is the concluding statement of the [https://www.maa.org/press/periodicals/convergence/david-hilberts-radio-address speech] that Hilbert delivered during that annual meeting of the [https://www.gdnae.de/en/ Society of German Natural Scientists and Physicians] ([https://de.wikipedia.org/wiki/Gesellschaft_Deutscher_Naturforscher_und_%C3%84rzte Gesellschaft der Deutschen Naturforscher und Ärzte]) on 8 September 1930. 
+Hilbert ended his speech by "Wir dürfen nicht denen glauben, die heute mit philosophischer Miene und
+überlegenem Tone den Kulturuntergang prophezeien und sich in dem Ignorabimus
+gefallen. Für uns gibt es kein Ignorabimus, und meiner Meinung nach auch für die
+Naturwissenschaft überhaupt nicht. Statt des törichten Ignorabimus heisse im Gegenteil
+unsere Losung: Wir müssen wissen, wir werden wissen."
+(We must not believe those, who today with philosophical bearing and a tone of
+superiority prophesy the downfall of culture and accept the [https://en.wikipedia.org/wiki/Ignoramus_et_ignorabimus /ignorabimus/]. For us there
+is no ignorabimus, and in my opinion even none whatever in natural science. In place
+of the foolish ignorabimus let stand our slogan: We must know, we will know.)
+The [http://math.sfsu.edu/smith/Documents/HilbertRadio/HilbertRadio.mp3 radio broadcast] and [http://math.sfsu.edu/smith/Documents/HilbertRadio/HilbertRadio.pdf transcription] (with translation) of the speech are available online.\n 
+As a summary of Hilbert's beliefs on mathematics this sentence was inscribed as the epitaph on his [figs/Hilbert_tomb.jpg tomb in Göttingen].\n
+However, in 1931, [https://en.wikipedia.org/wiki/Kurt_G%C3%B6del Kurt F. Gödel] published his [https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems Incompleteness Theorems] in the paper [https://link.springer.com/article/10.1007/BF01700692 Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme I] ([https://en.wikipedia.org/wiki/On_Formally_Undecidable_Propositions_of_Principia_Mathematica_and_Related_Systems On Formally Undecidable Propositions of Principia Mathematica and Related Systems]).
+According to these theorems, roughly speaking, for any computable axiomatic system adequate to describe the arithmetic of the natural numbers, it holds that: If a axiomatic system is consistent, it cannot be complete; The consistency of axioms cannot be proved within their own system.
+These theorems ended a half-century of attempts, beginning with the work of [https://en.wikipedia.org/wiki/Gottlob_Frege Friedrich Ludwig Gottlob Frege] (see [https://ia800207.us.archive.org/22/items/diegrundlagende00freggoog/diegrundlagende00freggoog.pdf Die Grundlagen der Arithmetik: Eine logisch-mathematische Untersuchung über den Begriff der Zahl]) and culminating in [https://en.wikipedia.org/wiki/Principia_Mathematica Principia Mathematica] (by [https://en.wikipedia.org/wiki/Alfred_North_Whitehead Alfred North Whitehead]) and Hilbert's [https://en.wikipedia.org/wiki/Formalism_(philosophy_of_mathematics) Formalism], to find a set of axioms sufficient for all mathematics, concluding that answers to some mathematical questions cannot be answered in the manner we would usually prefer.
+~~~
+
 {{<a id="importance"></a>}} 
 ~~~
 :{Die Wichtigkeit einer wissenschaftlichen Arbeit kann man daran messen, wieviele frühere Veröffentlichungen durch sie überflüssig werden. (One can measure the importance of a scientific work by the number of earlier publications rendered superfluous by it.)}
