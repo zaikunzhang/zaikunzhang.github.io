@@ -1,0 +1,33 @@
+# jemdoc: menu{MENU}{tts.html},title{Tools & Tips} showsource
+#
+= {{<a id="top"></a>}}Tools & Tips
+This page includes some tools and tips for research.
+
+== Literature search 
+
+- [https://scholar.google.com/ Google Scholar] 
+
+- [https://mathscinet.ams.org/msnhtml/serials.pdf MathSciNet Abbreviations of Names of Serials]
+
+== Calculator 
+
+- [https://www.wolframalpha.com/ Wolfram|Alpha]
+
+== Writing
+
+- [https://www.lexico.com/en LEXICO dictionary]
+
+- [https://grammarly.com Grammarly]
+
+- [http://www.reverso.net/spell-checker/french-spelling-grammar/ Reverso French grammar and spell checker]
+
+- [https://www.frenchcorrector.com/ FrenchCorrector] 
+
+== Tips 
+
+- [http://matt.might.net/articles/how-to-email/ Tips on sending and replying emails] 
+- [https://www.youtube.com/watch?v=vtIzMaLkCaM The craft of writing effectively]
+- [https://www.youtube.com/watch?v=Unzc731iCUY How to speak]
+
+# Put 124 "&nbsp\ " to avoid a too narrow page. The same for 403.jemdoc and 404.jemdoc.
+{{&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;}}
