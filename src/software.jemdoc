@@ -6,7 +6,7 @@
 During his last days, Professor Powell kindly sent me the source code of his optimization software and authorized me to maintain it here. 
 Now the software is also maintained at [https://ccpforge.cse.rl.ac.uk/gf/project/powell CCPForge] by Professor [http://www.numerical.rl.ac.uk/people/nimg/ Nick Gould] and me.
 If you have problems in downloading, please feel free to [index.html\#contact contact me]. 
-In case of technical questions on the code or the algorithms, you may also {{<a href="mailto:nick.gould@stfc.ac.uk,zaikunzhang@gmail.com?subject=MJD Powell Software Technical Question">contact us</a>}} and we will do our best to help. 
+In case of technical questions on the code or the algorithms, you may also {{<a href="mailto:nick.gould@stfc.ac.uk,zaikunzhang@gmail.com">contact us</a>}} and we will do our best to help. 
 
 Each package here includes an "email.txt" file. It is an email from Professor Powell giving details of the corresponding software.  
 To use the software, you need a Fortran compiler (e.g., [https://en.wikipedia.org/wiki/F2c f77], [https://en.wikipedia.org/wiki/Intel_Fortran_Compiler IFORT],  [https://en.wikipedia.org/wiki/GNU_Fortran GFortran], [https://en.wikipedia.org/wiki/G95 G95]). Makefiles are provided for the usage under Unix, and they might need modifications according to your compiler. {{<span class="dotunder">}}Plans are underway to provide MATLAB, Python, and (possibly) C interfaces.{{</span>}}  
@@ -112,7 +112,7 @@ derivatives of the objective function.
 - scientific computing: [http://en.wikipedia.org/wiki/GNU_Octave GNU Octave]
 #, [http://en.wikipedia.org/wiki/SciPy SciPy]
 #- web browser: [https://en.wikipedia.org/wiki/Google_Chrome Google Chrome], [https://en.wikipedia.org/wiki/Chromium_(web_browser) Chromium]
-- web-page creator: [http://jemdoc.jaboc.net/ jemdoc][https://github.com/wsshin/jemdoc_mathjax +MathJax] (thanks to Professor [http://lsec.cc.ac.cn/~liuxin Xin Liu], who introduced jemdoc to me)
+- web-page creator: [http://jemdoc.jaboc.net/ jemdoc][https://github.com/wsshin/jemdoc_mathjax + MathJax] (thanks to Professor [http://lsec.cc.ac.cn/~liuxin Xin Liu], who introduced jemdoc to me)
 - graphics editor: [https://en.wikipedia.org/wiki/GIMP GIMP], [https://en.wikipedia.org/wiki/Inkscape Inkscape]
 #- media player: [https://en.wikipedia.org/wiki/SMPlayer SMPlayer]
 # - other: [http://vim-latex.sourceforge.net/ Vim-LaTeX] (thanks to [http://www.mcs.anl.gov/person/jeffrey-larson Dr. Jeff Larson])

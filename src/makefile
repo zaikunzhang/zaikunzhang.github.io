@@ -4,7 +4,7 @@ WWW=$(LDIRECTORY)/zaikunzhang.github.io
 #JEMDOC=$(HOME)/local/bin/jemdoc
 JEMDOC=$(HOME)/local/bin/jemdoc_mathjax
 
-all: index blog software quotation coauthor conference misc powell teaching tools errors css makefile jemdoc $(JEMDOC)
+all: index blog software quotation coauthor conference misc powell teaching tts errors css makefile jemdoc $(JEMDOC)
 	cp makefile $(WWW)/src
 
 index: TARGET=index
@@ -91,8 +91,8 @@ teaching: teaching.jemdoc teaching.config MENU
 	cp MENU $(WWW)/src
 	cp $(TARGET).html ../
 
-tools: TARGET=tools
-tools: tools.jemdoc tools.config MENU
+tts: TARGET=tts
+tts: tts.jemdoc tts.config MENU
 	$(JEMDOC) -c $(TARGET).config $(TARGET)
 	cp $(TARGET).html $(WWW)
 	cp $(TARGET).* $(WWW)/src

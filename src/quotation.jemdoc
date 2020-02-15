@@ -52,22 +52,8 @@ given on July 24, 2013 (the last talk of morning session), at the conference [do
 
 == Mathematics
 
-# One can measure the importance of a scientific work by the number of
-# earlier publications rendered superfluous by it.
-# Quoted in Mathematical Circles Revisited (1971) by Howard Whitley Eves
-# Every kind of science, if it has only reached a certain degree of
-# maturity, automatically becomes a part of mathematics.
-# "Axiomatic Thought" (1918), printed in From Kant to Hilbert, Vol. 2 by
-# William Bragg Ewald
-#Wir dürfen nicht denen glauben, die heute mit philosophischer Miene und überlegenem Tone den Kulturuntergang prophezeien und sich in dem Ignorabimus gefallen. Für uns gibt es kein Ignorabimus, und meiner Meinung nach auch für die Naturwissenschaft überhaupt nicht. Statt des törichten Ignorabimus heiße im Gegenteil unsere Losung:
-#Wir müssen wissen — wir werden wissen!
-#We must not believe those, who today, with philosophical bearing and deliberative tone, prophesy the fall of culture and accept the ignorabimus. For us there is no ignorabimus, and in my opinion none whatever in natural science. In opposition to the foolish ignorabimus our slogan shall be:
-#We must know — we will know!
-#Address to the Society of German Scientists and Physicians, in Königsberg (8 September 1930). The concluding statement was used as the epitaph on his tomb in Göttingen. Radio broadcast of the address http://math.sfsu.edu/smith/Documents/HilbertRadio/HilbertRadio.mp3, and transcription and English translation http://math.sfsu.edu/smith/Documents/HilbertRadio/HilbertRadio.pdf.
-#
 #Mathematics is a collection of examples; a theorem is a statement about a collection of examples and the purpose of proving theorems is to classify and explain the examples.
 
-{{<a id="latest"></a>}}
 {{<a id="wissen"></a>}} 
 ~~~
 :{Wir müssen wissen, wir werden wissen! (We must know, we will know!)}
@@ -77,14 +63,14 @@ Hilbert ended his speech by "Wir dürfen nicht denen glauben, die heute mit phil
 überlegenem Tone den Kulturuntergang prophezeien und sich in dem Ignorabimus
 gefallen. Für uns gibt es kein Ignorabimus, und meiner Meinung nach auch für die
 Naturwissenschaft überhaupt nicht. Statt des törichten Ignorabimus heisse im Gegenteil
-unsere Losung: {{<span class="dotunder">}}Wir müssen wissen, Wir werden wissen{{</span>}}."
+unsere Losung: {{<span class="dotunder">}}Wir müssen wissen, Wir werden wissen{{</span>}}!"
 (We must not believe those, who today with philosophical bearing and a tone of
 superiority prophesy the downfall of culture and accept the [https://en.wikipedia.org/wiki/Ignoramus_et_ignorabimus /ignorabimus/]. For us there
 is no ignorabimus, and in my opinion even none whatever in natural science. In place
-of the foolish ignorabimus let stand our slogan: {{<span class="dotunder">}}We must know, We will know{{</span>}}.)
-The [http://math.sfsu.edu/smith/Documents/HilbertRadio/HilbertRadio.mp3 radio broadcast] and [http://math.sfsu.edu/smith/Documents/HilbertRadio/HilbertRadio.pdf transcription] (with translation) of the speech are available online.\n 
+of the foolish ignorabimus let stand our slogan: {{<span class="dotunder">}}We must know, We will know{{</span>}}!)
+The [http://math.sfsu.edu/smith/Documents/HilbertRadio/HilbertRadio.mp3 radio broadcast] and [http://math.sfsu.edu/smith/Documents/HilbertRadio/HilbertRadio.pdf transcription] (with English translation) of the speech are available online.\n 
 As a summary of Hilbert's beliefs on mathematics, this sentence was inscribed as the epitaph on his [figs/Hilbert_tomb.jpg tomb in Göttingen].\n
-However, in 1931, [https://en.wikipedia.org/wiki/Kurt_G%C3%B6del Kurt F. Gödel] published his [https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems Incompleteness Theorems] in the paper [https://link.springer.com/article/10.1007/BF01700692 Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme I] ([https://en.wikipedia.org/wiki/On_Formally_Undecidable_Propositions_of_Principia_Mathematica_and_Related_Systems On Formally Undecidable Propositions of Principia Mathematica and Related Systems]).
+In 1931, [https://en.wikipedia.org/wiki/Kurt_G%C3%B6del Kurt F. Gödel] published his [https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems Incompleteness Theorems] in the paper [https://link.springer.com/article/10.1007/BF01700692 Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme I] ([https://en.wikipedia.org/wiki/On_Formally_Undecidable_Propositions_of_Principia_Mathematica_and_Related_Systems On Formally Undecidable Propositions of Principia Mathematica and Related Systems]).
 According to these theorems, roughly speaking, for any computable axiomatic system adequate to describe the arithmetic of the natural numbers, it holds that: If a axiomatic system is consistent, it cannot be complete; The consistency of axioms cannot be proved within their own system.
 These theorems ended a half-century of attempts, beginning with the work of [https://en.wikipedia.org/wiki/Gottlob_Frege Friedrich Ludwig Gottlob Frege] (see [https://ia800207.us.archive.org/22/items/diegrundlagende00freggoog/diegrundlagende00freggoog.pdf /Die Grundlagen der Arithmetik/], [https://en.wikipedia.org/wiki/The_Foundations_of_Arithmetic /The Foundations of Arithmetic/], 1884) and culminating in [https://en.wikipedia.org/wiki/Principia_Mathematica /Principia Mathematica/] (by [https://en.wikipedia.org/wiki/Alfred_North_Whitehead Alfred North Whitehead] and [https://en.wikipedia.org/wiki/Bertrand_Russell Bertrand Arthur William Russell]) and Hilbert's [https://en.wikipedia.org/wiki/Formalism_(philosophy_of_mathematics) Formalism], 
 to find a set of axioms sufficient for all mathematics, concluding that some mathematical questions cannot be answered in the fashion that we would usually prefer.
@@ -94,8 +80,13 @@ to find a set of axioms sufficient for all mathematics, concluding that some mat
 ~~~
 :{Die Wichtigkeit einer wissenschaftlichen Arbeit kann man daran messen, wieviele frühere Veröffentlichungen durch sie überflüssig werden. (One can measure the importance of a scientific work by the number of earlier publications rendered superfluous by it.)}
 \n --- [https://en.wikipedia.org/wiki/David_Hilbert David Hilbert]\n
-This statement is attributed to Hilbert {{<span class="dotunder">}}without reliable source{{</span>}}. See, for example, item 307° of \[[https://en.wikipedia.org/wiki/Howard_Eves Howard W. Eves], [https://books.google.com.hk/books/about/Mathematical_circles_revisited.html?id=veeEAAAAIAAJ&redir_esc=y /Mathematical Circles Revisited: A Second Collection of Mathematical Stories and Anecdotes/], Prindle, Weber & Schmidt, Inc., Boston, 1971\] and \[Markus Sigg, [https://www.spektrum.de/lexikon/mathematik/humor-in-der-mathematik/4071 Humor in der Mathematik], in [https://link.springer.com/book/10.1007%2F978-3-662-53504-2 /Lexikon der Mathematik: Band 2: Eig bis Inn/], edited by [https://www.genealogy.math.ndsu.nodak.edu/id.php?id=45298 Guido Walz], Springer Spektrum, 2017\]. 
+This statement is attributed to Hilbert *without reliable source*. See, for example, item 307° of \[[https://en.wikipedia.org/wiki/Howard_Eves Howard W. Eves], [https://books.google.com.hk/books/about/Mathematical_circles_revisited.html?id=veeEAAAAIAAJ&redir_esc=y /Mathematical Circles Revisited: A Second Collection of Mathematical Stories and Anecdotes/], Prindle, Weber & Schmidt, Inc., Boston, 1971\] and \[Markus Sigg, [https://www.spektrum.de/lexikon/mathematik/humor-in-der-mathematik/4071 Humor in der Mathematik], in [https://link.springer.com/book/10.1007%2F978-3-662-53504-2 /Lexikon der Mathematik: Band 2: Eig bis Inn/], edited by [https://www.genealogy.math.ndsu.nodak.edu/id.php?id=45298 Guido Walz], Springer Spektrum, 2017\]. 
 ~~~
+
+#{{<a id="cube"></a>}} 
+#~~~
+#:{Cubum autem in duos cubos, aut quadratoquadratum in duos quadratoquadratos & generaliter nullam in infinitum ultra quadratum potestatem in duos eiusdem nominis fas est dividere cuius rei demonstrationem mirabilem sane detexi. Hanc marginis exiguitas non caperet. (Il est impossible de partager soit un cube en deux cubes, soit un bicarré en deux bicarrés, soit en général une puissance quelconque supérieure au carré en deux puissances de même degré : j'en ai découvert une démonstration véritablement merveilleuse que cette marge est trop étroite pour contenir. It is impossible to separate a cube into two cubes, or a fourth power into two fourth powers, or in general, any power higher than the second, into two like powers. I have discovered a truly marvelous proof of this, which this margin is too narrow to contain.)}
+#~~~
 
 {{<a id="diverse_unit"></a>}} 
 ~~~
@@ -104,21 +95,24 @@ This statement is attributed to Hilbert {{<span class="dotunder">}}without relia
 This statement comes from Fourier's book [https://fr.wikisource.org/wiki/Th%C3%A9orie_analytique_de_la_chaleur /Théorie Analytique de la Chaleur/] ([https://archive.org/details/analyticaltheory00fourrich/page/n5 /The Analytical Theory of Heat/]).  In the Discours préliminaire (Preliminary discourse), Fourier wrote that "L’analyse mathématique est aussi étendue que la nature elle-même ; elle définit tous les rapports sensibles, mesure les temps, les espaces, les forces, les températures ; cette science difficile se forme avec lenteur, mais elle conserve tous les principes qu’elle a une fois acquis ; elle s’accroît et s’affermit sans cesse au milieu de tant de variations et d’erreurs de l’esprit humain. Son attribut principal est la clarté ; elle n’a point de signes pour exprimer les notions confuses. {{<span class="dotunder">}}Elle rapproche les phénomènes les plus divers, et découvre les analogies secrètes qui les unissent{{</span>}}". (Mathematical analysis is as extensive as nature itself; it defines all perceptible relations, measures times, spaces, forces, temperatures; this difficult science
 is formed slowly, but it preserves every principle which it has once acquired; it grows and strengthens itself incessantly in the midst of the many variations and errors of the human mind.
 Its chief attribute is clearness; it has no marks to express confused notions. {{<span class="dotunder">}}It compares the most diverse phenomena and discovers the hidden analogies which unite them{{</span>}}.)
-\n Here, it seems that "mathematical analysis" means "analysis of mathematical kind" rather than the mathematical branch known as [https://en.wikipedia.org/wiki/Mathematical_analysis /mathematical analysis/]. Therefore, one can paraphrase this statement as "{{<span class="dotunder">}}La mathématique rapproche les phénomènes les plus divers, et découvre les analogies secrètes qui les unissent{{</span>}}" ({{<span class="dotunder">}}Mathematics compares the most diverse phenomena and discovers the hidden analogies that unite them{{</span>}}).
+\n Here, it seems that "mathematical analysis" means "analysis of mathematical kind" rather than the mathematical branch known as [https://en.wikipedia.org/wiki/Mathematical_analysis /mathematical analysis/]. Therefore, one may paraphrase this statement as "{{<span class="dotunder">}}La mathématique rapproche les phénomènes les plus divers, et découvre les analogies secrètes qui les unissent{{</span>}}" ({{<span class="dotunder">}}Mathematics compares the most diverse phenomena and discovers the hidden analogies that unite them{{</span>}}).
 ~~~
 
 {{<a id="art_Lenstra"></a>}}
 ~~~
 :{The art of doing mathematics is forgetting about the superfluous information.}
 \n --- [https://en.wikipedia.org/wiki/Hendrik_Lenstra Hendrik W. Lenstra, Jr.]\n
-See [https://userweb.ucs.louisiana.edu/~avm1260/lenstra.html The Wisdom of Hendrik W. Lenstra, Jr.] by [https://userweb.ucs.louisiana.edu/~avm1260/index.html Arturo Magidin] and \[[http://pages.pomona.edu/~gk014747/ Gizem Karaali], [https://link.springer.com/chapter/10.1007/978-3-030-22537-7_19 On Mathematical Ways of Knowing: Musings of a Humanistic Mathematician], in [https://link.springer.com/book/10.1007/978-3-030-22537-7 /Interdisciplinary Perspectives on Math Cognition/], edited by [https://en.wikipedia.org/wiki/Marcel_Danesi Marcel Danesi], 321--332. Springer, Cham, 2019\].
+See [https://userweb.ucs.louisiana.edu/~avm1260/lenstra.html The Wisdom of Hendrik W. Lenstra, Jr.] by [https://userweb.ucs.louisiana.edu/~avm1260/index.html Arturo Magidin] and \[[http://pages.pomona.edu/~gk014747/ Gizem Karaali], [https://link.springer.com/chapter/10.1007/978-3-030-22537-7_19 On Mathematical Ways of Knowing: Musings of a Humanistic Mathematician], in [https://link.springer.com/book/10.1007/978-3-030-22537-7 /Interdisciplinary Perspectives on Math Cognition/], edited by [https://en.wikipedia.org/wiki/Marcel_Danesi Marcel Danesi], 321--332. Springer, Cham, 2019\]. 
+This is similar to the [./quotation.html\#wise remark] made by 
+[https://en.wikipedia.org/wiki/William_James William James] that 
+"The art of being wise is the art of knowing what to overlook."
 ~~~
 
 {{<a id="art"></a>}}
 ~~~
 :{The art of doing mathematics consists in finding that special case which contains all the germs of generality.} 
 \n --- [https://en.wikipedia.org/wiki/David_Hilbert David Hilbert]\n
-This statement is widely attributed to David Hilbert, {{<span class="dotunder">}}yet apocryphally perhaps{{</span>}}. For instances, see \[[https://en.wikipedia.org/wiki/Mark_Kac Mark Kac], [https://pdfs.semanticscholar.org/dc13/bcd2c917eaf2c67e438cef65c43c1c12ed9c.pdf Wiener and integration in function spaces], [https://en.wikipedia.org/wiki/Bulletin_of_the_American_Mathematical_Society /Bull. Amer. Math. Soc./], 72:52--68, 1966\] and \[[http://pages.pomona.edu/~gk014747/ Gizem Karaali], [https://link.springer.com/chapter/10.1007/978-3-030-22537-7_19 On Mathematical Ways of Knowing: Musings of a Humanistic Mathematician], in [https://link.springer.com/book/10.1007/978-3-030-22537-7 /Interdisciplinary Perspectives on Math Cognition/], edited by [https://en.wikipedia.org/wiki/Marcel_Danesi Marcel Danesi], 321--332. Springer, Cham, 2019\].
+This statement is widely attributed to David Hilbert, yet *apocryphally* perhaps. For instances, see \[[https://en.wikipedia.org/wiki/Mark_Kac Mark Kac], [https://pdfs.semanticscholar.org/dc13/bcd2c917eaf2c67e438cef65c43c1c12ed9c.pdf Wiener and integration in function spaces], [https://en.wikipedia.org/wiki/Bulletin_of_the_American_Mathematical_Society /Bull. Amer. Math. Soc./], 72:52--68, 1966\] and \[[http://pages.pomona.edu/~gk014747/ Gizem Karaali], [https://link.springer.com/chapter/10.1007/978-3-030-22537-7_19 On Mathematical Ways of Knowing: Musings of a Humanistic Mathematician], in [https://link.springer.com/book/10.1007/978-3-030-22537-7 /Interdisciplinary Perspectives on Math Cognition/], edited by [https://en.wikipedia.org/wiki/Marcel_Danesi Marcel Danesi], 321--332. Springer, Cham, 2019\].
 ~~~
 
 {{<a id="name"></a>}}
@@ -280,6 +274,28 @@ See
 
 == {{<a id="science"></a>}} Science and research
 
+{{<a id="latest"></a>}}
+{{<a id="wise"></a>}}
+~~~
+:{The art of being wise is the art of knowing what to overlook.}
+\n --- [https://en.wikipedia.org/wiki/William_James William James]\n
+[http://www.public-library.uk/ebooks/50/61.pdf /The Principles of Psychology/] (1890), Chapter XXII. "Reasoning"
+\n
+William James was an American philosopher and psychologist. He was one of the most influential philosophers of the United States, and considered to be the "father of American psychology".
+The original sentence that he wrote in his book was "As the art of reading (after a certain stage in one's education) is the art of skipping, so the art of being wise is the art of knowing what to overlook." 
+This is similar to the [./quotation.html\#art_Lenstra remark] made by
+[https://en.wikipedia.org/wiki/Hendrik_Lenstra Hendrik W. Lenstra, Jr.] that
+"The art of doing mathematics is forgetting about the superfluous information."
+~~~
+
+{{<a id="genius"></a>}}
+~~~
+:{Genius, in truth, means little more than the faculty of perceiving in an unhabitual way.}
+\n --- [https://en.wikipedia.org/wiki/William_James William James]\n
+[http://www.public-library.uk/ebooks/50/61.pdf /The Principles of Psychology/] (1890), Chapter XIX. "The Perception of 'Things'"
+~~~
+
+
 {{<a id="theory"></a>}}
 ~~~
 :{There is nothing so practical as a good theory.}
@@ -334,7 +350,7 @@ The sentence is quoted in Section 1.3 of the "Summary" part of the book /Proport
 
 {{<a id="basic"></a>}}
 ~~~
-:{Basic research is what I am doing when I don't know what I am doing. (Grundlagenforschung betreibe ich dann, wenn ich nicht weiß, was ich tue.)}
+:{Grundlagenforschung betreibe ich dann, wenn ich nicht weiß, was ich tue. (Basic research is what I am doing when I don't know what I am doing.)}
 \n --- [https://en.wikipedia.org/wiki/Wernher_von_Braun Wernher von Braun]
 \n In an interview in the New York Times (16 December 1957), cited in a footnote on [https://goo.gl/AAMcMS page 32] of [https://books.google.com.hk/books/about/Work_Society_and_Culture.html?id=8Uaqp-WlyucC&redir_esc=y /Work, Society, and Culture/] (Fordham University Press, 1986) by [https://en.wikipedia.org/wiki/Yves_Simon Yves René Marie Simon].  
 ~~~
@@ -576,7 +592,7 @@ the actual expression used is said to have been "O liberté, comme on t'a jouée
 ~~~
 :{Mankind was born on earth. It was never meant to die here.}\n --- [https://en.wikipedia.org/wiki/Christopher_Nolan Christopher Nolan] and [https://en.wikipedia.org/wiki/Jonathan_Nolan Jonathan Nolan]
 \n This quotation comes from the 2014 movie [https://en.wikipedia.org/wiki/Interstellar_(film) /Interstellar/], the director being Christopher Nolan, and the script writer being Christopher Nolan and Jonathan Nolan. It is similar to the sentence [http://web.archive.org/web/20060421175318/http://www.uranos.eu.org/biogr/ciolke.html "Earth is the cradle of humanity, but one cannot live in a cradle forever."] (Планета есть колыбель разума, но нельзя вечно жить в колыбели, more precisely translated as "The planet is the cradle of the mind, but you cannot live forever in the cradle"), which was written by [https://en.wikipedia.org/wiki/Konstantin_Tsiolkovsky Konstantin E. Tsiolkovsky] (Константин Эдуардович Циолковский, Russian and Soviet rocket scientist and pioneer of the astronautic theory) in a [https://web.archive.org/web/20140219031703/http://www.rf.com.ua/article/388 letter] in 1911.
-\n The quotation resembles a fact about mathematics: Mathematics starts from intuition, but it is never meant to stay there; /ou/: Good mathematicians start from intuition (and most likely return there in the end), while lousy ones stay there (without ever leaving). To see what it means, read [https://en.wikipedia.org/wiki/Terence_Tao Terence Tao]'s essay on the three stages of mathematical education ("[https://terrytao.wordpress.com/career-advice/there’s-more-to-mathematics-than-rigour-and-proofs/ There’s more to mathematics than rigour and proofs]") and the [\#zen quotation on the three stages of Zen]. Do not confuse the first stage with the third one. 
+\n The quotation resembles a fact about mathematics: Mathematics starts from intuition, but it is never meant to stay there; /ou/: Good mathematicians start their journeys from intuition (and most likely return there in the end), while lousy ones stay there (without ever leaving). To see what it means, read [https://en.wikipedia.org/wiki/Terence_Tao Terence Tao]'s essay on the three stages of mathematical education ("[https://terrytao.wordpress.com/career-advice/there’s-more-to-mathematics-than-rigour-and-proofs/ There’s more to mathematics than rigour and proofs]") and the [\#zen quotation on the three stages of Zen]. Do not confuse the first stage with the third one. 
 ~~~
 
 {{<a id="talk"></a>}}

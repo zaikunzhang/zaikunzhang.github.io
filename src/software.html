@@ -1,6 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
-  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
 <meta name="Description" content="A collection of software on optimization
 and numerical linear algebra. Collected by Zaikun Zhang.
@@ -8,16 +7,16 @@ See also http://www.zhangzk.net, http://www.zzk.me" />
 <meta name="keywords" content="software,code,algorithm,package,optimization,powell,numerical linear algebra,numerical analysis"/>
 <meta name="author" content="Zaikun Zhang"/>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-<link rel="apple-touch-icon" sizes="180x180" href="/figs/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/figs/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/figs/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="theme-color" content="#ffffff">
+<link rel="apple-touch-icon" sizes="180x180" href="/figs/apple-touch-icon.png"/>
+<link rel="icon" type="image/png" sizes="32x32" href="/figs/favicon-32x32.png"/>
+<link rel="icon" type="image/png" sizes="16x16" href="/figs/favicon-16x16.png"/>
+<link rel="manifest" href="/site.webmanifest"/>
+<meta name="msapplication-TileColor" content="#da532c"/>
+<meta name="theme-color" content="#ffffff"/>
 <link rel="stylesheet" href="/jemdoc.css" type="text/css" />
 <title>Software</title>
 <!-- MathJax -->
-<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
@@ -38,10 +37,10 @@ MathJax.Hub.Config({
 <div class="menu-item"><a href="http://zhangzk.net/software.html" class="current">Software</a></div>
 <div class="menu-item"><a href="http://zhangzk.net/coauthor.html">Co-authors</a></div>
 <div class="menu-item"><a href="http://zhangzk.net/powell.html">Prof.&nbsp;Powell</a></div>
+<div class="menu-item"><a href="http://zhangzk.net/tts.html">Tools&nbsp;&amp;&nbsp;Tips</a></div>
 <div class="menu-item"><a href="http://zhangzk.net/conference.html">Conferences</a></div>
 <div class="menu-item"><a href="http://zhangzk.net/misc.html">Miscellaneous</a></div>
 <div class="menu-category">Links</div>
-<div class="menu-item"><a href="http://zhangzk.net/tools.html">Tools</a></div>
 <div class="menu-item"><a href="http://lsec.cc.ac.cn/~optim">Yuan&nbsp;Group</a></div>
 <div class="menu-item"><a href="http://lsec.cc.ac.cn/~siamstuc">CAS&nbsp;SIAM</a></div>
 <div class="menu-item"><a href="http://www.xintian.org/">Xin&nbsp;Tian</a></div>
@@ -65,7 +64,7 @@ MathJax.Hub.Config({
 <p>During his last days, Professor Powell kindly sent me the source code of his optimization software and authorized me to maintain it here. 
 Now the software is also maintained at <a href="https://ccpforge.cse.rl.ac.uk/gf/project/powell">CCPForge</a> by Professor <a href="http://www.numerical.rl.ac.uk/people/nimg/">Nick Gould</a> and me.
 If you have problems in downloading, please feel free to <a href="index.html#contact">contact me</a>. 
-In case of technical questions on the code or the algorithms, you may also <a href="mailto:nick.gould@stfc.ac.uk,zaikunzhang@gmail.com?subject=MJD Powell Software Technical Question">contact us</a> and we will do our best to help. </p>
+In case of technical questions on the code or the algorithms, you may also <a href="mailto:nick.gould@stfc.ac.uk,zaikunzhang@gmail.com">contact us</a> and we will do our best to help. </p>
 <p>Each package here includes an &ldquo;email.txt&rdquo; file. It is an email from Professor Powell giving details of the corresponding software.  
 To use the software, you need a Fortran compiler (e.g., <a href="https://en.wikipedia.org/wiki/F2c">f77</a>, <a href="https://en.wikipedia.org/wiki/Intel_Fortran_Compiler">IFORT</a>,  <a href="https://en.wikipedia.org/wiki/GNU_Fortran">GFortran</a>, <a href="https://en.wikipedia.org/wiki/G95">G95</a>). Makefiles are provided for the usage under Unix, and they might need modifications according to your compiler. <span class="dotunder">Plans are underway to provide MATLAB, Python, and (possibly) C interfaces.</span>  </p>
 <p>Please notice that <span class="dotunder">Professor Powell decided to release his optimization software with the <a href="https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License">GNU Lesser General Public License</a></span>. If you are using a version of the software without the license, please update it. If you are archiving the software somewhere else, please make sure to include the license. </p>
@@ -141,7 +140,7 @@ derivatives of the objective function.
 
 </p>
 </li>
-<li><p>web-page creator: <a href="http://jemdoc.jaboc.net/">jemdoc</a><a href="https://github.com/wsshin/jemdoc_mathjax">+MathJax</a> (thanks to Professor <a href="http://lsec.cc.ac.cn/~liuxin">Xin Liu</a>, who introduced jemdoc to me)</p>
+<li><p>web-page creator: <a href="http://jemdoc.jaboc.net/">jemdoc</a><a href="https://github.com/wsshin/jemdoc_mathjax">+ MathJax</a> (thanks to Professor <a href="http://lsec.cc.ac.cn/~liuxin">Xin Liu</a>, who introduced jemdoc to me)</p>
 </li>
 <li><p>graphics editor: <a href="https://en.wikipedia.org/wiki/GIMP">GIMP</a>, <a href="https://en.wikipedia.org/wiki/Inkscape">Inkscape</a>
 
@@ -152,7 +151,7 @@ derivatives of the objective function.
 <div id="footer">
 <div id="footer-text">
 <h6 class="myleft">
-Page updated in Oct 2019.
+Page updated in Feb 2020.
 &nbsp;
 </h6>
 <h6 class="myright">
