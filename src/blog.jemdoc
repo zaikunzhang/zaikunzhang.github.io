@@ -249,186 +249,186 @@ The slow way of answering is to calculate the distance that the fly travels on i
 更新 (2015 年 2 月 18 日, 图卢兹): 乙未年的[figs/yiwei.jpg 对联和福字] 
 ~~~
 
-{{<a id="english"></a>}}
-== {{<a id="axiom"></a>}}{{<span class="zhtitle">}}Three axioms about mathematicians{{</span>}}~{{<span class="date">}}(Feb. 18, 2014, Toulouse){{</span>}} 
-~~~
-{}{raw} 
-<br/>
-~~~
-
-I fabricated the following "axioms" when preparing the slides for my talk that will be given at [http://cerfacs.fr/ CERFACS] on Feb. 19, 2014.
-~~~
-*Axiom T*.  Mathematicians care a lot about theory.
-~~~
-
-~~~
-*Axiom P*.  Applied mathematicians care a lot about practice.
-~~~
-
-~~~
-[quotation.html\#analogy *Axiom A*] (Stefan Banach).  Good mathematicians see analogies between theorems or theories; the very best ones see analogies between analogies.
-~~~
-
-
-== {{<a id="talk"></a>}}{{<span class="zhtitle">}}Random thoughts on giving a talk{{</span>}}~{{<span class="date">}}(Feb. 18, 2014, Toulouse){{</span>}} 
-~~~
-{}{raw} 
-<br/>
-~~~
-
-Never give a boring talk. Otherwise all your potential audience will get bored and finally you will have nobody to bore. 
-
-Try to make your audience remember something after your talk: a conclusion, a technique, a philosophy, or, at least, a joke. Otherwise, you did not prepared the talk well enough. 
-
-Never read your slides during the talk, never. Otherwise you should have sent the slides to your audience and cancelled the talk so as to save your time and especially theirs. Believe or not, they can read better without your interruptions.
-
-~~~
-Update (July 9, 2015, Toulouse): 
-Did you know [http://manyworldstheory.com/2013/10/03/the-9-kinds-of-physics-seminar/ the 9 kinds of physics seminar]? Similar categorization is applicable to mathematics seminar.
-~~~
-
-~~~
-Update (July 23, 2015, Toulouse): 
-"A talk is greatly improved if the audience recognise they are [quotation.html\#talk being /talked to/ rather than being /talked at/]."  
-~~~
-
-== {{<a id="weibo"></a>}}{{<span class="zhtitle">}}老爷的腰带{{</span>}}~{{<span class="date">}}(2014 年 2 月 25 日，科英布拉){{</span>}} 
-~~~
-{}{raw} 
-<br/>
-~~~
-
-昨天与师兄通邮件，得知科学院出台新龟腚：原则上每人每年出国一次，年初申请指标。
-
-肉食者鄙，此言不谬。学术研究素来推崇交流讨论，这条所谓龟腚却反其道而行之，大有再次闭关锁国的架势，不愧天朝科学院之气象。
-
-师兄解释说，新政提倡勒紧腰带闹革命，科学院此举也是迎合上峰。这不奇怪，老爷们是领导选的，自然想领导所想，急领导所急；领导没有想到的，也要提前为领导想好。
-
-不过，这次揣度圣意恐怕是矫枉过正了。上头让你紧自己的腰带，可你勒学术的围脖作甚？
-
-管好自己的腰带就行，别人的围脖莫操心。
-
-
-== {{<a id="compdf"></a>}}{{<span class="zhtitle">}}用 Bash 脚本合并 pdf 文件{{</span>}}~{{<span class="date">}}(2014 年 3 月 5 日，科英布拉){{</span>}} 
-~~~
-{}{raw} 
-<br/>
-~~~
-
-在人们的日常生产生活、居家旅行当中，有时免不了需要将几个 pdf 文件合并到一起。{{<span class="dotunder">}}任何工作，重复做两遍就应该考虑写一个脚本来实现{{</span>}}。
-
-假设我们要合并 file1.pdf 和 file2.pdf。那下面这个简单的脚本就可以胜任。\[[software/compdf 下载脚本]\]
-
-~~~
-{}{}
-#!/bin/bash
-# Name: compdf
-# Usage: compdf LIST OF INPUT FILES. 
-# The purpose is to coimbine the input files into a pdf file.
-# The output will be written to output-`date +%Y%m%d%H%M%S`.pdf."
-
-if [ $# -gt 0 ]
-then
-    OUTPUT=output`date +%Y%m%d%H%M%S`.pdf
-    gs -dNOPAUSE -sDEVICE=pdfwrite -sOUTPUTFILE=$OUTPUT -dBATCH $*
-else
-    echo "Usage: compdf LIST OF INPUT FILES."
-fi
-~~~
-
-把这个脚本命名为 [software/compdf compdf]，设置权限，运行 
-~~~
-{}{}
-./compdf file1.pdf file2.pdf 
-~~~
-即可。输出文件为 output-YYYYmmddHHMMSS.pdf。
-
-但是，在某些社交场合，简单的合并不足以满足需求，人们可能希望合并给定文件的若干页 (而不是全部)。举个例子，我们想合并 file1.pdf 的第 1 页 和 file2.pdf 的 4--5 页。下面的脚本可以做到这一点。\[[software/compdflatex 下载脚本]\]
-
-~~~
-{}{}
-#!/bin/bash
-# Name: compdflatex
-# Usage: compdflatex PDFNAME1.pdf [PAGE RANGES] [PDFNAME2.pdf [PAGE  RANGES] ...].
-# The purpose is to coimbine some pages of input files into a pdf file.
-# The output will be written to output-`date +%Y%m%d%H%M%S`.pdf."
-
-USAGE="Usage: compdflatex PDFNAME1.pdf [PAGE RANGES] [PDFNAME2.pdf [PAGE RANGES] ...]."
-
-if [[ "$#" -eq "0" ]]
-then
-    echo "$USAGE"
-    exit 1
-fi
-
-OUTPUT="output-`date +%Y%m%d%H%M%S`"
-
-cat > "$OUTPUT.tex" << EOF
-\\documentclass{article} 
-\\usepackage{pdfpages} 
-\\begin{document}
-EOF
-
-while [[ "$#" -gt "0" ]]
-do
-    if [[ "${1: -4}" != ".pdf" ]] && [[ "${1: -4}" != ".PDF" ]]
-    then
-        echo "Error. Please provide the full file names, including the suffix ".pdf"."
-        exit 2
-    fi
-
-    if [[ "$#" -gt "1" ]] && [[ "${2: -4}" != ".pdf" ]] && [[ "${2: -4}" != ".PDF" ]]
-    then
-        cat >> "$OUTPUT.tex" << EOF
-\\includepdf[nup=1x1, delta=0mm 0mm, scale=1,pages={$2}]{$1}
-EOF
-# Make sure that there are no spaces before the "EOF" in last line.
-        shift
-        shift
-    else
-        cat >> "$OUTPUT.tex" << EOF
-\\includepdf[nup=1x1, delta=0mm 0mm, scale=1,pages=-]{$1}
-EOF
-# Make sure that there are no spaces before the "EOF" in last line.
-        shift
-    fi
-done
-
-cat >> "$OUTPUT.tex" << EOF
-\\end{document}
-EOF
-
-pdflatex $OUTPUT.tex
-rm -f $OUTPUT.tex $OUTPUT.log $OUTPUT.aux $OUTPUT.out
-~~~
-
-把这个脚本命名为 [software/compdflatex compdflatex]，设置权限，运行 
-~~~
-{}{}
-./compdflatex file1.pdf 1 file2.pdf 4-5 
-~~~
-即可。运行此脚本前，需确保已经安装 pdflatex，否则可能导致主板短路等致命后果。
-
-
-== {{<a id="meng"></a>}}{{<span class="zhtitle">}}记梦{{</span>}}~{{<span class="date">}}(2014 年 3 月 6 日，科英布拉){{</span>}} 
-
-=== {{<span class="zhtitle">}} 梦见蛇 {{</span>}}
-有蛇在攻击我。看起来像是一条双头蛇，也有可能是两条蛇。它 (们) 缠在我的手臂上，直径五六公分的样子。两个蛇头向我扑过来，被我一把抓住。我用力一拧，蛇似乎被我扭断了。总之，它 (们) 没有咬到我。
-
-=== {{<span class="zhtitle">}} 梦见猫 {{</span>}} 
-猫抬起爪子搭在我的手臂上。为了避免被抓伤，我顺势摆了一下胳膊。被抓的地方留下了印，但不疼，看起来没那么严重。
-
-=== {{<span class="zhtitle">}} 梦见鞋 {{</span>}}
-感觉鞋底下有异样。我脱下鞋，发现鞋底破了一个小洞，像是钉子扎的。好在脚没有受伤。
-
-=== {{<span class="zhtitle">}} 梦见游泳 {{</span>}}
-身上沾了很多泥，于是我跳进一片水里。我在水下睁开眼，水非常清。
-
-=== {{<span class="zhtitle">}} 梦见飞 {{</span>}}
-我要回家。有两条路。一条像是乘坐某种交通工具，很多人在排队。所以我选择了另外一条。这条路很远，需要飞回去。天上有孔雀在飞。我确信自己能变成一只孔雀。于是我开始使劲地跑，真的飞了起来。但是我没有变成孔雀，好像飞得也不高。但终究还是飞起来了。
-
-=== {{<span class="zhtitle">}} 梦见獾 (上一个梦的延续) {{</span>}}
-我很快回到了家。娘在里间做饭，爹在外间。屋里还有两个狗一样大小的动物，但不是狗。爹告诉我，这是两只獾 (我没有见过獾；从网上的图片来看，我梦见的样子还挺像)。今天你回来，我们要砍下一只獾的一条腿炖了吃。我说，不行，它们看起来这么有灵气，怎么能炖了吃呢？爹同意了。这时刚才那只要被砍腿的獾伸出了一只前爪，他的爪子竟有五个手指。我知道他这是要握手感谢我，伸手迎上去。这时他开口说话了，但不是中文，而是法语。我用葡萄牙语回答说："Não falo francês. Fala português?" 他说他的同伴会说葡语。我于是转头问另一只獾："Fala português?"
+#{{<a id="english"></a>}}
+#== {{<a id="axiom"></a>}}{{<span class="zhtitle">}}Three axioms about mathematicians{{</span>}}~{{<span class="date">}}(Feb. 18, 2014, Toulouse){{</span>}} 
+#~~~
+#{}{raw} 
+#<br/>
+#~~~
+#
+#I fabricated the following "axioms" when preparing the slides for my talk that will be given at [http://cerfacs.fr/ CERFACS] on Feb. 19, 2014.
+#~~~
+#*Axiom T*.  Mathematicians care a lot about theory.
+#~~~
+#
+#~~~
+#*Axiom P*.  Applied mathematicians care a lot about practice.
+#~~~
+#
+#~~~
+#[quotation.html\#analogy *Axiom A*] (Stefan Banach).  Good mathematicians see analogies between theorems or theories; the very best ones see analogies between analogies.
+#~~~
+#
+#
+#== {{<a id="talk"></a>}}{{<span class="zhtitle">}}Random thoughts on giving a talk{{</span>}}~{{<span class="date">}}(Feb. 18, 2014, Toulouse){{</span>}} 
+#~~~
+#{}{raw} 
+#<br/>
+#~~~
+#
+#Never give a boring talk. Otherwise all your potential audience will get bored and finally you will have nobody to bore. 
+#
+#Try to make your audience remember something after your talk: a conclusion, a technique, a philosophy, or, at least, a joke. Otherwise, you did not prepared the talk well enough. 
+#
+#Never read your slides during the talk, never. Otherwise you should have sent the slides to your audience and cancelled the talk so as to save your time and especially theirs. Believe or not, they can read better without your interruptions.
+#
+#~~~
+#Update (July 9, 2015, Toulouse): 
+#Did you know [http://manyworldstheory.com/2013/10/03/the-9-kinds-of-physics-seminar/ the 9 kinds of physics seminar]? Similar categorization is applicable to mathematics seminar.
+#~~~
+#
+#~~~
+#Update (July 23, 2015, Toulouse): 
+#"A talk is greatly improved if the audience recognise they are [quotation.html\#talk being /talked to/ rather than being /talked at/]."  
+#~~~
+#
+#== {{<a id="weibo"></a>}}{{<span class="zhtitle">}}老爷的腰带{{</span>}}~{{<span class="date">}}(2014 年 2 月 25 日，科英布拉){{</span>}} 
+#~~~
+#{}{raw} 
+#<br/>
+#~~~
+#
+#昨天与师兄通邮件，得知科学院出台新龟腚：原则上每人每年出国一次，年初申请指标。
+#
+#肉食者鄙，此言不谬。学术研究素来推崇交流讨论，这条所谓龟腚却反其道而行之，大有再次闭关锁国的架势，不愧天朝科学院之气象。
+#
+#师兄解释说，新政提倡勒紧腰带闹革命，科学院此举也是迎合上峰。这不奇怪，老爷们是领导选的，自然想领导所想，急领导所急；领导没有想到的，也要提前为领导想好。
+#
+#不过，这次揣度圣意恐怕是矫枉过正了。上头让你紧自己的腰带，可你勒学术的围脖作甚？
+#
+#管好自己的腰带就行，别人的围脖莫操心。
+#
+#
+#== {{<a id="compdf"></a>}}{{<span class="zhtitle">}}用 Bash 脚本合并 pdf 文件{{</span>}}~{{<span class="date">}}(2014 年 3 月 5 日，科英布拉){{</span>}} 
+#~~~
+#{}{raw} 
+#<br/>
+#~~~
+#
+#在人们的日常生产生活、居家旅行当中，有时免不了需要将几个 pdf 文件合并到一起。{{<span class="dotunder">}}任何工作，重复做两遍就应该考虑写一个脚本来实现{{</span>}}。
+#
+#假设我们要合并 file1.pdf 和 file2.pdf。那下面这个简单的脚本就可以胜任。\[[software/compdf 下载脚本]\]
+#
+#~~~
+#{}{}
+##!/bin/bash
+## Name: compdf
+## Usage: compdf LIST OF INPUT FILES. 
+## The purpose is to coimbine the input files into a pdf file.
+## The output will be written to output-`date +%Y%m%d%H%M%S`.pdf."
+#
+#if [ $# -gt 0 ]
+#then
+#    OUTPUT=output`date +%Y%m%d%H%M%S`.pdf
+#    gs -dNOPAUSE -sDEVICE=pdfwrite -sOUTPUTFILE=$OUTPUT -dBATCH $*
+#else
+#    echo "Usage: compdf LIST OF INPUT FILES."
+#fi
+#~~~
+#
+#把这个脚本命名为 [software/compdf compdf]，设置权限，运行 
+#~~~
+#{}{}
+#./compdf file1.pdf file2.pdf 
+#~~~
+#即可。输出文件为 output-YYYYmmddHHMMSS.pdf。
+#
+#但是，在某些社交场合，简单的合并不足以满足需求，人们可能希望合并给定文件的若干页 (而不是全部)。举个例子，我们想合并 file1.pdf 的第 1 页 和 file2.pdf 的 4--5 页。下面的脚本可以做到这一点。\[[software/compdflatex 下载脚本]\]
+#
+#~~~
+#{}{}
+##!/bin/bash
+## Name: compdflatex
+## Usage: compdflatex PDFNAME1.pdf [PAGE RANGES] [PDFNAME2.pdf [PAGE  RANGES] ...].
+## The purpose is to coimbine some pages of input files into a pdf file.
+## The output will be written to output-`date +%Y%m%d%H%M%S`.pdf."
+#
+#USAGE="Usage: compdflatex PDFNAME1.pdf [PAGE RANGES] [PDFNAME2.pdf [PAGE RANGES] ...]."
+#
+#if [[ "$#" -eq "0" ]]
+#then
+#    echo "$USAGE"
+#    exit 1
+#fi
+#
+#OUTPUT="output-`date +%Y%m%d%H%M%S`"
+#
+#cat > "$OUTPUT.tex" << EOF
+#\\documentclass{article} 
+#\\usepackage{pdfpages} 
+#\\begin{document}
+#EOF
+#
+#while [[ "$#" -gt "0" ]]
+#do
+#    if [[ "${1: -4}" != ".pdf" ]] && [[ "${1: -4}" != ".PDF" ]]
+#    then
+#        echo "Error. Please provide the full file names, including the suffix ".pdf"."
+#        exit 2
+#    fi
+#
+#    if [[ "$#" -gt "1" ]] && [[ "${2: -4}" != ".pdf" ]] && [[ "${2: -4}" != ".PDF" ]]
+#    then
+#        cat >> "$OUTPUT.tex" << EOF
+#\\includepdf[nup=1x1, delta=0mm 0mm, scale=1,pages={$2}]{$1}
+#EOF
+## Make sure that there are no spaces before the "EOF" in last line.
+#        shift
+#        shift
+#    else
+#        cat >> "$OUTPUT.tex" << EOF
+#\\includepdf[nup=1x1, delta=0mm 0mm, scale=1,pages=-]{$1}
+#EOF
+## Make sure that there are no spaces before the "EOF" in last line.
+#        shift
+#    fi
+#done
+#
+#cat >> "$OUTPUT.tex" << EOF
+#\\end{document}
+#EOF
+#
+#pdflatex $OUTPUT.tex
+#rm -f $OUTPUT.tex $OUTPUT.log $OUTPUT.aux $OUTPUT.out
+#~~~
+#
+#把这个脚本命名为 [software/compdflatex compdflatex]，设置权限，运行 
+#~~~
+#{}{}
+#./compdflatex file1.pdf 1 file2.pdf 4-5 
+#~~~
+#即可。运行此脚本前，需确保已经安装 pdflatex，否则可能导致主板短路等致命后果。
+#
+#
+#== {{<a id="meng"></a>}}{{<span class="zhtitle">}}记梦{{</span>}}~{{<span class="date">}}(2014 年 3 月 6 日，科英布拉){{</span>}} 
+#
+#=== {{<span class="zhtitle">}} 梦见蛇 {{</span>}}
+#有蛇在攻击我。看起来像是一条双头蛇，也有可能是两条蛇。它 (们) 缠在我的手臂上，直径五六公分的样子。两个蛇头向我扑过来，被我一把抓住。我用力一拧，蛇似乎被我扭断了。总之，它 (们) 没有咬到我。
+#
+#=== {{<span class="zhtitle">}} 梦见猫 {{</span>}} 
+#猫抬起爪子搭在我的手臂上。为了避免被抓伤，我顺势摆了一下胳膊。被抓的地方留下了印，但不疼，看起来没那么严重。
+#
+#=== {{<span class="zhtitle">}} 梦见鞋 {{</span>}}
+#感觉鞋底下有异样。我脱下鞋，发现鞋底破了一个小洞，像是钉子扎的。好在脚没有受伤。
+#
+#=== {{<span class="zhtitle">}} 梦见游泳 {{</span>}}
+#身上沾了很多泥，于是我跳进一片水里。我在水下睁开眼，水非常清。
+#
+#=== {{<span class="zhtitle">}} 梦见飞 {{</span>}}
+#我要回家。有两条路。一条像是乘坐某种交通工具，很多人在排队。所以我选择了另外一条。这条路很远，需要飞回去。天上有孔雀在飞。我确信自己能变成一只孔雀。于是我开始使劲地跑，真的飞了起来。但是我没有变成孔雀，好像飞得也不高。但终究还是飞起来了。
+#
+#=== {{<span class="zhtitle">}} 梦见獾 (上一个梦的延续) {{</span>}}
+#我很快回到了家。娘在里间做饭，爹在外间。屋里还有两个狗一样大小的动物，但不是狗。爹告诉我，这是两只獾 (我没有见过獾；从网上的图片来看，我梦见的样子还挺像)。今天你回来，我们要砍下一只獾的一条腿炖了吃。我说，不行，它们看起来这么有灵气，怎么能炖了吃呢？爹同意了。这时刚才那只要被砍腿的獾伸出了一只前爪，他的爪子竟有五个手指。我知道他这是要握手感谢我，伸手迎上去。这时他开口说话了，但不是中文，而是法语。我用葡萄牙语回答说："Não falo francês. Fala português?" 他说他的同伴会说葡语。我于是转头问另一只獾："Fala português?"
 
 == {{<a id="linux"></a>}}{{<span class="zhtitle">}}自由谈{{</span>}}~{{<span class="date">}}(2014 年 3 月 15 日，科英布拉){{</span>}} 
 
@@ -600,66 +600,66 @@ This dialog was between Sergeant [https://en.wikipedia.org/wiki/Myron_N._Ranney 
 Update (Mar. 31, 2015, Toulouse): [docs/publications/2015dspd.pdf The paper] is accepted by [http://epubs.siam.org/doi/abs/10.1137/140961602 /SIAM J. Optim./] 
 ~~~
 
-== {{<a id="nevergrowold"></a>}}{{<span class="zhtitle">}}Never grow old{{</span>}}~{{<span class="date">}}(Mar. 21, 2014, Coimbra){{</span>}} 
-~~~
-{}{raw} 
-<br/>
-~~~
-
-~~~
-{}{raw}
-<p class="mycenter">
-<a href="https://www.youtube.com/watch?v=wVC-veJ6eQ8"> <span class="poemtitle"> Never Grow Old </span></a> <br/>
-by <a href="https://en.wikipedia.org/wiki/Dolores_O'Riordan"> <span class="poemauthor"> Dolores Mary Eileen O'Riordan </span></a>
-</p>
-~~~
-
-~~~
-{}{raw}
-<div class="infoblock"><div class="blockcontent">
-<p class="mycenter">
-
-I had a dream <br/> Strange it may seem <br/> It was my perfect day <br/> <br/>
-
-Open my eyes <br/> I realize <br/> this is my perfect day <br/> <br/>
-
-Hope you'll never grow old <br/> <br/>
-
-Birds in the sky <br/> they look so high <br/> This is my perfect day <br/> <br/>
-
-I feel the breeze <br/> I feel at ease <br/> It is my perfect day <br/> <br/>
-
-Hope you'll never grow old <br/> <br/>
-
-Forever young <br/> I hope you'll stay <br/> forever young
-
-</p>
-</div></div>
-~~~
-
-== {{<a id="thanks"></a>}} {{<span class="zhtitle">}}Toulouse{{</span>}}~{{<span class="date">}}(Mar. 21, 2014, Coimbra){{</span>}}
-~~~
-{}{raw} 
-<br/>
-~~~
-
-Yesterday [http://www.fondation-stae.net/ Fondation STAE] sent me an email giving a favourable answer to my application for the position in Toulouse. Although the final result is not exactly the one that was expected, I am fairly happy and satisfied. I have decided to accept this offer and move to Toulouse, even if there would be other opportunities. I have sensed that the new life in Toulouse will be important to me. 
-
-The application was not an easy one. There were quite a few interesting stories. Fortunately, I made it. This would not have happened without the help from my referees and friends. With all my grateful heart, I would like to thank those who helped me with the application, and who helped me to make the decision, especially 
-Professor [http://gratton.perso.enseeiht.fr/ Serge Gratton],
-Mr. [https://en.wikipedia.org/wiki/Bram_Moolenaar Bram Moolenaar],
-Professor [powell.html M. J. D. Powell] FRS,
-Professor [http://www.ai7.uni-bayreuth.de/  Klaus Schittkowski],
-Professor [http://www.math.tau.ac.il/~teboulle/  Marc Teboulle],
-Professor [https://people.maths.ox.ac.uk/trefethen/  Nick Trefethen] FRS,
-Professor [http://mat.uc.pt/~lnv/  Luís Nunes Vicente],
-Professor [https://www.maths.ox.ac.uk/people/andy.wathen Andrew Wathen],
-Professor [http://www.stanford.edu/~yyye/  Yinyu Ye],
-Professor [http://lsec.cc.ac.cn/~yyx/  Ya-xiang Yuan], 
-Professor [http://lsec.cc.ac.cn/~azhou/  Aihui Zhou],
-and Miss Manqi Zhu.
-
-I look forward to finding out what is waiting for me in Toulouse. I am excited and confident. 
+#== {{<a id="nevergrowold"></a>}}{{<span class="zhtitle">}}Never grow old{{</span>}}~{{<span class="date">}}(Mar. 21, 2014, Coimbra){{</span>}} 
+#~~~
+#{}{raw} 
+#<br/>
+#~~~
+#
+#~~~
+#{}{raw}
+#<p class="mycenter">
+#<a href="https://www.youtube.com/watch?v=wVC-veJ6eQ8"> <span class="poemtitle"> Never Grow Old </span></a> <br/>
+#by <a href="https://en.wikipedia.org/wiki/Dolores_O'Riordan"> <span class="poemauthor"> Dolores Mary Eileen O'Riordan </span></a>
+#</p>
+#~~~
+#
+#~~~
+#{}{raw}
+#<div class="infoblock"><div class="blockcontent">
+#<p class="mycenter">
+#
+#I had a dream <br/> Strange it may seem <br/> It was my perfect day <br/> <br/>
+#
+#Open my eyes <br/> I realize <br/> this is my perfect day <br/> <br/>
+#
+#Hope you'll never grow old <br/> <br/>
+#
+#Birds in the sky <br/> they look so high <br/> This is my perfect day <br/> <br/>
+#
+#I feel the breeze <br/> I feel at ease <br/> It is my perfect day <br/> <br/>
+#
+#Hope you'll never grow old <br/> <br/>
+#
+#Forever young <br/> I hope you'll stay <br/> forever young
+#
+#</p>
+#</div></div>
+#~~~
+#
+#== {{<a id="thanks"></a>}} {{<span class="zhtitle">}}Toulouse{{</span>}}~{{<span class="date">}}(Mar. 21, 2014, Coimbra){{</span>}}
+#~~~
+#{}{raw} 
+#<br/>
+#~~~
+#
+#Yesterday [http://www.fondation-stae.net/ Fondation STAE] sent me an email giving a favourable answer to my application for the position in Toulouse. Although the final result is not exactly the one that was expected, I am fairly happy and satisfied. I have decided to accept this offer and move to Toulouse, even if there would be other opportunities. I have sensed that the new life in Toulouse will be important to me. 
+#
+#The application was not an easy one. There were quite a few interesting stories. Fortunately, I made it. This would not have happened without the help from my referees and friends. With all my grateful heart, I would like to thank those who helped me with the application, and who helped me to make the decision, especially 
+#Professor [http://gratton.perso.enseeiht.fr/ Serge Gratton],
+#Mr. [https://en.wikipedia.org/wiki/Bram_Moolenaar Bram Moolenaar],
+#Professor [powell.html M. J. D. Powell] FRS,
+#Professor [http://www.ai7.uni-bayreuth.de/  Klaus Schittkowski],
+#Professor [http://www.math.tau.ac.il/~teboulle/  Marc Teboulle],
+#Professor [https://people.maths.ox.ac.uk/trefethen/  Nick Trefethen] FRS,
+#Professor [http://mat.uc.pt/~lnv/  Luís Nunes Vicente],
+#Professor [https://www.maths.ox.ac.uk/people/andy.wathen Andrew Wathen],
+#Professor [http://www.stanford.edu/~yyye/  Yinyu Ye],
+#Professor [http://lsec.cc.ac.cn/~yyx/  Ya-xiang Yuan], 
+#Professor [http://lsec.cc.ac.cn/~azhou/  Aihui Zhou],
+#and Miss Manqi Zhu.
+#
+#I look forward to finding out what is waiting for me in Toulouse. I am excited and confident. 
 
 #== {{<a id="sickness"></a>}}{{<span class="zhtitle">}}Sickness{{</span>}}~{{<span class="date">}}(Mar 25, 2014, Coimbra){{</span>}} 
 #~~~
