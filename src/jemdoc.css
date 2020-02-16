@@ -15,20 +15,14 @@ body {
 /***************************************************/
 	padding-bottom: 8px;
 /*	margin: 0;*/
-/*    margin: 0 auto;*/
-/*    margin: auto;*/
-    /*min-width: 780px;*/
+    margin: 0 auto;
+    min-width: 780px;
 /* Zaikun, 04 April 2014 */
 /***************************************************/
-    /*max-width: 1260px;*/
+    max-width: 1260px;
     /*max-width: 1080px;*/
 /***************************************************/
-     background-color: #CCCCCC;
-     width: 80%;
-     margin-right:10%;
-     margin-left:10%;
-     margin-top: auto;
-     margin-bottom:auto;
+    /*background-color: #CCCCCC;*/
 }
 
 #layout-menu {
