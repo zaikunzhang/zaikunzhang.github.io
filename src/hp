@@ -1,4 +1,0 @@
-#!/bin/bash
-
-jemdoc -c zhangzk.conf index.jemdoc
-cp -r * ~/SSHFS/mat/public_html/
