@@ -77,7 +77,7 @@ end
 hold on;
 
 % Draw the Newton point
-r_newton = (2-phi)^2;
+%r_newton = (2-phi)^2;
 theta_newton = (1-phi)*pi/2.266;
 newton = cauchy + [cos(theta_newton); sin(theta_newton)];
 plot(newton(1), newton(2), 'k.', 'MarkerSize', 16);
@@ -93,7 +93,7 @@ text(powell(1)+0.1*phi, powell(2)-0.02, 'Powell');
 
 % Draw the trust region
 Delta = norm(powell); % Determine the trust region redius so that powell is indeed the dog-leg point
-theta = [0: 0.05: 2*pi+0.05];
+theta = (0 : 0.05 : 2*pi+0.05);
 x = Delta*cos(theta);
 y = Delta*sin(theta);
 plot(x,y, 'Color', 'k', 'LineStyle', '--', 'LineWidth', 0.2);
@@ -126,7 +126,7 @@ text(-g(1)+0.04, -g(2), '$-\mathbf{g}$', 'Interpreter', 'latex');
 % Draw the trajectory of the optimal solution
 lambda = 0;
 trajectory = -B\g;
-multiplier = [lambda];
+multiplier = lambda;
 increment = 0.025;
 while (lambda < 100)
     lambda = lambda + increment/norm(((B+lambda*eye(2,2))^2)\g);
@@ -140,7 +140,7 @@ normt = zeros(size(trajectory, 2), 1);
 for i = 1:size(trajectory, 2)
     normt(i) = norm(trajectory(:, i));
 end
-[n, ind] = min(abs(normt - Delta));
+[~, ind] = min(abs(normt - Delta));
 t = trajectory(:, ind);
 t = t/norm(t)*Delta;
 plot(t(1), t(2), 'k.', 'MarkerSize', 16);
