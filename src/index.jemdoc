@@ -75,7 +75,10 @@ PolyU offers an MSc Programme in <a href="https://www.polyu.edu.hk/ama/pg/63027"
 
 == {{<a id="paper"></a>}}Research papers
 
-- S. Gratton, C. W. Royer, L. N. Vicente, Z. Zhang, Direct search based on probabilistic feasible descent for bound and linearly constrained problems, accepted in [https://link.springer.com/journal/10589 /Comput. Optim. Appl./], 2019 \[[docs/publications/2019l-ds-random.pdf pdf]\] \[[http://link.springer.com/article/10.1007/s10589-019-00062-4 SpringerLink]\]
+- S. Gratton, C. W. Royer, L. N. Vicente, Z. Zhang, Direct search based
+on probabilistic feasible descent for bound and linearly constrained
+problems, [https://link.springer.com/journal/10589 /Comput. Optim.
+Appl./], 72: 525--559, 2019 \[[docs/publications/2019l-ds-random.pdf pdf]\] \[[http://link.springer.com/article/10.1007/s10589-019-00062-4 SpringerLink]\]
 
 - X. Chen, C. T. Kelley, F. Xu, Z. Zhang, 
 A smoothing direct search  method for Monte Carlo-based bound constrained composite nonsmooth optimization, [https://www.siam.org/journals/sisc.php /SIAM J. Sci. Comput./], 40(4): A2174--A2199, 2018 \[[docs/publications/2017asdsm.pdf pdf]\] \[[https://epubs.siam.org/doi/abs/10.1137/17M1116714 SIAM epubs]\]
