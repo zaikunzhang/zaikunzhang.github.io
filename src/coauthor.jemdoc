@@ -1,0 +1,74 @@
+# jemdoc: menu{MENU}{coauthor.html},title{Co-authors} showsource
+= {{<a id="top"></a>}}Co-authors
+This page lists my co-authors. The list is updated only after the joint work is submitted. 
+
+~~~
+{}{raw}
+<div class="infoblock"> <div class="blockcontent"> 
+<p class="right">
+- Grandpa, were you a hero in the war?
+<br/>
+- No... but I served in a company of heroes.
+<br/> <br/>
+ &#8201;&mdash;&#8201; Sergeant <a href="quotation.html#hero">Myron N. Ranney</a> (with his grandson)  <br/>WWII veteran
+</p>
+</div></div> 
+~~~
+
+== List of co-authors 
+
+- [https://www.polyu.edu.hk/ama/staff/xjchen/ChenXJ.htm X. Chen]
+
+- M. Dodangeh
+
+- [http://gratton.perso.enseeiht.fr/ S. Gratton] 
+
+- [http://www4.ncsu.edu/~ctk/ C. T. Kelley]
+
+- [http://lsec.cc.ac.cn/~liuxin X. Liu]
+
+- [http://www.math.hkbu.edu.hk/~mng/ M. K. Ng]
+
+- [http://pages.discovery.wisc.edu/~croyer/ C. W. Royer]
+
+- [http://mat.uc.pt/~lnv L. N. Vicente]
+
+- [http://gr.xjtu.edu.cn/web/fengminxu F. Xu]
+
+- R. Zhang
+
+== [http://goo.gl/uk6HYb Erdős number]: 3 
+
+- [http://goo.gl/9Rsxmk Paul Erdős] --- [http://www.ams.org/mathscinet-getitem?mr=942479 Marc Aron Berger] --- [http://www.ams.org/mathscinet-getitem?mr=552338 C. T. Kelley] --- [http://www.ams.org/mathscinet/search/author.html?mrauthid=1070418 Z.]
+
+- Longer paths to Erdős
+\n Paul Erdős --- [https://en.wikipedia.org/wiki/Ronald_Graham Ronald L. Graham] --- [http://www.ise.ufl.edu/pardalos/ Panos M. Pardalos] --- Luís Nunes Vicente --- Z.
+\n Paul Erdős --- [http://cgm.cs.mcgill.ca/~avis/ David] [http://cgm.cs.mcgill.ca/~avis/Kyoto/ M. Avis] --- [http://www.mcgill.ca/bioeng/faculty-and-staff/david-titley-peloquin David Titley-Péloquin] --- Serge Gratton --- Z.
+
+
+== Remarks {{<span class="date">}}(made on Nov. 14, 2014 in Toulouse){{</span>}}
+
+- My co-authored [index.html\#paper works] {{<span class="dotunder">always</span>}} list the authors in the {{<span class="dotunder">alphabetical order</span>}} of their names. 
+
+- If I am so lucky as to have the privilege of collaborating with you, I would like to {{<span class="dotunder">follow this order</span>}} as well. 
+
+#~~~
+#{}{raw}
+#<h2>Note</h2>
+#<ul>
+#<li><p>My co-authored <a href="index.html#paper">works</a> <span class="dotunder">always</span> list all the authors in the <span class="dotunder">alphabetical order</span> of their names. </p>
+#</li>
+#<li><p>If I am so lucky as to have the privilege of collaborating with you, I would like to <span class="dotunder">follow this order</span> as well. </p>
+#</li>
+#</ul>
+#<p class="right"> Z. Zhang <br/> Nov. 14, 2014, Toulouse</p>
+#~~~
+
+== Student
+
+- [https://www.tom-ragonneau.co/ Tom M. Ragonneau] (awardee of the [https://cerg1.ugc.edu.hk/hkpfs/index.html Hong Kong PhD Fellowship]); works:
+-- [https://www.pdfo.net PDFO]: a cross-platform package providing interfaces for using late [powell.html Professor M. J. D. Powell]'s derivative-free optimization solver
+
+
+# Put 124 "&nbsp\ " to avoid a too narrow page. The same for 403.jemdoc and 404.jemdoc.
+{{&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;}}

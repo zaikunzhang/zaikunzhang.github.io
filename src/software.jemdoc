@@ -1,0 +1,123 @@
+# jemdoc: menu{MENU}{software.html},title{Software} showsource
+= {{<a id="top"></a>}}Software
+
+== {{<a id="powell_software"></a>}}Software by late Professor [powell.html M. J. D. Powell] and [https://www.pdfo.net PDFO]
+
+During his last days, Professor Powell kindly sent me the source code of his optimization software and authorized me to maintain it here. 
+The software is also maintained at [https://ccpforge.cse.rl.ac.uk/gf/project/powell CCPForge] by Professor [http://www.numerical.rl.ac.uk/people/nimg/ Nick Gould] and me.
+If you have problems in downloading, please feel free to [index.html\#contact contact me]. 
+In case of technical questions on the code or the algorithms, you may also {{<a href="mailto:nick.gould@stfc.ac.uk,zaikunzhang@gmail.com">contact us</a>}} and we will do our best to help. 
+
+[https://www.pdfo.net PDFO] provides cross-platform interfaces for using the derivative-free optimization solvers listed below. It currently supports MATLAB and Python. ~\[[https://www.pdfo.net/docs.html\#download download]\]
+
+- {{<a id="tolmin"></a>}}[software/tolmin.tar.gz TOLMIN], an algorithm that minimizes a general differentiable nonlinear function subject to linear constraints. 
+#Implemented in Fortran 77. Released in Apr. 1990. 
+\[[software/tolmin.tar.gz .tar.gz]\] \[[software/tolmin.zip .zip]\]
+\[[http://link.springer.com/article/10.1007%2FBF01589118 paper]\]
+\[[https://en.wikipedia.org/wiki/TOLMIN_(optimization_software) wikipedia]\]
+
+- {{<a id="cobyla"></a>}}[software/cobyla.tar.gz COBYLA] (Constrained Optimization BY Linear Approximations), 
+an algorithm that seeks the least value of a nonlinear function 
+subject to nonlinear inequality constraints without using derivatives of the 
+objective function or the constraints.
+Single precision only. #Released on May 7, 1992. 
+\[[software/cobyla.tar.gz .tar.gz]\] \[[software/cobyla.zip .zip]\]
+\[[http://link.springer.com/chapter/10.1007/978-94-015-8330-5_4 paper]\] 
+\[[http://en.wikipedia.org/wiki/COBYLA wikipedia]\]
+
+- {{<a id="uobyqa"></a>}}[software/uobyqa.tar.gz UOBYQA] (Unconstrained Optimization BY Quadratic Approximation), 
+an algorithm that solves unconstrained optimization problems without using derivatives. 
+#Implemented in Fortran 77. Released in 2000.
+For general usage, [\#newuoa NEWUOA] is recommended to replace UOBYQA. 
+\[[software/uobyqa.tar.gz .tar.gz]\] \[[software/uobyqa.zip .zip]\]
+\[[http://link.springer.com/article/10.1007%2Fs101070100290 paper]\]
+\[[http://en.wikipedia.org/wiki/UOBYQA wikipedia]\]
+
+- {{<a id="newuoa"></a>}}[software/newuoa.tar.gz NEWUOA], an algorithm that solves unconstrained optimization 
+problems without using derivatives. 
+#Implemented in Fortran 77. Released on Dec. 16, 2004. 
+In general it is much more efficient than [\#uobyqa UOBYQA] and is capable of solving problems with several hundreds of variables.
+\[[software/newuoa.tar.gz .tar.gz]\] \[[software/newuoa.zip .zip]\]
+\[[http://www.damtp.cam.ac.uk/user/na/NA_papers/NA2004_08.pdf paper]\]
+\[[http://en.wikipedia.org/wiki/NEWUOA wikipedia]\]
+
+- {{<a id="bobyqa"></a>}}[software/bobyqa.tar.gz BOBYQA] (Bound Optimization BY Quadratic Approximation), 
+an algorithm that seeks the least value of a nonlinear function 
+subject to bound constraints without using derivatives of the objective function. 
+#Implemented in Fortran 77. Released on Jan. 5, 2009. 
+\[[software/bobyqa.tar.gz .tar.gz]\] \[[software/bobyqa.zip .zip]\]
+\[[http://www.damtp.cam.ac.uk/user/na/NA_papers/NA2009_06.pdf paper]\]
+\[[http://en.wikipedia.org/wiki/BOBYQA wikipedia]\]
+
+- {{<a id="lincoa"></a>}}[software/lincoa.tar.gz LINCOA] (LINearly Constrained Optimization Algorithm),
+an algorithm that seeks the least value of a nonlinear function 
+subject to linear inequality constraints without using 
+derivatives of the objective function. Professor Powell did not write any document to introduce LINCOA, 
+although he published [http://www.damtp.cam.ac.uk/user/na/NA_papers/NA2014_02.pdf a paper] to elaborate 
+how LINCOA solves its trust-region subproblems.
+#Implemented in Fortran 77. Released on Dec. 6, 2013.
+\[[software/lincoa.tar.gz .tar.gz]\] \[[software/lincoa.zip .zip]\]
+\[[http://en.wikipedia.org/wiki/LINCOA wikipedia]\]
+
+#Please notice that {{<span class="dotunder">}}Professor Powell decided to release his optimization software with the [https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License GNU Lesser General Public License]{{</span>}}. If you are using a version of the software without the license, please update it. If you are archiving the software somewhere else, please make sure to include the license. 
+
+
+== Software by myself
+
+- [https://www.pdfo.net PDFO] (Powell's Derivative-Free Optimization solvers) is a cross-platform package providing interfaces for using late Professor M. J. D. Powell's derivative-free optimization solvers, including UOBYQA, NEWUOA, BOBYQA, LINCOA, and COBYLA. Joint work with [http://tom-ragonneau.co/ Tom M. Ragonneau]. ~\[[https://www.pdfo.net/docs.html\#download download]\]
+
+#
+#Here are some subroutines by me. They are written in the 
+#hope that they will be helpful, but there is no guarantee that they will work 
+#properly. They probably call some subroutines that are not provided here.
+#In that case I try to instruct in the comments how to obtain those subroutines.
+#
+#=== Optimization
+#
+#- A Fortran [software/trs/trs.f subroutine] to seek an inexact solution to a trust region subproblem
+#~~~
+#\(
+#\begin{array}{rl}
+#    \min&\frac{1}{2} d^\top B d + g^\top d\\
+#    \mathrm{s.t.}&\|d\| \le \Delta.
+#\end{array}
+#\)
+#~~~
+#
+#- A Fortran [software/trb/trb.f subroutine] to seek an inexact solution to a trust region subproblem with 
+#box constrains, namely
+#~~~
+#\(
+#\begin{array}{rl}
+#    \min&\frac{1}{2} d^\top B d + g^\top d\\
+#    \mathrm{s.t.}&\|d\| \le \Delta,\\
+#                     & l\le d\le u.
+#\end{array}
+#\)
+#~~~
+#
+#=== Numerical linear algebra
+#
+#- A Fortran [software/ple/ple.f subroutine] to solve a linear system 
+#with a positive definite coefficient matrix.
+#
+#- A Fortran [software/eig/eigvalue.f subroutine] to calculate all the 
+#eigenvalues of a symmetric matrix.
+#
+#- A Fortran [software/eig/eig.f subroutine] to calculate the largest $k$ 
+#eigenvalues of a symmetric matrix and the corresponding eigenvectors.
+
+
+#== Software that I use (and recommend)
+#- OS: [http://en.wikipedia.org/wiki/Xubuntu Xubuntu]
+#- text editor: [http://en.wikipedia.org/wiki/Vim_(text_editor) Vim] (thanks to Dr. Zhang Yang, who introduced it to me), [http://vim-latex.sourceforge.net/ Vim-LaTeX] (thanks to Dr. [http://www.mcs.anl.gov/~jlarson/ Jeff Larson], who taught it to me)
+#- typesetting: [http://en.wikipedia.org/wiki/TeX_Live TeX Live] (thanks to Professor [http://math.jlu.edu.cn/?act=view&id=173&mod=info Tian Dong], who taught me [https://en.wikipedia.org/?title=TeX TeX])
+#- scientific computing: [http://en.wikipedia.org/wiki/GNU_Octave GNU Octave]
+##, [http://en.wikipedia.org/wiki/SciPy SciPy]
+##- web browser: [https://en.wikipedia.org/wiki/Google_Chrome Google Chrome], [https://en.wikipedia.org/wiki/Chromium_(web_browser) Chromium]
+#- web-page creator: [http://jemdoc.jaboc.net/ jemdoc][https://github.com/wsshin/jemdoc_mathjax + MathJax] (thanks to Professor [http://lsec.cc.ac.cn/~liuxin Xin Liu], who introduced jemdoc to me)
+#- graphics editor: [https://en.wikipedia.org/wiki/GIMP GIMP], [https://en.wikipedia.org/wiki/Inkscape Inkscape]
+##- media player: [https://en.wikipedia.org/wiki/SMPlayer SMPlayer]
+## - other: [http://vim-latex.sourceforge.net/ Vim-LaTeX] (thanks to [http://www.mcs.anl.gov/person/jeffrey-larson Dr. Jeff Larson])
+
+#[docs/no_ms_email.txt Please do not send me Microsoft files] (doc, xls, ppt, etc.). If really necessary, let us use [http://www.google.com/docs/about/ Google Docs] instead. Thanks a lot. 

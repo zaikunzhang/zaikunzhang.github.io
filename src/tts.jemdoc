@@ -1,0 +1,49 @@
+# jemdoc: menu{MENU}{tts.html},title{Tools & Tips} showsource
+#
+= {{<a id="top"></a>}}Tools & Tips
+This page includes some tools and tips for research.
+
+== Literature search 
+
+- [https://scholar.google.com/ Google Scholar] 
+
+- [https://mathscinet.ams.org/msnhtml/serials.pdf MathSciNet Abbreviations of Names of Serials]
+
+== Calculator 
+
+- [https://www.wolframalpha.com/ Wolfram|Alpha]
+
+== Writing
+
+- [https://www.lexico.com/en LEXICO dictionary]
+
+- [https://grammarly.com Grammarly]
+
+- [http://www.reverso.net/spell-checker/french-spelling-grammar/ Reverso French grammar and spell checker]
+
+- [https://www.frenchcorrector.com/ FrenchCorrector] 
+
+== Tips 
+
+- Writing
+-- [docs/Halmos_hwm.ps How to Write Mathematics] ([https://en.wikipedia.org/wiki/Paul_Halmos Paul R. Halmos])
+-- [http://jmlr.csail.mit.edu/reviewing-papers/knuth_mathematical_writing.pdf Mathematical Writing] ([https://en.wikipedia.org/wiki/Donald_Knuth Donald E. Knuth], [https://larrabee.soe.ucsc.edu/ Tracy L. Larrabee], and Paul M. Roberts) 
+-- [https://book.douban.com/subject/21346605/ 数学之英文写作] ([http://www.math.hkbu.edu.hk/~ttang/ Tao Tang], [https://www.math.usm.edu/jding/ Jiu Ding])
+-- [https://archive.siam.org/books/ot63/ Handbook of Writing for the Mathematical Science] ([https://www.maths.manchester.ac.uk/~higham/ Nicholas J. Higham])
+-- [https://www.youtube.com/watch?v=vtIzMaLkCaM The Craft of Writing Effectively] ([https://www.warrior-scholar.org/larry-mcenerney Larry McEnerney])
+
+- Speaking
+-- [docs/Halmos_htm.pdf How to Talk Mathematics] ([https://en.wikipedia.org/wiki/Paul_Halmos Paul R. Halmos])
+-- [https://www.youtube.com/watch?v=Unzc731iCUY How to Speak] ([https://en.wikipedia.org/wiki/Patrick_Winston Patrick Winston])
+
+- Email
+-- [http://matt.might.net/articles/how-to-email/ Tips on Sending and Replying Emails] ([https://en.wikipedia.org/wiki/Matt_Might Matt Might])
+
+- General
+-- [http://www.nature.com/nature/journal/v426/n6965/full/426389a.html Scientist: Four Golden Lessons] ([https://en.wikipedia.org/wiki/Steven_Weinberg Steven Weinberg]) 
+-- The Art of Doing Science and Engineering: Learning to Learn \[[https://www.goodreads.com/book/show/530415.The_Art_of_Doing_Science_and_Engineering book]\] \[[https://www.youtube.com/playlist?list=PL2FF649D0C4407B30 video]\] 
+([https://en.wikipedia.org/wiki/Richard_Hamming Richard Hamming])
+
+
+# Put 124 "&nbsp\ " to avoid a too narrow page. The same for 403.jemdoc and 404.jemdoc.
+{{&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;}}
