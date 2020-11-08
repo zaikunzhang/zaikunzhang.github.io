@@ -1,1 +1,1 @@
-This is a development repository of zaikunzhang.
+This is the stable repository of zaikunzhang.
