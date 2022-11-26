@@ -1,10 +1,10 @@
 # jemdoc: menu{MENU}{coauthor.html},title{Co-authors} showsource
 = {{<a id="top"></a>}}Co-authors
-This page lists my co-authors. The list is updated only after the joint work is submitted. 
+This page lists my co-authors. The list is updated only after the joint work is submitted.
 
 ~~~
 {}{raw}
-<div class="infoblock"> <div class="blockcontent"> 
+<div class="infoblock"> <div class="blockcontent">
 <p class="right">
 - Grandpa, were you a hero in the war?
 <br/>
@@ -12,16 +12,16 @@ This page lists my co-authors. The list is updated only after the joint work is 
 <br/> <br/>
  &#8201;&mdash;&#8201; Sergeant <a href="quotation.html#hero">Myron N. Ranney</a> (with his grandson)  <br/>WWII veteran
 </p>
-</div></div> 
+</div></div>
 ~~~
 
-== List of co-authors 
+== List of co-authors
 
 - [https://www.polyu.edu.hk/ama/staff/xjchen/ChenXJ.htm X. Chen]
 
 - M. Dodangeh
 
-- [http://gratton.perso.enseeiht.fr/ S. Gratton] 
+- [http://gratton.perso.enseeiht.fr/ S. Gratton]
 
 - [http://www4.ncsu.edu/~ctk/ C. T. Kelley]
 
@@ -37,7 +37,7 @@ This page lists my co-authors. The list is updated only after the joint work is 
 
 - R. Zhang
 
-== [http://goo.gl/uk6HYb Erdős number]: 3 
+== [http://goo.gl/uk6HYb Erdős number]: 3
 
 - [http://goo.gl/9Rsxmk Paul Erdős] --- [http://www.ams.org/mathscinet-getitem?mr=942479 Marc Aron Berger] --- [http://www.ams.org/mathscinet-getitem?mr=552338 C. T. Kelley] --- [http://www.ams.org/mathscinet/search/author.html?mrauthid=1070418 Z.]
 
@@ -48,9 +48,9 @@ This page lists my co-authors. The list is updated only after the joint work is 
 
 == Remarks {{<span class="date">}}(made on Nov. 14, 2014 in Toulouse){{</span>}}
 
-- My co-authored [index.html\#paper works] {{<span class="dotunder">always</span>}} list the authors in the {{<span class="dotunder">alphabetical order</span>}} of their names. 
+- My co-authored [index.html\#paper works] {{<span class="dotunder">always</span>}} list the authors in the {{<span class="dotunder">alphabetical order</span>}} of their names.
 
-- If I am so lucky as to have the privilege of collaborating with you, I would like to {{<span class="dotunder">follow this order</span>}} as well. 
+- If I am so lucky as to have the privilege of collaborating with you, I would like to {{<span class="dotunder">follow this order</span>}} as well.
 
 #~~~
 #{}{raw}
@@ -66,7 +66,7 @@ This page lists my co-authors. The list is updated only after the joint work is 
 
 == Student
 
-- [https://www.tom-ragonneau.co/ Tom M. Ragonneau] (awardee of the
+- [https://www.tomragonneau.com/ Tom M. Ragonneau] (awardee of the
 [https://cerg1.ugc.edu.hk/hkpfs/index.html Hong Kong PhD Fellowship
 Scheme] 2019/20, ref. PF18-24698); works:
 -- [https://www.pdfo.net PDFO]: a cross-platform package providing interfaces for using late [powell.html Professor M. J. D. Powell]'s derivative-free optimization solver
