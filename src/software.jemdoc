@@ -64,7 +64,7 @@ how LINCOA solves its trust-region subproblems.
 
 == Software by myself
 
-- [https://www.pdfo.net PDFO] (Powell's Derivative-Free Optimization solvers) is a cross-platform package providing interfaces for using late Professor M. J. D. Powell's derivative-free optimization solvers, including UOBYQA, NEWUOA, BOBYQA, LINCOA, and COBYLA. Joint work with [https://www.tomragonneau.com/ Tom M. Ragonneau]. ~\[[https://www.pdfo.net/docs.html\#download download]\]
+- [https://www.pdfo.net PDFO] (Powell's Derivative-Free Optimization solvers) is a cross-platform package providing interfaces for using late Professor M. J. D. Powell's derivative-free optimization solvers, including UOBYQA, NEWUOA, BOBYQA, LINCOA, and COBYLA. Joint work with [https://ragonneau.github.io/ Tom M. Ragonneau]. ~\[[https://www.pdfo.net/docs.html\#download download]\]
 
 #
 #Here are some subroutines by me. They are written in the
