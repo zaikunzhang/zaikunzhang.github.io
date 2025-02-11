@@ -1,7 +1,7 @@
 # jemdoc: menu{MENU}{index.html},title{Personal website of ZHANG Zaikun} showsource
 #= [docs/cv.pdf 张在坤 (Zhang, Zaikun)]
 = {{<a id="top"></a><img src="figs/name-hei.png" alt="张在坤"  class="name" title="张在坤"/>}} (ZHANG Zaikun)
-[https://math.sysu.edu.cn/teacher/3638 Professor], [https://math.sysu.edu.cn School of Mathematics], [https://en.wikipedia.org/wiki/Sun_Yat-sen_University Sun Yat-sen University], Guangzhou, China
+[https://math.sysu.edu.cn/teacher/3638 Professor], [https://math.sysu.edu.cn School of Mathematics], [https://en.wikipedia.org/wiki/Sun_Yat-sen_University Sun Yat-sen University]
 
 == {{<a id="research"></a>}}Research interests
 
@@ -15,7 +15,7 @@
 
 - X. Chen, Y. He, and Z. Zhang, [https://epubs.siam.org/doi/abs/10.1137/24M1659030 Tight Error Bounds for the Sign-Constrained Stiefel Manifold], /SIAM J. Optim./, 35, 302--329, 2025 \[[docs/publications/2025stiefel.pdf pdf]\]
 
-- T. M. Ragonneau and Z. Zhang, [https://link.springer.com/article/10.1007/s12532-024-00257-9 PDFO: A Cross-Platform Package for Powell’s Derivative-Free Optimization Solvers], /Math. Program. Comput./, 16, 535--559, 2024, \[[docs/publications/2024pdfo.pdf pdf]\]
+- T. M. Ragonneau and Z. Zhang, [https://link.springer.com/article/10.1007/s12532-024-00257-9 PDFO: A Cross-Platform Package for Powell’s Derivative-Free Optimization Solvers], /Math. Program. Comput./, 16, 535--559, 2024 \[[docs/publications/2024pdfo.pdf pdf]\]
 
 - S. Gratton, C. W. Royer, L. N. Vicente, and Z. Zhang, [https://academic.oup.com/imajna/article/38/3/1579/4084726 Complexity and Global Rates of Trust-Region Methods Based on Probabilistic Models], /IMA J. Numer. Anal./, 38, 1579--1597, 2018 \[[docs/publications/2017wcctr-random.pdf pdf]\]
 
@@ -36,7 +36,7 @@
 
 == {{<a id="contact"></a>}}Contact
 
-- Address: Room 721, School of Mathematics, Sun Yat-sen University, 135 XinGangXi Road, Haizhu District, Guangzhou 510275, China
+- Address: Room 721, [https://maps.app.goo.gl/v35Ydpk5NpU5bPmM8 School of Mathematics, Sun Yat-sen University, No. 135 Xin'gang West Road, Guangzhou 510275, China]
 
 - Email: zhangzaikun \[&\] mail.sysu.edu.cn, zaikunzhang \[&\] gmail.com
 #\n(Remark: the gmail address is my {{<span class="dotunder">}}permanent personal email address{{</span>}}; however, please understand that {{<span class="dotunder">}}I may not be able to check it{{</span>}} when visiting my [http://www.cc.ac.cn/ home institute] or my parents, which happens particularly often during summer and holiday seasons)
