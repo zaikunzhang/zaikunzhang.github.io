@@ -1,7 +1,8 @@
 # jemdoc: menu{MENU}{index.html},title{Personal website of ZHANG Zaikun} showsource
 #= [docs/cv.pdf 张在坤 (Zhang, Zaikun)]
 = {{<a id="top"></a><img src="figs/name-hei.png" alt="张在坤"  class="name" title="张在坤"/>}} (ZHANG Zaikun)
-[https://math.sysu.edu.cn/teacher/3638 Professor], [https://math.sysu.edu.cn School of Mathematics], [https://en.wikipedia.org/wiki/Sun_Yat-sen_University Sun Yat-sen University]
+[https://math.sysu.edu.cn/teacher/3638 Professor], [https://math.sysu.edu.cn School of Mathematics],
+[https://en.wikipedia.org/wiki/Sun_Yat-sen_University Sun Yat-sen University], China
 | [https://scholar.google.com/citations?user=QmmduxoAAAAJ&hl=en&oi=ao Google Scholar] | [https://www.scopus.com/authid/detail.uri?authorId=55695937800 Scopus ID] | [https://orcid.org/0000-0001-8934-8190 ORCID]
 
 == {{<a id="research"></a>}}Research interests
@@ -10,20 +11,21 @@
 
 -- [https://en.wikipedia.org/wiki/Derivative-free_optimization derivative-free] (zeroth-order) methods
 -- randomized methods
--- methods for large-scale problems
--- methods for noisy problems
+-- large-scale problems
+-- noisy problems
 
-== {{<a id="paper"></a>}}Selected papers
+== {{<a id="paper"></a>}}Selected publications
 
-- X. Chen, Y. He, and Z. Zhang, [https://epubs.siam.org/doi/abs/10.1137/24M1659030 Tight Error Bounds for the Sign-Constrained Stiefel Manifold], /SIAM J. Optim./, 35, 302--329, 2025 \[[docs/publications/2025stiefel.pdf pdf]\]
+- X. Chen, Y. He, and Z. Zhang, [https://epubs.siam.org/doi/abs/10.1137/24M1659030 Tight Error
+Bounds for the Sign-Constrained Stiefel Manifold], /SIAM J. Optim./, 35:302--329, 2025 \[[docs/publications/2025stiefel.pdf pdf]\]
 
-- T. M. Ragonneau and Z. Zhang, [https://link.springer.com/article/10.1007/s12532-024-00257-9 PDFO: A Cross-Platform Package for Powell’s Derivative-Free Optimization Solvers], /Math. Program. Comput./, 16, 535--559, 2024 \[[docs/publications/2024pdfo.pdf pdf]\]
+- T. M. Ragonneau and Z. Zhang, [https://link.springer.com/article/10.1007/s12532-024-00257-9 PDFO: A Cross-Platform Package for Powell’s Derivative-Free Optimization Solvers], /Math. Program. Comput./, 16:535--559, 2024 \[[docs/publications/2024pdfo.pdf pdf]\]
 
-- S. Gratton, C. W. Royer, L. N. Vicente, and Z. Zhang, [https://academic.oup.com/imajna/article/38/3/1579/4084726 Complexity and Global Rates of Trust-Region Methods Based on Probabilistic Models], /IMA J. Numer. Anal./, 38, 1579--1597, 2018 \[[docs/publications/2017wcctr-random.pdf pdf]\]
+- S. Gratton, C. W. Royer, L. N. Vicente, and Z. Zhang, [https://academic.oup.com/imajna/article/38/3/1579/4084726 Complexity and Global Rates of Trust-Region Methods Based on Probabilistic Models], /IMA J. Numer. Anal./, 38:1579--1597, 2018 \[[docs/publications/2017wcctr-random.pdf pdf]\]
 
-- S. Gratton, C. W. Royer, L. N. Vicente, and Z. Zhang, [https://epubs.siam.org/doi/10.1137/140961602 Direct Search Based on Probabilistic Descent], /SIAM J. Optim./, 25, 1515--1541, 2015 \[[docs/publications/2015dspd.pdf pdf]\]
+- S. Gratton, C. W. Royer, L. N. Vicente, and Z. Zhang, [https://epubs.siam.org/doi/10.1137/140961602 Direct Search Based on Probabilistic Descent], /SIAM J. Optim./, 25:1515--1541, 2015 \[[docs/publications/2015dspd.pdf pdf]\]
 
-- Z. Zhang,  [https://link.springer.com/article/10.1007/s10107-013-0679-3 Sobolev Seminorm of Quadratic Functions With Applications to Derivative-Free Optimization], /Math. Program./, 146, 77--96, 2014 (based on sections 4.3--4.5 of my [docs/publications/thesis.pdf thesis]) \[[docs/publications/2014snq.pdf pdf]\] #\[[docs/publications/2014snq.bib BibTeX]\]
+- Z. Zhang,  [https://link.springer.com/article/10.1007/s10107-013-0679-3 Sobolev Seminorm of Quadratic Functions With Applications to Derivative-Free Optimization], /Math. Program./, 146:77--96, 2014 (based on sections 4.3--4.5 of my [docs/publications/thesis.pdf thesis]) \[[docs/publications/2014snq.pdf pdf]\] #\[[docs/publications/2014snq.bib BibTeX]\]
 
 #== {{<a id="grant"></a>}}External grants
 
@@ -38,7 +40,8 @@
 
 == {{<a id="contact"></a>}}Contact
 
-- Address: Room 721, [https://maps.app.goo.gl/v35Ydpk5NpU5bPmM8 School of Mathematics, Sun Yat-sen University, No. 135 Xin'gang West Road, Guangzhou 510275, China]
+- Address: Room 721, [https://maps.app.goo.gl/v35Ydpk5NpU5bPmM8 School of Mathematics, Sun Yat-sen
+University, No. 135 Xin Gang West Road, Guangzhou 510275, China]
 
 - Email: zhangzaikun \[&\] mail.sysu.edu.cn, zaikunzhang \[&\] gmail.com
 #\n(Remark: the gmail address is my {{<span class="dotunder">}}permanent personal email address{{</span>}}; however, please understand that {{<span class="dotunder">}}I may not be able to check it{{</span>}} when visiting my [http://www.cc.ac.cn/ home institute] or my parents, which happens particularly often during summer and holiday seasons)
