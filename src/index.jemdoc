@@ -1,14 +1,12 @@
 # jemdoc: menu{MENU}{index.html},title{Personal website of ZHANG Zaikun} showsource
 #= [docs/cv.pdf 张在坤 (Zhang, Zaikun)]
 = {{<a id="top"></a><img src="figs/name-hei.png" alt="张在坤"  class="name" title="张在坤"/>}} (ZHANG Zaikun)
-
 [https://math.sysu.edu.cn/teacher/3638 Professor], [https://math.sysu.edu.cn School of Mathematics], [https://en.wikipedia.org/wiki/Sun_Yat-sen_University Sun Yat-sen University]
-
-[https://scholar.google.com/citations?user=QmmduxoAAAAJ&hl=en&oi=ao Google Scholar] | [https://www.scopus.com/authid/detail.uri?authorId=55695937800 Scopus ID] | [https://orcid.org/0000-0001-8934-8190 ORCID]
+| [https://scholar.google.com/citations?user=QmmduxoAAAAJ&hl=en&oi=ao Google Scholar] | [https://www.scopus.com/authid/detail.uri?authorId=55695937800 Scopus ID] | [https://orcid.org/0000-0001-8934-8190 ORCID]
 
 == {{<a id="research"></a>}}Research interests
 
-- [https://en.wikipedia.org/wiki/Mathematical_optimization Mathematical optimization] and its applications, especially
+- Theory, algorithms, and software of [https://en.wikipedia.org/wiki/Mathematical_optimization mathematical optimization], especially
 -- [https://en.wikipedia.org/wiki/Derivative-free_optimization derivative-free] (zeroth-order) methods
 -- randomized methods
 -- methods for large-scale problems
