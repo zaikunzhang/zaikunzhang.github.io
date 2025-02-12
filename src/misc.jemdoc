@@ -1,75 +1,75 @@
 # jemdoc: menu{MENU}{misc.html},title{Miscellaneous} showsource
 = {{<a id="top"></a>}}Miscellaneous
 
-- 如果你对数学感兴趣，那不应该错过[http://lsec.cc.ac.cn/~yyx/ 袁老师]在首个[https://en.unesco.org/commemorations/mathematics 国际数学节] ([https://en.wikipedia.org/wiki/International_Day_of_Mathematics International Day of Mathematics]) 2020 年 3 月 14 日 15 点的科普讲座《数学漫谈》: \[[https://www.eeo.cn/webcast.php?courseKey=8a44be5970c129ba 视频]\] \[[ftp://lsec.cc.ac.cn/pub/home/yyx/2020.03.14.15.pdf 幻灯片]\] 
+- 如果你对数学感兴趣，那不应该错过[http://lsec.cc.ac.cn/~yyx/ 袁老师]在首个[https://en.unesco.org/commemorations/mathematics 国际数学节] ([https://en.wikipedia.org/wiki/International_Day_of_Mathematics International Day of Mathematics]) 2020 年 3 月 14 日 15 点的科普讲座《数学漫谈》: \[[https://www.eeo.cn/webcast.php?courseKey=8a44be5970c129ba 视频]\] \[[ftp://lsec.cc.ac.cn/pub/home/yyx/2020.03.14.15.pdf 幻灯片]\]
 
 - [http://en.wikipedia.org/wiki/Chinese_calendar C][http://en.wikipedia.org/wiki/Traditional_Chinese_medicine l][http://en.wikipedia.org/wiki/Great_Wall_of_China i][http://en.wikipedia.org/wiki/Summer_Palace c][http://en.wikipedia.org/wiki/Terracotta_Army k] [http://en.wikipedia.org/wiki/Forbidden_City h][http://en.wikipedia.org/wiki/Sacred_Mountains_of_China e][http://en.wikipedia.org/wiki/Mount_Tai r][http://en.wikipedia.org/wiki/Huangshan e] [http://en.wikipedia.org/wiki/Mount_Hua t][http://en.wikipedia.org/wiki/Zhangjiajie o] [http://en.wikipedia.org/wiki/Chinese_culture l][http://en.wikipedia.org/wiki/Chinese_art e][http://en.wikipedia.org/wiki/Tourism_in_China a][http://en.wikipedia.org/wiki/World_Heritage_Sites_in_China r][http://en.wikipedia.org/wiki/Chinese_cuisine n] [http://en.wikipedia.org/wiki/Chinese_language m][http://en.wikipedia.org/wiki/History_of_tea_in_China o][http://en.wikipedia.org/wiki/History_of_China r][http://en.wikipedia.org/wiki/Chinese_New_Year e] [http://en.wikipedia.org/wiki/Religion_in_China a][http://en.wikipedia.org/wiki/Chinese_folk_religion b][http://en.wikipedia.org/wiki/Taoism o][http://en.wikipedia.org/wiki/Chinese_Buddhism u][http://en.wikipedia.org/wiki/Confucius t] [http://en.wikipedia.org/wiki/Confucianism C][http://en.wikipedia.org/wiki/Chinese_painting h][http://en.wikipedia.org/wiki/Music_of_China i][http://en.wikipedia.org/wiki/Chinese_architecture n][http://en.wikipedia.org/wiki/Chinese_martial_arts a] [http://en.wikipedia.org/wiki/Chinese_calligraphy (]{{<a href="http://en.wikipedia.org/wiki/Chinese_character"><img src="figs/China-hei.png" class="China" alt="中国" title="中国" /></a>}}[http://en.wikipedia.org/wiki/Chinese_dragon )][http://en.wikipedia.org/wiki/Li_River_(Guangxi) .]
 
 - I write something not so mathematical from time to time. See my [blog.html Blog] (in both [blog.html\#chinese Chinese] and [blog.html\#english English]).
 
-- I detest citations and quotations without clear sources. If you detest them as well, you might like to see my page on [quotation.html Quotations].  
+- I detest citations and quotations without clear sources. If you detest them as well, you might like to see my page on [quotation.html Quotations].
 
-- During 2011--2012, I was the 
+- During 2011--2012, I was the
 [http://www.siam.org/news/news.php?id=1944 Founding President] (now an Honorary President) of the
 [http://lsec.cc.ac.cn/~siamstuc/ SIAM Student Chapter] [http://www.siam.org/students/chapters/current/cas.php at Chinese Academy of Sciences],
 the first [http://www.siam.org SIAM] [http://www.siam.org/students/chapters/ Student] [docs/SIAMStudentFlyer.pdf Chapter] in East Asia
 ([figs/20110607-cassiam.jpg founded] on June 7, 2011; see SIAM NEWS: [http://www.siam.org/news/archives.php Volume 46, Number 1, January\/February 2013] and [http://www.siam.org/news/archives.php Volume 45, Number 1, January\/February 2012]). Now the Chapter is more than seven years old, being organized by the eighth Executive Committee (President: Nachuan Xiao, Vice President: Xiong Zeng, Secretary: Meng Shi, Treasurer: Nachuan Xiao).
  #- Professor [powell.html M. J. D. Powell] kindly authorized me to distribute the source code of his [software.html\#powell_software optimization software] on the [software.html Software] page. The software is also maintained at [https://ccpforge.cse.rl.ac.uk/gf/project/powell CCPForge] by Professor [http://www.numerical.rl.ac.uk/people/nimg/ Nick Gould] and me. Please feel free to {{<a href="mailto:nick.gould@stfc.ac.uk,zaikunzhang@gmail.com?subject=MJD Powell Software Technical Question">contact us</a>}} in case of any questions on the software, including its usage, its code, and its algorithms. Plans are underway to provide MATLAB, Python, and (possibly) C interfaces.
 
-#- {{<a id="cerfacs"></a>}}If you are interested in [http://www.cerfacs.fr CERFACS], you may take [https://sites.google.com/site/cerfacsxxv/home THE CERFACS JOURNEY], which was dedicated to CERFACS’ 25th birthday, and see also [http://link.springer.com/chapter/10.1007%2FBFb0030145 The CERFACS Experience] by [http://dayde.perso.enseeiht.fr/ Michel J. Daydé] and [http://www.numerical.rl.ac.uk/people/isd/isd.html Iain S. Duff]. 
+#- {{<a id="cerfacs"></a>}}If you are interested in [http://www.cerfacs.fr CERFACS], you may take [https://sites.google.com/site/cerfacsxxv/home THE CERFACS JOURNEY], which was dedicated to CERFACS’ 25th birthday, and see also [http://link.springer.com/chapter/10.1007%2FBFb0030145 The CERFACS Experience] by [http://dayde.perso.enseeiht.fr/ Michel J. Daydé] and [http://www.numerical.rl.ac.uk/people/isd/isd.html Iain S. Duff].
 
 
-#- Yes, {{<a id="linux"></a><img src="figs/zhang.at.linux.png" class="email" alt="zhang.at.linux.com" title="zhang.at.linux.com"/>}} is indeed my email address. Essayez-la la prochaine fois que vous m'enverrez un mail. 
+#- Yes, {{<a id="linux"></a><img src="figs/zhang.at.linux.png" class="email" alt="zhang.at.linux.com" title="zhang.at.linux.com"/>}} is indeed my email address. Essayez-la la prochaine fois que vous m'enverrez un mail.
 
 - [https://www.ted.com/talks/grant_sanderson_what_makes_people_engage_with_math What makes people engage with math?] ([https://www.3blue1brown.com/about Grant Sanderson])
 
-- [http://songshuhui.net/archives/69786 面对面的办公室 --- 纪念艾伦 \M 图灵百年诞辰] (作者：[https://www.douban.com/people/lilyshen/ 玑衡 @豆瓣]，写于 2012 年；[https://en.wikipedia.org/wiki/Alan_Turing 艾伦 \M 图灵]：1912--1954) 
+- [http://songshuhui.net/archives/69786 面对面的办公室 --- 纪念艾伦 \M 图灵百年诞辰] (作者：[https://www.douban.com/people/lilyshen/ 玑衡 @豆瓣]，写于 2012 年；[https://en.wikipedia.org/wiki/Alan_Turing 艾伦 \M 图灵]：1912--1954)
 \n(摘录："那时候，普林斯顿大学的数学楼和物理楼有一座天桥相连。爱因斯坦教授精神很好，每天穿梭天桥许多次在数学和物理之间来回奔跑。那是一个离我们遥远的伟大的科学年代，基础学科之间有许多天桥和地道相通，科学家从一个学科开始挖凿，最后挖到另一个学科的金矿。希尔伯特在世纪之初的著名演讲为几十年内的数学突飞猛进提供了指路牌，爱因斯坦 1915 年的广义相对论带来了一个崭新的宇宙观，一个个新化学元素接踵而至犹如上天的惊喜。集合论不过半个世纪，拓扑学才三十几年，量子力学二十年 ...... 在这个幸福的基础科学的时代，犹太人冯 \M 诺伊曼和同性恋图灵坐在面对面的办公室里，这两种备受歧视的身份将困扰他们一生，可是此时，他们心无旁骛只有一个愿望：做一个数学家、数学家、数学家。幸福的数学家。")
 
 - I hope that you know [http://goo.gl/Ic4Dyv the hidden power of smiling].
 
 - Do you know the answer to the ultimate question of life, the universe, and everything? [http://goo.gl/Cv4Q0 Google], [http://goo.gl/6Olym Wolfram], and [http://goo.gl/5Uf5va Wikipedia] do.
 
-- [https://logological.org/word Please do not send me Microsoft files] (doc, xls, ppt, etc.). If you send me such a file, you may not receive a personal reply but an [docs/no_ms_email.txt automatic one]. If really necessary, let us use [http://www.google.com/docs/about/ Google Docs] instead. Thanks a lot. 
+- [https://logological.org/word Please do not send me Microsoft files] (doc, xls, ppt, etc.). If you send me such a file, you may not receive a personal reply but an [docs/no_ms_email.txt automatic one]. If really necessary, let us use [http://www.google.com/docs/about/ Google Docs] instead. Thanks a lot.
 
 - Designing a webpage? You may see [http://catb.org/esr/html-hell.html The HTML Hell Page] ([https://en.wikipedia.org/wiki/Eric_S._Raymond Eric S. Raymond])
 
 - There are [http://manyworldstheory.com/2013/10/03/the-9-kinds-of-physics-seminar/ 9 kinds of physics seminar]. Similar conclusion holds for mathematics.
 
-- My classmates who are (still) doing scientific research (as far as I know, as of Apr. 2015; if you have any update, [index.html\#contact contact me]!)
--- College of Mathematics, Jilin University, graduates of 2007 (18/266, incomplete):
---- [http://www.math.ucla.edu/~bao/ Erkao Bao], Geometry, UCLA, U.S.
---- [http://sam.cufe.edu.cn/sztd/chenpeng.html Peng Chen], Probability theory, Central University of Finance and Economics, China
---- [http://math.dlut.edu.cn/info/1099/1290.htm Yutao Ding], PDE, Dalian University of Technology, China 
---- [http://maths.ccnu.edu.cn/en/info/1076/2802.htm Shilei Fan], Complex analysis, Central China Normal University
---- [https://www.msu.edu/~gaohongl/ Hongli Gao], Michigan State University, U.S.
---- Lijun Liu, Automation, Xiamen University, China
---- [http://math.jlu.edu.cn/?mod=teacher&act=view&id=208 Wenlei Li], Dynamical systems, Jilin University, China
---- Yansheng Ma, Mathematical finance, Northeast Normal University, China
---- [http://www.hitsz.edu.cn/body/shizi/detailen.php?strID=743 Jie Mei], Multi-agent systems, Harbin Institute of Technology Shenzhen Graduate School, China
---- [https://sites.google.com/site/hailinsun1221/ Hailin Sun], Operational research, Nanjing University of Science and Technology, China
---- Lili Xiao, Statistics, [http://www.ciae.ac.cn/eng/CIAE/index.htm China Institute of Atomic Energy]
---- Jinyu Yang, Statistics, Nankai University, China
---- [http://homepage.hit.edu.cn/pages/zhanggang/5 Gang Zhang], Harbin Institute of Technology, China
---- [http://math.jlu.edu.cn/?mod=teacher&act=view&id=214 Haixiang Zhang], Statistics, Jilin University, China
---- Xusheng Zhang, Cryptography, [http://www.iie.ac.cn/ Institute of Information Engineering], CAS
---- Enxi Zheng, Numerical PDE, Dalian Maritime University, China
---- [http://www.math.purdue.edu/~zheng30/ Yiqiang Zheng], Mathematical biology, Purdue University, U.S.
-\n 
--- [http://www.cc.ac.cn/ ICMSEC], Chinese Academy of Sciences (CAS), [http://lsec.cc.ac.cn/chinese/icmsec/2009bby.html graduates of 2012] (12/16, maybe incomplete): 
---- [http://www.cc.ac.cn/staff/chench.html Chong Chen], Image processing, ICMSEC, CAS
---- Jie Cheng, Parallel computing, [http://www.iapcm.ac.cn/ Institute of Applied Physics and Computational Mathematics], Beijing, China
---- [http://cermics.enpc.fr/~hel/home.html Lianhua He], Numerical PDE, Computer Network Information Center, CAS
---- [http://www.cc.ac.cn/staff/huangjz.html Jizu Huang], Multiscale modelling and parallel algorithms, ICMSEC, CAS
---- [http://ccfd.cnic.cas.cn/ryjs/yjspy/ Shan Liang], CFD and parallel computing, Computer Network Information Center, CAS 
---- [http://lsec.cc.ac.cn/~yafliu/ Yafeng Liu], Optimization, ICMSEC, CAS
---- [http://web1.ouc.edu.cn/ms/37/9a/c4086a14234/page.psp Jianqing Sun], [http://en.wikipedia.org/wiki/Integrable_system Integrable systems], Ocean University of China
---- [http://people.ucas.ac.cn/~wangx?language=en Xiao Wang], Optimization, University of Chinese Academy of Sciences
---- [http://125.218.212.217/index.php?m=content&c=index&a=show&catid=108&id=827 Leqin Wu], Optimization, Ji'nan University, China
---- [https://sites.google.com/a/kaust.edu.sa/wu/home Zedong Wu], Numerical PDE, [http://www.kaust.edu.sa/ King Abdullah University of Science and Technology], Saudi Arabia 
---- Junmin Xiao, Numerical PDE, Institute of Computing Technology, CAS
+#- My classmates who are (still) doing scientific research (as far as I know, as of Apr. 2015; if you have any update, [index.html\#contact contact me]!)
+#-- School of Mathematics, Jilin University, graduates of 2007 (18/266, incomplete):
+#--- [http://www.math.ucla.edu/~bao/ Erkao Bao], Geometry, UCLA, U.S.
+#--- [http://sam.cufe.edu.cn/sztd/chenpeng.html Peng Chen], Probability theory, Central University of Finance and Economics, China
+#--- [http://math.dlut.edu.cn/info/1099/1290.htm Yutao Ding], PDE, Dalian University of Technology, China
+#--- [http://maths.ccnu.edu.cn/en/info/1076/2802.htm Shilei Fan], Complex analysis, Central China Normal University
+#--- [https://www.msu.edu/~gaohongl/ Hongli Gao], Michigan State University, U.S.
+#--- Lijun Liu, Automation, Xiamen University, China
+#--- [http://math.jlu.edu.cn/?mod=teacher&act=view&id=208 Wenlei Li], Dynamical systems, Jilin University, China
+#--- Yansheng Ma, Mathematical finance, Northeast Normal University, China
+#--- [http://www.hitsz.edu.cn/body/shizi/detailen.php?strID=743 Jie Mei], Multi-agent systems, Harbin Institute of Technology Shenzhen Graduate School, China
+#--- [https://sites.google.com/site/hailinsun1221/ Hailin Sun], Operational research, Nanjing University of Science and Technology, China
+#--- Lili Xiao, Statistics, [http://www.ciae.ac.cn/eng/CIAE/index.htm China Institute of Atomic Energy]
+#--- Jinyu Yang, Statistics, Nankai University, China
+#--- [http://homepage.hit.edu.cn/pages/zhanggang/5 Gang Zhang], Harbin Institute of Technology, China
+#--- [http://math.jlu.edu.cn/?mod=teacher&act=view&id=214 Haixiang Zhang], Statistics, Jilin University, China
+#--- Xusheng Zhang, Cryptography, [http://www.iie.ac.cn/ Institute of Information Engineering], CAS
+#--- Enxi Zheng, Numerical PDE, Dalian Maritime University, China
+#--- [http://www.math.purdue.edu/~zheng30/ Yiqiang Zheng], Mathematical biology, Purdue University, U.S.
+#\n
+#-- [http://www.cc.ac.cn/ ICMSEC], Chinese Academy of Sciences (CAS), [http://lsec.cc.ac.cn/chinese/icmsec/2009bby.html graduates of 2012] (12/16, maybe incomplete):
+#--- [http://www.cc.ac.cn/staff/chench.html Chong Chen], Image processing, ICMSEC, CAS
+#--- Jie Cheng, Parallel computing, [http://www.iapcm.ac.cn/ Institute of Applied Physics and Computational Mathematics], Beijing, China
+#--- [http://cermics.enpc.fr/~hel/home.html Lianhua He], Numerical PDE, Computer Network Information Center, CAS
+#--- [http://www.cc.ac.cn/staff/huangjz.html Jizu Huang], Multiscale modelling and parallel algorithms, ICMSEC, CAS
+#--- [http://ccfd.cnic.cas.cn/ryjs/yjspy/ Shan Liang], CFD and parallel computing, Computer Network Information Center, CAS
+#--- [http://lsec.cc.ac.cn/~yafliu/ Yafeng Liu], Optimization, ICMSEC, CAS
+#--- [http://web1.ouc.edu.cn/ms/37/9a/c4086a14234/page.psp Jianqing Sun], [http://en.wikipedia.org/wiki/Integrable_system Integrable systems], Ocean University of China
+#--- [http://people.ucas.ac.cn/~wangx?language=en Xiao Wang], Optimization, University of Chinese Academy of Sciences
+#--- [http://125.218.212.217/index.php?m=content&c=index&a=show&catid=108&id=827 Leqin Wu], Optimization, Ji'nan University, China
+#--- [https://sites.google.com/a/kaust.edu.sa/wu/home Zedong Wu], Numerical PDE, [http://www.kaust.edu.sa/ King Abdullah University of Science and Technology], Saudi Arabia
+#--- Junmin Xiao, Numerical PDE, Institute of Computing Technology, CAS
 
-- I am a [docs/20190106_Xiamen_J34692.png marathon finisher]. 
+- I am a [docs/20190106_Xiamen_J34692.png marathon finisher].
 
 # Put 124 "&nbsp\ " to avoid a too narrow page. The same for 403.jemdoc and 404.jemdoc.
 {{&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;}}
