@@ -43,7 +43,7 @@ Quadratic Functions With Applications to Derivative-Free Optimization], /Math. P
 
 - Software
 -- Z. Zhang, [http://www.libprima.net PRIMA: Reference Implementation for Powell’s methods with Modernization and Amelioration], a package for solving general nonlinear optimization problems without using derivatives
--- C. Huang, T. M. Ragonneau, and Z. Zhang, [http://www.optprof.com OptiProfiler], a platform for benchmarking optimization solvers
+-- C. Huang, T. M. Ragonneau, and Z. Zhang, [https://github.com/optiprofiler/optiprofiler OptiProfiler], a platform for benchmarking optimization solvers
 -- T. M. Ragonneau and Z. Zhang, [https://www.cobyqa.com COBYQA: Constrained Optimization BY Quadratic Approximation], a package for solving general nonlinear optimization problems without using derivatives
 -- Z. Zhang, [http://www.sprima.net NEWUOAs], a package for solving large-scale nonlinear optimization problems without using derivatives
    \nRemark: I implemented NEWUOAs in MATLAB when writing Chapter 5 of my
