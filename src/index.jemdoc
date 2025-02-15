@@ -23,7 +23,7 @@ Low-Dimensional Subspace Techniques], arXiv:2501.04536, 2025 \[[docs/publication
 \nRemark: This paper re-introduces a derivative-free subspace optimization framework originating from Chapter
 5 of my [docs/publications/thesis.pdf Ph.D. thesis] supervised by Prof. [http://lsec.cc.ac.cn/~yyx Ya-xiang Yuan]
 at the Chinese Academy of Sciences.
-It was presented at [docs/conferences/201307-iccopt.pdf ICCOPT 2013] in Lisbon under the title
+The framework was presented at [docs/conferences/201307-iccopt.pdf ICCOPT 2013] in Lisbon under the title
 "[docs/talks/20130729-iccopt-lstlsp.pdf A Derivative-Free Optimization Algorithm with Low-Dimensional Subspace
 Techniques for Large-Scale Problems]" as the second talk of Session Mon.A.15 Chaired by J. Larson on
 July 29, 2013, which happened to be the birthday of [powell.html the late Professor M. J. D. Powell FRS].
