@@ -21,7 +21,7 @@
 -- Z. Zhang, [https://arxiv.org/abs/2501.04536 Scalable Derivative-Free Optimization Algorithms with
 Low-Dimensional Subspace Techniques], arXiv:2501.04536, 2025 \[[docs/publications/2025subspace.pdf pdf]\]
 \nRemark: This paper re-introduces a derivative-free subspace optimization framework originating from Chapter
-5 of my Ph.D. thesis supervised by Prof. [http://lsec.cc.ac.cn/~yyx Ya-xiang Yuan]
+5 of my [docs/publications/thesis.pdf Ph.D. thesis] supervised by Prof. [http://lsec.cc.ac.cn/~yyx Ya-xiang Yuan]
 at the Chinese Academy of Sciences.
 An algorithm following this framework was implemented by me in MATLAB in 2011 under the name NEWUOAs, which
 became the basis of [https://github.com/modula3/cm3/blob/master/caltech-other/newuoa/src/NewUOAs.m3 the
@@ -48,7 +48,7 @@ Quadratic Functions With Applications to Derivative-Free Optimization], /Math. P
 -- C. Huang, T. M. Ragonneau, and Z. Zhang, [http://www.optprof.com OptiProfiler], a platform for benchmarking optimization solvers
 -- T. M. Ragonneau and Z. Zhang, [https://www.cobyqa.com COBYQA: Constrained Optimization BY Quadratic Approximation], a package for solving general nonlinear optimization problems without using derivatives
 -- Z. Zhang, [http://www.sprima.net NEWUOAs], a package for solving large-scale nonlinear optimization problems without using derivatives
-   \nRemark: NEWUOAs was developed in 2011 when I was writing Chapter 5 of my [docs/publications/thesis.pdf thesis];
+   \nRemark: NEWUOAs was developed in 2011 when I was writing Chapter 5 of my [docs/publications/thesis.pdf Ph.D. thesis];
    my MATLAB code written then was ported to [https://en.wikipedia.org/wiki/Modula-3 Modula-3]
    in 2016 by [https://github.com/mikanystrom-intel M. Nystroem], a Principle Engineer at the Intel
    Corporation, and made available in the open-source package
