@@ -21,17 +21,17 @@
 -- Z. Zhang, [https://arxiv.org/abs/2501.04536 Scalable Derivative-Free Optimization Algorithms with
 Low-Dimensional Subspace Techniques], arXiv:2501.04536, 2025 \[[docs/publications/2025subspace.pdf pdf]\]
 \nRemark: This paper re-introduces a derivative-free subspace optimization framework originating from Chapter
-5 of my Ph.D. thesis finished in 2012 under the supervision of Prof. [http://lsec.cc.ac.cn/~yyx Ya-xiang Yuan]
+5 of my Ph.D. thesis supervised by Prof. [http://lsec.cc.ac.cn/~yyx Ya-xiang Yuan]
 at the Chinese Academy of Sciences.
 An algorithm following this framework was implemented by me in MATLAB in 2011 under the name NEWUOAs, which
 became the basis of [https://github.com/modula3/cm3/blob/master/caltech-other/newuoa/src/NewUOAs.m3 the
 NEWUOAs code used at the Intel Corporation] for chip design;
 it also led to the [https://ieeexplore.ieee.org/document/10247570 BBGP-sDFO] method for high-dimensional analog circuit synthesis.
-The same framework was presented at [docs/conferences/201307-iccopt.pdf ICCOPT 2013] in Lisbon under the title
+The framework remained nearly unknown to the community until very recently, although it
+was presented at [docs/conferences/201307-iccopt.pdf ICCOPT 2013] in Lisbon under the title
 "[docs/talks/20130729-iccopt-lstlsp.pdf A Derivative-Free Optimization Algorithm with Low-Dimensional Subspace
 Techniques for Large-Scale Problems]" as the second talk of Session Mon.A.15 Chaired by J. Larson on
 July 29, 2013, which happened to be the birthday of [powell.html the late Professor M. J. D. Powell FRS].
-However, it remained nearly unknown to the community until very recently.
 
 - Papers
 -- X. Chen, Y. He, and Z. Zhang, [https://epubs.siam.org/doi/abs/10.1137/24M1659030 Tight Error
