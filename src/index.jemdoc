@@ -1,9 +1,9 @@
 # jemdoc: menu{MENU}{index.html},title{Personal website of ZHANG Zaikun} showsource
-#= [docs/cv.pdf 张在坤 (Zhang, Zaikun)]
-= {{<a id="top"></a><img src="figs/name-hei.png" alt="张在坤"  class="name" title="张在坤"/>}} (ZHANG Zaikun)
+#= [docs/cv.pdf 张在坤 | Zhang, Zaikun]
+= {{<a id="top"></a><img src="figs/name-hei.png" alt="张在坤"  class="name" title="张在坤"/>}} | ZHANG Zaikun
 [https://math.sysu.edu.cn/teacher/3638 Professor], [https://math.sysu.edu.cn School of Mathematics],
 [https://en.wikipedia.org/wiki/Sun_Yat-sen_University Sun Yat-sen University], China
-| [https://scholar.google.com/citations?user=QmmduxoAAAAJ&hl=en&oi=ao Google Scholar]
+\n[https://scholar.google.com/citations?user=QmmduxoAAAAJ&hl=en&oi=ao Google Scholar]
 | [https://orcid.org/0000-0001-8934-8190 ORCID]
 | [https://www.scopus.com/authid/detail.uri?authorId=55695937800 Scopus ID]
 
@@ -15,18 +15,46 @@
 -- large-scale problems
 -- noisy problems
 
-== {{<a id="paper"></a>}}Selected publications
+== {{<a id="paper"></a>}}Selected works
 
-- X. Chen, Y. He, and Z. Zhang, [https://epubs.siam.org/doi/abs/10.1137/24M1659030 Tight Error
+- Preprints
+-- Z. Zhang, [https://arxiv.org/abs/2501.04536 Scalable Derivative-Free Optimization Algorithms with
+Low-Dimensional Subspace Techniques], arXiv:2501.04536, 2025 \[[docs/publications/2025subspace.pdf pdf]\]
+\nRemark: This paper re-introduces a derivative-free subspace optimization framework originating from Chapter
+5 of my Ph.D. thesis finished in 2012 under the supervision of Prof. [http://lsec.cc.ac.cn/~yyx Ya-xiang Yuan]
+at the Chinese Academy of Sciences.
+An algorithm following this framework was implemented by me in MATLAB in 2011 under the name NEWUOAs, which
+became the basis of [https://github.com/modula3/cm3/blob/master/caltech-other/newuoa/src/NewUOAs.m3 the
+NEWUOAs code used at the Intel Corporation] for chip design;
+it also led to the [https://ieeexplore.ieee.org/document/10247570 BBGP-sDFO] method for high-dimensional analog circuit synthesis.
+The same framework was presented at [docs/conferences/201307-iccopt.pdf ICCOPT 2013] in Lisbon under the title
+"[docs/talks/20130729-iccopt-lstlsp.pdf A Derivative-Free Optimization Algorithm with Low-Dimensional Subspace
+Techniques for Large-Scale Problems]" as the second talk of Session Mon.A.15 Chaired by J. Larson on
+July 29, 2013, which happened to be the birthday of [powell.html the late Professor M. J. D. Powell FRS].
+However, it remained nearly unknown to the community until very recently.
+
+- Papers
+-- X. Chen, Y. He, and Z. Zhang, [https://epubs.siam.org/doi/abs/10.1137/24M1659030 Tight Error
 Bounds for the Sign-Constrained Stiefel Manifold], /SIAM J. Optim./, 35:302--329, 2025 \[[docs/publications/2025stiefel.pdf pdf]\]
+-- T. M. Ragonneau and Z. Zhang, [https://link.springer.com/article/10.1007/s12532-024-00257-9 PDFO: A Cross-Platform Package for Powell’s Derivative-Free Optimization Solvers], /Math. Program. Comput./, 16:535--559, 2024 \[[docs/publications/2024pdfo.pdf pdf]\]
+-- S. Gratton, C. W. Royer, L. N. Vicente, and Z. Zhang, [https://academic.oup.com/imajna/article/38/3/1579/4084726 Complexity and Global Rates of Trust-Region Methods Based on Probabilistic Models], /IMA J. Numer. Anal./, 38:1579--1597, 2018 \[[docs/publications/2017wcctr-random.pdf pdf]\]
+-- S. Gratton, C. W. Royer, L. N. Vicente, and Z. Zhang, [https://epubs.siam.org/doi/10.1137/140961602 Direct Search Based on Probabilistic Descent], /SIAM J. Optim./, 25:1515--1541, 2015 \[[docs/publications/2015dspd.pdf pdf]\]
+-- Z. Zhang,  [https://link.springer.com/article/10.1007/s10107-013-0679-3 Sobolev Seminorm of
+Quadratic Functions With Applications to Derivative-Free Optimization], /Math. Program./, 146:77--96,
+2014 \[[docs/publications/2014snq.pdf pdf]\]
 
-- T. M. Ragonneau and Z. Zhang, [https://link.springer.com/article/10.1007/s12532-024-00257-9 PDFO: A Cross-Platform Package for Powell’s Derivative-Free Optimization Solvers], /Math. Program. Comput./, 16:535--559, 2024 \[[docs/publications/2024pdfo.pdf pdf]\]
-
-- S. Gratton, C. W. Royer, L. N. Vicente, and Z. Zhang, [https://academic.oup.com/imajna/article/38/3/1579/4084726 Complexity and Global Rates of Trust-Region Methods Based on Probabilistic Models], /IMA J. Numer. Anal./, 38:1579--1597, 2018 \[[docs/publications/2017wcctr-random.pdf pdf]\]
-
-- S. Gratton, C. W. Royer, L. N. Vicente, and Z. Zhang, [https://epubs.siam.org/doi/10.1137/140961602 Direct Search Based on Probabilistic Descent], /SIAM J. Optim./, 25:1515--1541, 2015 \[[docs/publications/2015dspd.pdf pdf]\]
-
-- Z. Zhang,  [https://link.springer.com/article/10.1007/s10107-013-0679-3 Sobolev Seminorm of Quadratic Functions With Applications to Derivative-Free Optimization], /Math. Program./, 146:77--96, 2014 (based on sections 4.3--4.5 of my [docs/publications/thesis.pdf thesis]) \[[docs/publications/2014snq.pdf pdf]\] #\[[docs/publications/2014snq.bib BibTeX]\]
+- Software
+-- Z. Zhang, [http://www.libprima.net PRIMA: Reference Implementation for Powell’s methods with Modernization and Amelioration], a package for solving general nonlinear optimization problems without using derivatives
+-- C. Huang, T. M. Ragonneau, and Z. Zhang, [http://www.optprof.com OptiProfiler], a platform for benchmarking optimization solvers
+-- T. M. Ragonneau and Z. Zhang, [https://www.cobyqa.com COBYQA: Constrained Optimization BY Quadratic Approximation], a package for solving general nonlinear optimization problems without using derivatives
+-- Z. Zhang, [http://www.sprima.net NEWUOAs], a package for solving large-scale nonlinear optimization problems without using derivatives
+   \nRemark: NEWUOAs was developed in 2011 when I was writing Chapter 5 of my [docs/publications/thesis.pdf thesis];
+   my MATLAB code written then was ported to [https://en.wikipedia.org/wiki/Modula-3 Modula-3]
+   in 2016 by [https://github.com/mikanystrom-intel M. Nystroem], a Principle Engineer at the Intel
+   Corporation, and made available in the open-source package
+   [https://github.com/modula3/cm3/blob/master/caltech-other/newuoa/src/NewUOAs.m3 CM3].
+   It has been used by Intel in the design of chips, including its flagship product
+   [https://www.rcrwireless.com/20200225/5g/intel-5g-infrastructure-opportunity Atom P5900].
 
 #== {{<a id="grant"></a>}}External grants
 

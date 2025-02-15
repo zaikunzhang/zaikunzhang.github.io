@@ -52,10 +52,10 @@ See http://www.zhangzk.net, http://www.zzk.me" />
 </td>
 <td id="layout-content">
 <div id="toptitle">
-<h1><a id="top"></a><img src="figs/name-hei.png" alt="张在坤"  class="name" title="张在坤"/> (ZHANG Zaikun)</h1>
+<h1><a id="top"></a><img src="figs/name-hei.png" alt="张在坤"  class="name" title="张在坤"/> | ZHANG Zaikun</h1>
 <div class="subtitle" id="subtitle"><a href="https://math.sysu.edu.cn/teacher/3638">Professor</a>, <a href="https://math.sysu.edu.cn">School of Mathematics</a>,
 <a href="https://en.wikipedia.org/wiki/Sun_Yat-sen_University">Sun Yat-sen University</a>, China
-| <a href="https://scholar.google.com/citations?user=QmmduxoAAAAJ&amp;hl=en&amp;oi=ao">Google Scholar</a>
+<br /><a href="https://scholar.google.com/citations?user=QmmduxoAAAAJ&amp;hl=en&amp;oi=ao">Google Scholar</a>
 | <a href="https://orcid.org/0000-0001-8934-8190">ORCID</a>
 | <a href="https://www.scopus.com/authid/detail.uri?authorId=55695937800">Scopus ID</a>
 </div>
@@ -81,31 +81,82 @@ See http://www.zhangzk.net, http://www.zzk.me" />
 
 </li>
 </ul>
-<h2><a id="paper"></a>Selected publications</h2>
+<h2><a id="paper"></a>Selected works</h2>
+<ul>
+<li><p>Preprints
+</p>
+<ul>
+<li><p>Z. Zhang, <a href="https://arxiv.org/abs/2501.04536">Scalable Derivative-Free Optimization Algorithms with
+Low-Dimensional Subspace Techniques</a>, arXiv:2501.04536, 2025 [<a href="docs/publications/2025subspace.pdf">pdf</a>]
+<br />Remark: This paper re-introduces a derivative-free subspace optimization framework originating from Chapter
+5 of my Ph.D. thesis finished in 2012 under the supervision of Prof. <a href="http://lsec.cc.ac.cn/~yyx">Ya-xiang Yuan</a>
+at the Chinese Academy of Sciences.
+An algorithm following this framework was implemented by me in MATLAB in 2011 under the name NEWUOAs, which
+became the basis of <a href="https://github.com/modula3/cm3/blob/master/caltech-other/newuoa/src/NewUOAs.m3">the
+NEWUOAs code used at the Intel Corporation</a> for chip design;
+it also led to the <a href="https://ieeexplore.ieee.org/document/10247570">BBGP-sDFO</a> method for high-dimensional analog circuit synthesis.
+The same framework was presented at <a href="docs/conferences/201307-iccopt.pdf">ICCOPT 2013</a> in Lisbon under the title
+&ldquo;<a href="docs/talks/20130729-iccopt-lstlsp.pdf">A Derivative-Free Optimization Algorithm with Low-Dimensional Subspace
+Techniques for Large-Scale Problems</a>&rdquo; as the second talk of Session Mon.A.15 Chaired by J. Larson on
+July 29, 2013, which happened to be the birthday of <a href="powell.html">the late Professor M. J. D. Powell FRS</a>.
+However, it remained nearly unknown to the community until very recently.
+</p>
+</li>
+</ul>
+
+</li>
+</ul>
+<ul>
+<li><p>Papers
+</p>
 <ul>
 <li><p>X. Chen, Y. He, and Z. Zhang, <a href="https://epubs.siam.org/doi/abs/10.1137/24M1659030">Tight Error
 Bounds for the Sign-Constrained Stiefel Manifold</a>, <i>SIAM J. Optim.</i>, 35:302&ndash;329, 2025 [<a href="docs/publications/2025stiefel.pdf">pdf</a>]
 </p>
 </li>
-</ul>
-<ul>
 <li><p>T. M. Ragonneau and Z. Zhang, <a href="https://link.springer.com/article/10.1007/s12532-024-00257-9">PDFO: A Cross-Platform Package for Powell’s Derivative-Free Optimization Solvers</a>, <i>Math. Program. Comput.</i>, 16:535&ndash;559, 2024 [<a href="docs/publications/2024pdfo.pdf">pdf</a>]
 </p>
 </li>
-</ul>
-<ul>
 <li><p>S. Gratton, C. W. Royer, L. N. Vicente, and Z. Zhang, <a href="https://academic.oup.com/imajna/article/38/3/1579/4084726">Complexity and Global Rates of Trust-Region Methods Based on Probabilistic Models</a>, <i>IMA J. Numer. Anal.</i>, 38:1579&ndash;1597, 2018 [<a href="docs/publications/2017wcctr-random.pdf">pdf</a>]
 </p>
 </li>
-</ul>
-<ul>
 <li><p>S. Gratton, C. W. Royer, L. N. Vicente, and Z. Zhang, <a href="https://epubs.siam.org/doi/10.1137/140961602">Direct Search Based on Probabilistic Descent</a>, <i>SIAM J. Optim.</i>, 25:1515&ndash;1541, 2015 [<a href="docs/publications/2015dspd.pdf">pdf</a>]
 </p>
 </li>
+<li><p>Z. Zhang,  <a href="https://link.springer.com/article/10.1007/s10107-013-0679-3">Sobolev Seminorm of
+Quadratic Functions With Applications to Derivative-Free Optimization</a>, <i>Math. Program.</i>, 146:77&ndash;96,
+2014 [<a href="docs/publications/2014snq.pdf">pdf</a>]
+</p>
+</li>
+</ul>
+
+</li>
 </ul>
 <ul>
-<li><p>Z. Zhang,  <a href="https://link.springer.com/article/10.1007/s10107-013-0679-3">Sobolev Seminorm of Quadratic Functions With Applications to Derivative-Free Optimization</a>, <i>Math. Program.</i>, 146:77&ndash;96, 2014 (based on sections 4.3&ndash;4.5 of my <a href="docs/publications/thesis.pdf">thesis</a>) [<a href="docs/publications/2014snq.pdf">pdf</a>]
+<li><p>Software
 </p>
+<ul>
+<li><p>Z. Zhang, <a href="http://www.libprima.net">PRIMA: Reference Implementation for Powell’s methods with Modernization and Amelioration</a>, a package for solving general nonlinear optimization problems without using derivatives
+</p>
+</li>
+<li><p>C. Huang, T. M. Ragonneau, and Z. Zhang, <a href="http://www.optprof.com">OptiProfiler</a>, a platform for benchmarking optimization solvers
+</p>
+</li>
+<li><p>T. M. Ragonneau and Z. Zhang, <a href="https://www.cobyqa.com">COBYQA: Constrained Optimization BY Quadratic Approximation</a>, a package for solving general nonlinear optimization problems without using derivatives
+</p>
+</li>
+<li><p>Z. Zhang, <a href="http://www.sprima.net">NEWUOAs</a>, a package for solving large-scale nonlinear optimization problems without using derivatives
+<br />Remark: NEWUOAs was developed in 2011 when I was writing Chapter 5 of my <a href="docs/publications/thesis.pdf">thesis</a>;
+my MATLAB code written then was ported to <a href="https://en.wikipedia.org/wiki/Modula-3">Modula-3</a>
+in 2016 by <a href="https://github.com/mikanystrom-intel">M. Nystroem</a>, a Principle Engineer at the Intel
+Corporation, and made available in the open-source package
+<a href="https://github.com/modula3/cm3/blob/master/caltech-other/newuoa/src/NewUOAs.m3">CM3</a>.
+It has been used by Intel in the design of chips, including its flagship product
+<a href="https://www.rcrwireless.com/20200225/5g/intel-5g-infrastructure-opportunity">Atom P5900</a>.
+</p>
+</li>
+</ul>
+
 </li>
 </ul>
 <h2><a id="contact"></a>Contact</h2>
