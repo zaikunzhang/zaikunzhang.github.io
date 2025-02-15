@@ -18,14 +18,14 @@
 == {{<a id="paper"></a>}}Selected works
 
 - Preprints
--- Z. Zhang, [https://arxiv.org/abs/2501.04536 Scalable Derivative-Free Optimization Algorithms with
+-- Z. Zhang, [https://arxiv.org/abs/2501.04536 Scalable Derivative-Free Optimization Algorithms With
 Low-Dimensional Subspace Techniques], arXiv:2501.04536, 2025 \[[docs/publications/2025subspace.pdf pdf]\]
 \nRemark: This paper re-introduces a derivative-free subspace optimization framework originating from Chapter
 5 of my [docs/publications/thesis.pdf Ph.D. thesis] supervised by Prof. [http://lsec.cc.ac.cn/~yyx Ya-xiang Yuan]
 at the Chinese Academy of Sciences.
 The framework was presented at [docs/conferences/201307-iccopt.pdf ICCOPT 2013] in Lisbon under the title
-"[docs/talks/20130729-iccopt-lstlsp.pdf A Derivative-Free Optimization Algorithm with Low-Dimensional Subspace
-Techniques for Large-Scale Problems]" as the second talk of Session Mon.A.15 Chaired by J. Larson on
+"[docs/talks/20130729-iccopt-lstlsp.pdf A Derivative-Free Optimization Algorithm With Low-Dimensional Subspace
+Techniques for Large-Scale Problems]" as the second talk of Session Mon.A.15 chaired by J. Larson on
 July 29, 2013, which happened to be the birthday of [powell.html the late Professor M. J. D. Powell FRS].
 An algorithm following this framework was implemented by me in MATLAB in 2011 under the name NEWUOAs, which
 became the basis of [https://github.com/modula3/cm3/blob/master/caltech-other/newuoa/src/NewUOAs.m3 the
@@ -57,14 +57,14 @@ Quadratic Functions With Applications to Derivative-Free Optimization], /Math. P
 
 #== {{<a id="grant"></a>}}External grants
 
-#- Oct. 2020--Sept. 2023, "Derivative-free Optimization with Space
+#- Oct. 2020--Sept. 2023, "Derivative-free Optimization With Space
 #Decomposition, Coarse Space Correction, and Randomization", PI,
 #awarded by the Research Grants Council (RGC) of Hong Kong under the
 #[https://www.ugc.edu.hk/eng/rgc/funding_opport/grf/ General Research Fund] (GRF)
 
 #- Jan. 2018--Dec. 2020, "Nonlinear Optimization Based on Inaccurate Information", PI, awarded by the Research Grants Council (RGC) of Hong Kong under the [http://www.ugc.edu.hk/eng/rgc/funding_opport/early_career.html Early Career Scheme] (ECS)
 
-#- Jan. 2017--Dec. 2018, "Space Decomposition Methods for Constrained Optimization with Engineering Applications", Hong Kong PI (French PI: S. Gratton; French Co-I: A. Gazaix), jointly awarded by the [http://www.ugc.edu.hk/eng/rgc/ Research Grants Council] (RGC) of Hong Kong and [https://hongkong.consulfrance.org/ le Consulat Général de France à Hong Kong & Macao] under the [https://hongkong.consulfrance.org/Resultats-de-l-appel-a-projets-scientifiques-PROCORE-2017 PROCORE - France/Hong Kong Joint Research Scheme]
+#- Jan. 2017--Dec. 2018, "Space Decomposition Methods for Constrained Optimization With Engineering Applications", Hong Kong PI (French PI: S. Gratton; French Co-I: A. Gazaix), jointly awarded by the [http://www.ugc.edu.hk/eng/rgc/ Research Grants Council] (RGC) of Hong Kong and [https://hongkong.consulfrance.org/ le Consulat Général de France à Hong Kong & Macao] under the [https://hongkong.consulfrance.org/Resultats-de-l-appel-a-projets-scientifiques-PROCORE-2017 PROCORE - France/Hong Kong Joint Research Scheme]
 
 == {{<a id="contact"></a>}}Contact
 
