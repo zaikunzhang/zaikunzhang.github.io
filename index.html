@@ -91,15 +91,13 @@ Low-Dimensional Subspace Techniques</a>, arXiv:2501.04536, 2025 [<a href="docs/p
 <br />Remark: This paper re-introduces a derivative-free subspace optimization framework originating from Chapter
 5 of my <a href="docs/publications/thesis.pdf">Ph.D. thesis</a> supervised by Prof. <a href="http://lsec.cc.ac.cn/~yyx">Ya-xiang Yuan</a>
 at the Chinese Academy of Sciences.
-An algorithm following this framework was implemented by me in MATLAB in 2011 under the name NEWUOAs, which
-became the basis of <a href="https://github.com/modula3/cm3/blob/master/caltech-other/newuoa/src/NewUOAs.m3">the
-NEWUOAs code used at the Intel Corporation</a> for chip design;
-it also led to the <a href="https://ieeexplore.ieee.org/document/10247570">BBGP-sDFO</a> method for high-dimensional analog circuit synthesis.
-The framework remained nearly unknown to the community until very recently, although it
-was presented at <a href="docs/conferences/201307-iccopt.pdf">ICCOPT 2013</a> in Lisbon under the title
+It was presented at <a href="docs/conferences/201307-iccopt.pdf">ICCOPT 2013</a> in Lisbon under the title
 &ldquo;<a href="docs/talks/20130729-iccopt-lstlsp.pdf">A Derivative-Free Optimization Algorithm with Low-Dimensional Subspace
 Techniques for Large-Scale Problems</a>&rdquo; as the second talk of Session Mon.A.15 Chaired by J. Larson on
 July 29, 2013, which happened to be the birthday of <a href="powell.html">the late Professor M. J. D. Powell FRS</a>.
+An algorithm following this framework was implemented by me in MATLAB in 2011 under the name NEWUOAs, which
+became the basis of <a href="https://github.com/modula3/cm3/blob/master/caltech-other/newuoa/src/NewUOAs.m3">the
+NEWUOAs code used at the Intel Corporation</a> for chip design.
 </p>
 </li>
 </ul>
@@ -146,8 +144,9 @@ Quadratic Functions With Applications to Derivative-Free Optimization</a>, <i>Ma
 </p>
 </li>
 <li><p>Z. Zhang, <a href="http://www.sprima.net">NEWUOAs</a>, a package for solving large-scale nonlinear optimization problems without using derivatives
-<br />Remark: NEWUOAs was developed in 2011 when I was writing Chapter 5 of my <a href="docs/publications/thesis.pdf">Ph.D. thesis</a>;
-my MATLAB code written then was ported to <a href="https://en.wikipedia.org/wiki/Modula-3">Modula-3</a>
+<br />Remark: I implemented NEWUOAs in MATLAB when writing Chapter 5 of my
+<a href="docs/publications/thesis.pdf">Ph.D. thesis</a> in 2011;
+my implantation was ported to <a href="https://en.wikipedia.org/wiki/Modula-3">Modula-3</a>
 in 2016 by <a href="https://github.com/mikanystrom-intel">M. Nystroem</a>, a Principle Engineer at the Intel
 Corporation, and made available in the open-source package
 <a href="https://github.com/modula3/cm3/blob/master/caltech-other/newuoa/src/NewUOAs.m3">CM3</a>.
