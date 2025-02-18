@@ -2,7 +2,7 @@
 #LDIRECTORY=$(HOME)/Work/PersonalInformation/homepage
 #WWW=$(LDIRECTORY)/zaikunzhang.github.io
 #JEMDOC=$(HOME)/local/bin/jemdoc
-JEMDOC=$(HOME)/local/bin/jemdoc_mathjax
+JEMDOC=$(HOME)/local/jemdoc_mathjax/jemdoc
 
 all: index blog software quotation coauthor conference misc powell teaching tts errors css makefile jemdoc $(JEMDOC)
 	#cp makefile $(WWW)/src
