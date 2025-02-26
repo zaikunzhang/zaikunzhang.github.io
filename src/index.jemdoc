@@ -49,7 +49,7 @@ Quadratic Functions With Applications to Derivative-Free Optimization], /Math. P
    \nRemark: I implemented NEWUOAs in MATLAB when writing Chapter 5 of my
    [docs/publications/thesis.pdf Ph.D. thesis] in 2011;
    my implantation was ported to [https://en.wikipedia.org/wiki/Modula-3 Modula-3]
-   in 2016 by [https://github.com/mikanystrom-intel M. Nystroem], a Principle Engineer at the Intel
+   in 2016 by [https://github.com/mikanystrom-intel M. Nystroem], a Principal Engineer at the Intel
    Corporation, and made available in the open-source package
    [https://github.com/modula3/cm3/blob/master/caltech-other/newuoa/src/NewUOAs.m3 CM3].
    It has been used by Intel in the design of chips, including its flagship product
