@@ -26,7 +26,7 @@ at the Chinese Academy of Sciences.
 The framework was presented at [docs/conferences/201307-iccopt.pdf ICCOPT 2013] in Lisbon under the title
 "[docs/talks/20130729-iccopt-lstlsp.pdf A Derivative-Free Optimization Algorithm With Low-Dimensional Subspace
 Techniques for Large-Scale Problems]" as the second talk of Session Mon.A.15 chaired by J. Larson on
-July 29, 2013, which happened to be the birthday of [powell.html the late Professor M. J. D. Powell FRS].
+July 29, 2013, which happened to be the birthday of [powell.html the late Prof. M. J. D. Powell FRS].
 An algorithm following this framework was implemented by me in MATLAB in 2011 under the name NEWUOAs, which
 became the basis of [https://github.com/modula3/cm3/blob/master/caltech-other/newuoa/src/NewUOAs.m3 the
 NEWUOAs code used at the Intel Corporation] for chip design.
