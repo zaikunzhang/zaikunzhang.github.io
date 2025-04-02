@@ -15,11 +15,11 @@ Mandatory Qualifications:
 2.) Commitment to pursuing a research career;
 3.) Solid mathematical knowledge.
 
-Preferred Skills:
+Preferred Qualifications:
 1.) Background in mathematics, computer science, statistics, or related fields;
-2.) Strong programming skills (e.g., familiarity with Linux, git, etc.).
+2.) Programming abilities (e.g., familiarity with Linux and git).
 
-Not Required (for graduate students/research assistants):
+NOT Required (for graduate students/research assistants):
 1.) Prior publication experiences;
 2.) Prior project participation.
 
