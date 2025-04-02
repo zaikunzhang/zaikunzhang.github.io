@@ -6,7 +6,7 @@ Application Deadline: Rolling admissions.
 
 About the PI:
 
-Zaikun Zhang is a Professor and a "Sun Yat-sen Outstanding Scholar" at the School of Mathematics, Sun Yat-sen University in Guangzhou, China. His research focuses on optimization theory, algorithms, software, and applications. Prof. Zhang earned his PhD from the Chinese Academy of Sciences in 2012. He was awarded the "Excellent Young Scientists Fund (Overseas)" from NSFC in 2023 and the "Award for Applications of Operations Research" from the OR Society of China in 2024. Since 2019, he has supervised three doctoral students, one master’s student, and one postdoctoral researcher. One of his doctoral students has graduated and joined Axians (France), and two received the Hong Kong PhD Fellowship. Prof. Zhang’s group maintains long-term collaborations with researchers from the Chinese Academy of Sciences, Hong Kong Polytechnic University, Toulouse University (France), and Lehigh University (USA). For more details and contact information, visit his homepage at https://www.zhangzk.net.
+Zaikun Zhang is a Professor and a "Sun Yat-sen Outstanding Scholar" at the School of Mathematics, Sun Yat-sen University in Guangzhou, China. His research focuses on optimization theory, algorithms, software, and applications. Prof. Zhang earned his PhD from the Chinese Academy of Sciences in 2012 under the supervision of Prof. Ya-xiang Yuang. He was awarded the "Excellent Young Scientists Fund (Overseas)" from NSFC in 2023 and the "Award for Applications of Operations Research" from the OR Society of China in 2024. Since 2019, he has supervised three doctoral students, one master’s student, and one postdoctoral researcher. One of his doctoral students has graduated and joined Axians (France), and two received the Hong Kong PhD Fellowship. Prof. Zhang’s group maintains long-term collaborations with researchers from the Chinese Academy of Sciences, The Hong Kong Polytechnic University, Toulouse University (France), and Lehigh University (USA). For more details and contact information, visit his homepage at https://www.zhangzk.net.
 
 Requirements:
 
@@ -30,7 +30,7 @@ In addition, Prof. Zhang's group also recruits software engineers for optimizati
 
 导师简介：
 
-张在坤，中山大学数学学院教授、博士生导师、逸仙优秀学者，研究方向为最优化理论、算法、软件与应用。张在坤于 2007 年本科毕业于吉林大学，2012 年博士毕业于中国科学院。他曾主持香港研究资助局 ECS/GRF 项目五项，于 2023 年入选国家级青年人才计划，2024 年获第九届中国运筹学会科学技术奖“运筹应用奖”。张在坤自 2019 年起指导博士研究生三人、硕士研究生一人、博士后一人，所指导博士研究生一人已毕业并入职法国 Axians 公司，两人获香港政府博士奖学金。张在坤课题组与中国科学院、香港理工大学、图卢兹大学 (法国)、里海大学 (美国) 等单位的研究人员保持长期合作与紧密联系。更多信息及联系方式见张在坤个人主页：https://www.zhangzk.net。
+张在坤，中山大学数学学院教授、博士生导师、逸仙优秀学者，研究方向为最优化理论、算法、软件与应用。张在坤于 2007 年本科毕业于吉林大学，2012 年博士毕业于中国科学院，师从袁亚湘院士。他曾主持香港研究资助局 ECS/GRF 项目五项，于 2023 年入选国家级青年人才计划，2024 年获第九届中国运筹学会科学技术奖“运筹应用奖”。张在坤自 2019 年起指导博士研究生三人、硕士研究生一人、博士后一人，所指导博士研究生一人已毕业并入职法国 Axians 公司，两人获香港政府博士奖学金。张在坤课题组与中国科学院、香港理工大学、图卢兹大学 (法国)、里海大学 (美国) 等单位的研究人员保持长期合作与紧密联系。更多信息及联系方式见张在坤个人主页：https://www.zhangzk.net。
 
 招收要求：
 
