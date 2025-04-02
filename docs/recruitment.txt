@@ -6,7 +6,7 @@ Application Deadline: Rolling admissions.
 
 About the PI:
 
-Zaikun Zhang is a Professor and a "Sun Yat-sen Outstanding Scholar" at the School of Mathematics, Sun Yat-sen University in Guangzhou, China. His research focuses on optimization theory, algorithms, software, and applications. Prof. Zhang earned his PhD from the Chinese Academy of Sciences in 2012. He was awarded the Excellent Young Scientists Fund (Overseas) from NSFC in 2023 and the "Award for Applications of Operations Research" from the OR Society of China in 2024. Since 2019, he has supervised three doctoral students, one master’s student, and one postdoctoral researcher. One of his doctoral graduates joined Axians (France), and two received the Hong Kong PhD Fellowship. Prof. Zhang’s group maintains long-term collaborations with researchers from the Chinese Academy of Sciences, Hong Kong Polytechnic University, Toulouse University (France), and Lehigh University (USA). For more details and contact information, visit his homepage: https://www.zhangzk.net.
+Zaikun Zhang is a Professor and a "Sun Yat-sen Outstanding Scholar" at the School of Mathematics, Sun Yat-sen University in Guangzhou, China. His research focuses on optimization theory, algorithms, software, and applications. Prof. Zhang earned his PhD from the Chinese Academy of Sciences in 2012. He was awarded the Excellent Young Scientists Fund (Overseas) from NSFC in 2023 and the "Award for Applications of Operations Research" from the OR Society of China in 2024. Since 2019, he has supervised three doctoral students, one master’s student, and one postdoctoral researcher. One of his doctoral graduates joined Axians (France), and two received the Hong Kong PhD Fellowship. Prof. Zhang’s group maintains long-term collaborations with researchers from the Chinese Academy of Sciences, Hong Kong Polytechnic University, Toulouse University (France), and Lehigh University (USA). For more details and contact information, visit his homepage at https://www.zhangzk.net.
 
 Requirements:
 
@@ -19,7 +19,7 @@ Preferred Skills:
 1.) Background in mathematics, computer science, statistics, or related fields;
 2.) Strong programming skills (e.g., familiarity with Linux, git, etc.).
 
-Not Required for Admission (graduate students/research assistants):
+Not Required (for graduate students/research assistants):
 1.) Prior publication experiences;
 2.) Prior project participation.
 
@@ -46,4 +46,4 @@ In addition, Prof. Zhang's group also recruits software engineers for optimizati
 1.) 发表论文经历；
 2.) 参与项目经历。
 
-此外，张在坤课题组长期招聘软件工程师，从事优化软件开发与维护工作。应聘者需熟悉 Fortran、 C、 C++、 Python、 MATLAB、 Julia、 R 等至少一种语言，并须熟练使用 Linux 与 git。详情见张在坤 GitHub 主页 https://github.com/zaikunzhang。
+此外，张在坤课题组长期招聘软件工程师，从事优化软件开发与维护工作。应聘者需熟悉 Fortran、 C、 C++、Python、 MATLAB、 Julia、 R 等至少一种语言，并须熟练使用 Linux 与 git。详情见张在坤 GitHub 主页：https://github.com/zaikunzhang。
