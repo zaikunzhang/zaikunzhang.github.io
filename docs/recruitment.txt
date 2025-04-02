@@ -1,0 +1,49 @@
+Open Positions in Prof. Zaikun Zhang’s Research Group at Sun Yat-sen University (positions open continuously)
+
+Positions Available: Graduate students (MPhil/PhD), research assistants, postdoctoral researchers.
+
+Application Deadline: Rolling admissions.
+
+About the PI:
+
+Zaikun Zhang is a Professor and a "Sun Yat-sen Outstanding Scholar" at the School of Mathematics, Sun Yat-sen University in Guangzhou, China. His research focuses on optimization theory, algorithms, software, and applications. Prof. Zhang earned his PhD from the Chinese Academy of Sciences in 2012. He was awarded the Excellent Young Scientists Fund (Overseas) from NSFC in 2023 and the "Award for Applications of Operations Research" from the OR Society of China in 2024. Since 2019, he has supervised three doctoral students, one master’s student, and one postdoctoral researcher. One of his doctoral graduates joined Axians (France), and two received the Hong Kong PhD Fellowship. Prof. Zhang’s group maintains long-term collaborations with researchers from the Chinese Academy of Sciences, Hong Kong Polytechnic University, Toulouse University (France), and Lehigh University (USA). For more details and contact information, visit his homepage: https://www.zhangzk.net.
+
+Requirements:
+
+Mandatory Qualifications:
+1.) Strong interest in mathematical research;
+2.) Commitment to pursuing a research career;
+3.) Solid mathematical knowledge.
+
+Preferred Skills:
+1.) Background in mathematics, computer science, statistics, or related fields;
+2.) Strong programming skills (e.g., familiarity with Linux, git, etc.).
+
+Not Required for Admission (graduate students/research assistants):
+1.) Prior publication experiences;
+2.) Prior project participation.
+
+In addition, Prof. Zhang's group also recruits software engineers for optimization software development and maintenance in languages including Fortran, C, C++, Python, MATLAB, Julia, and R. Linux and git are obligatory. See his GitHub page at https://github.com/zaikunzhang for more information.
+
+中山大学数学学院张在坤课题组招收硕士/博士研究生、研究助理、博士后 (长期有效)
+
+导师简介：
+
+张在坤，中山大学数学学院教授、博士生导师、逸仙优秀学者，研究方向为最优化理论、算法、软件与应用。张在坤于 2007 年本科毕业于吉林大学，2012 年博士毕业于中国科学院。他曾主持香港研究资助局 ECS/GRF 项目五项，于 2023 年入选国家级青年人才计划，2024 年获第九届中国运筹学会科学技术奖“运筹应用奖”。张在坤自 2019 年起指导博士研究生三人、硕士研究生一人、博士后一人，所指导博士研究生一人已毕业并入职法国 Axians 公司，两人获香港政府博士奖学金。张在坤课题组与中国科学院、香港理工大学、图卢兹大学 (法国)、里海大学 (美国) 等单位的研究人员保持长期合作与紧密联系。更多信息及联系方式见张在坤个人主页：https://www.zhangzk.net。
+
+招收要求：
+
+1. 必要条件:
+1.) 对数学科研有浓厚兴趣；
+2.) 有志于从事科研事业；
+3.) 扎实的数学功底。
+
+2. 加分项：
+1.) 数学/计算机/统计学等专业背景；
+2.) 较强的编程能力 (熟悉 Linux、git 等)。
+
+3. 不作为录取条件 (研究生、科研助理)：
+1.) 发表论文经历；
+2.) 参与项目经历。
+
+此外，张在坤课题组长期招聘软件工程师，从事优化软件开发与维护工作。应聘者需熟悉 Fortran、 C、 C++、 Python、 MATLAB、 Julia、 R 等至少一种语言，并须熟练使用 Linux 与 git。详情见张在坤 GitHub 主页 https://github.com/zaikunzhang。
