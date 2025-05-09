@@ -1,20 +1,20 @@
 # jemdoc: menu{MENU}{conference.html},title{Conferences and Presentations} showsource
 #
-= {{<a id="top"></a>}}Conferences and Presentations 
+= {{<a id="top"></a>}}Conferences and Presentations
 
 == Upcoming conferences\/meetings
 
 - Aug. 15--20, 2021, Beijing, China, [http://ismp2021.csp.escience.cn The 24th International Symposium on Mathematical Programming] (ISMP 2021)
 
-== Conferences\/Meetings that I am/was involved in the organization 
+== Conferences\/Meetings that I am/was involved in the organization
 
-- 2020, [https://www.polyu.edu.hk/ama/events/conference/op20/en/ SIAM Conference on Optimization] (OP20; it will not take place as scheduled due to COVID-19), Local Organizing Committee Member 
+- 2020, [https://www.polyu.edu.hk/ama/events/conference/op20/en/ SIAM Conference on Optimization] (OP20; it will not take place as scheduled due to COVID-19), Local Organizing Committee Member
 
 -  2017, 2019, the [http://lsec.cc.ac.cn/~icnonla17/ 11th] and [http://lsec.cc.ac.cn/~icnonla19/index.html 12th] International Conference on Numerical Optimization and Numerical Linear Algebra (ICNONLA), Organizing Committee Member
 
-#- Feb. 24, 2018, Hong Kong, China, [docs/conferences/gbaod.jpg Greater Bay Area] [docs/conferences/gbaod.pdf Optimization Day], coordinator 
+#- Feb. 24, 2018, Hong Kong, China, [docs/conferences/gbaod.jpg Greater Bay Area] [docs/conferences/gbaod.pdf Optimization Day], coordinator
 
-# - Aug. 8--11, 2017, Yinchuan, China, [http://lsec.cc.ac.cn/~icnonla17/ The 11th International Conference on Numerical Optimization and Numerical Linear Algebra] (ICNONLA 2017), [http://lsec.cc.ac.cn/~icnonla17/committee.html Organizing Committee] Member 
+# - Aug. 8--11, 2017, Yinchuan, China, [http://lsec.cc.ac.cn/~icnonla17/ The 11th International Conference on Numerical Optimization and Numerical Linear Algebra] (ICNONLA 2017), [http://lsec.cc.ac.cn/~icnonla17/committee.html Organizing Committee] Member
 
 - May 31--June 2, 2017, Hong Kong, China, [http://www.polyu.edu.hk/ama/events/conference/ECM2017/ The Third International Conference on Engineering and Computational Mathematics] (ECM 2017), Workshop Co-chair (together with [http://lsec.cc.ac.cn/~liuxin X. Liu], invited workshop on "[http://www.polyu.edu.hk/ama/events/conference/ECM2017/workshop.htm\#stream2 Big Data Analysis with Applications]") \[[docs/conferences/201705-ecm-speaker.txt speaker list]\]
 
@@ -22,7 +22,7 @@
 
 - July 27-- Aug. 1, 2013, Lisbon, Portugal, [http://eventos.fct.unl.pt/iccopt2013 The Fourth International Conference on Continuous Optimization] (ICCOPT 2013), [http://eventos.fct.unl.pt/iccopt2013/pages/organizing-committee Organizing Committee] Member
 
-- Sept. 26--29, 2011, Beijing, China, [http://lsec.cc.ac.cn/~sjom/ The Fifth Sino-Japan Optimization Meeting] (SJOM 2011), secretary 
+- Sept. 26--29, 2011, Beijing, China, [http://lsec.cc.ac.cn/~sjom/ The Fifth Sino-Japan Optimization Meeting] (SJOM 2011), secretary
 
 
 == {{<a id="talk"></a>}}Selected conference presentations
@@ -35,38 +35,48 @@
 
 - June 22, 2018, Nanjing, China, [docs/conferences/201806-spoc.pdf 2018 International Workshop on Signal Processing, Optimization and Control] (SPOC 2018), A continuous optimization model for clustering, invited talk, joint work with X. Liu, M. K. Ng, and R. Zhang
 
-- June 30, 2017, Athens, Greece, [http://caoaca.com/ Conference on Approximation and Optimization:] [docs/conferences/201706-caoaca.pdf Algorithms, Complexity, and Applications], A space transformation framework for nonlinear optimization, invited talk, joint work with S. Gratton and L. N. Vicente 
+- June 30, 2017, Athens, Greece, [http://caoaca.com/ Conference on Approximation and Optimization:] [docs/conferences/201706-caoaca.pdf Algorithms, Complexity, and Applications], A space transformation framework for nonlinear optimization, invited talk, joint work with S. Gratton and L. N. Vicente
 
-- May 24, 2017, Vancouver, Canada, [http://www.siam.org/meetings/op17/ SIAM Conference on] [docs/conferences/201705-siamopt.pdf Optimization 2017] (OP17), A space transformation framework for nonlinear optimization, mini-symposium talk, joint work with S. Gratton and L. N. Vicente 
+- May 24, 2017, Vancouver, Canada, [http://www.siam.org/meetings/op17/ SIAM Conference on] [docs/conferences/201705-siamopt.pdf Optimization 2017] (OP17), A space transformation framework for nonlinear optimization, mini-symposium talk, joint work with S. Gratton and L. N. Vicente
 
-- Aug. 8, 2016, Tokyo, Japan, [http://www.iccopt2016.tokyo/ The Fifth International Conference] [docs/conferences/201608-iccopt.pdf on Continuous Optimization] (ICCOPT 2016), A space transformation framework for nonlinear optimization,  invited-session talk, joint work with S. Gratton and L. N. Vicente 
+- Aug. 8, 2016, Tokyo, Japan, [http://www.iccopt2016.tokyo/ The Fifth International Conference] [docs/conferences/201608-iccopt.pdf on Continuous Optimization] (ICCOPT 2016), A space transformation framework for nonlinear optimization,  invited-session talk, joint work with S. Gratton and L. N. Vicente
 
 - Aug. 6, 2016, Beijing, China, [http://lsec.cc.ac.cn/~icnaao/ International Conference] [docs/conferences/201608-icnaao.pdf on Numerical Analysis, Approximation and Optimization] (ICNAAO 2016, a memorial conference dedicated to late Professor [powell.html M. J. D. Powell] FRS), "NEWUOAs: A Derivative-free Optimization Algorithm Based on Powell’s NEWUOA and Subspace Techniques (Is it possible to solve a 2000-dimensional optimization problem on a laptop without using derivatives?)", contributed talk \[[docs/talks/20160806-icnaao-newuoas.pdf slides]\]
 
-- Aug. 12, 2015, Beijing, China, [http://www.iciam2015.cn/ The Eighth International Congress] [docs/conferences/201508-iciam.pdf on Industrial and Applied Mathematics] (ICIAM 2015), 
-"A subspace decomposition framework for nonlinear optimization", [http://www.iciam2015.cn/MS-We-E-43.html mini-symposium] talk, joint work with S. Gratton and L. N. Vicente 
+- Aug. 12, 2015, Beijing, China, [http://www.iciam2015.cn/ The Eighth International Congress] [docs/conferences/201508-iciam.pdf on Industrial and Applied Mathematics] (ICIAM 2015),
+"A subspace decomposition framework for nonlinear optimization", [http://www.iciam2015.cn/MS-We-E-43.html mini-symposium] talk, joint work with S. Gratton and L. N. Vicente
 
-- Aug. 5, 2015, Yan'an, China, [http://lsec.cc.ac.cn/~icnonla15/ The Tenth International Conference] [docs/conferences/201508-icnonla.pdf on Numerical Optimization] [figs/20150806-icnonla.jpg and Numerical Linear Algebra] (ICNONLA 2015), 
-"A subspace decomposition framework for nonlinear optimization", contributed talk, joint work with S. Gratton and L. N. Vicente 
+- Aug. 5, 2015, Yan'an, China, [http://lsec.cc.ac.cn/~icnonla15/ The Tenth International Conference] [docs/conferences/201508-icnonla.pdf on Numerical Optimization] [figs/20150806-icnonla.jpg and Numerical Linear Algebra] (ICNONLA 2015),
+"A subspace decomposition framework for nonlinear optimization", contributed talk, joint work with S. Gratton and L. N. Vicente
 
 - July 13, 2015, Pittsburgh, U.S., [http://www.ismp2015.org/ The 22nd International Symposium] [docs/conferences/201507-ismp.pdf on Mathematical Programming] (ISMP 2015),
-"A subspace decomposition framework for nonlinear optimization", [https://informs.emeetingsonline.com/emeetings/formbuilder/clustersessiondtl.asp?csnno=22069&mmnno=264&ppnno=82892 invited-session] talk, joint work with S. Gratton and L. N. Vicente 
+"A subspace decomposition framework for nonlinear optimization", [https://informs.emeetingsonline.com/emeetings/formbuilder/clustersessiondtl.asp?csnno=22069&mmnno=264&ppnno=82892 invited-session] talk, joint work with S. Gratton and L. N. Vicente
 
-- June 14, 2015, Montréal, Canada, [http://meetings2.informs.org/montreal2015/ The CORS/INFORMS 2015] [docs/conferences/201506-cors_informs.pdf Joint International Meeting], 
-"A subspace decomposition framework for nonlinear optimization", [https://informs.emeetingsonline.com/emeetings/formbuilder/clustersessiondtl.asp?csnno=22104&mmnno=263&ppnno=82905 invited-session] talk, joint work with S. Gratton and L. N. Vicente 
+- June 14, 2015, Montréal, Canada, [http://meetings2.informs.org/montreal2015/ The CORS/INFORMS 2015] [docs/conferences/201506-cors_informs.pdf Joint International Meeting],
+"A subspace decomposition framework for nonlinear optimization", [https://informs.emeetingsonline.com/emeetings/formbuilder/clustersessiondtl.asp?csnno=22104&mmnno=263&ppnno=82905 invited-session] talk, joint work with S. Gratton and L. N. Vicente
 
-- July 28, 2014, Guimarães, Portugal, [http://optimization2014.dps.uminho.pt/ Optimization] [docs/conferences/201407-optimization.pdf 2014], 
+- July 28, 2014, Guimarães, Portugal, [http://optimization2014.dps.uminho.pt/ Optimization] [docs/conferences/201407-optimization.pdf 2014],
 "A subspace decomposition framework for nonlinear optimization", [http://optimization2014.dps.uminho.pt/program/m_a_1_4.htm invited-session] talk, joint work with S. Gratton and L. N. Vicente
 
-- July 17, 2014, Barcelona, Spain, [http://www.ifors2014.org/ The 20th Conference] [docs/conferences/201407-ifors.pdf of the International Federation of Operational Research Societies] (IFORS 2014), "Direct search based on probabilistic descent", [http://ifors2014.upc.edu/content/hb invited-session] talk, joint work with S. Gratton, C. W. Royer, and L. N. Vicente \[[docs/publications/2015dspd.pdf paper]\] 
+- July 17, 2014, Barcelona, Spain, [http://www.ifors2014.org/ The 20th Conference]
+[docs/conferences/201407-ifors.pdf of the International Federation of Operational Research Societies]
+(IFORS 2014), "Direct search based on probabilistic descent", [http://ifors2014.upc.edu/content/hb
+invited-session] talk, joint work with S. Gratton, C. W. Royer, and L. N. Vicente
+\[[docs/publications/2015dspd.pdf paper]\]
 
-- May 22, 2014, San Diego, U.S., [http://www.siam.org/meetings/op14/index.php SIAM Conference] [docs/conferences/201405-siopt.pdf on Optimization 2014] (OP14), "Direct search based on probabilistic descent", [http://meetings.siam.org/sess/dsp_talk.cfm?p=62774 mini-symposium] talk, joint work with S. Gratton, C. W. Royer, and L. N. Vicente \[[docs/publications/2015dspd.pdf paper]\] 
+- May 22, 2014, San Diego, U.S., [http://www.siam.org/meetings/op14/index.php SIAM Conference] [docs/conferences/201405-siopt.pdf on Optimization 2014] (OP14), "Direct search based on probabilistic descent", [http://meetings.siam.org/sess/dsp_talk.cfm?p=62774 mini-symposium] talk, joint work with S. Gratton, C. W. Royer, and L. N. Vicente \[[docs/publications/2015dspd.pdf paper]\] \[[docs/talks/20140522-siopt.pdf slides]\]
 
 - Sept. 12, 2013, Changchun, China, [http://lsec.cc.ac.cn/~icnonla13/ The Ninth International Conference] [docs/conferences/201309-icnonla.pdf on Numerical Optimization and Numerical Linear Algebra] (ICNONLA 2013), "A subspace decomposition framework for nonlinear optimization: Global convergence and global rates", contributed talk, joint work with S. Gratton and L. N. Vicente \[[docs/talks/20130912-icnonla-subdcp.pdf slides]\]
 
+- July 30, 2013, Lisbon, Portugal, [http://eventos.fct.unl.pt/iccopt2013 The Fourth International
+Conference] [docs/conferences/201307-iccopt.pdf on Continuous Optimization] (ICCOPT 2013), "A
+derivative-free optimization algorithm with low-dimensional subspace techniques for large-scale
+problems", [http://www.norg.uminho.pt/iccopt2013-SP-contents/mon_a_15_2.htm invited-session] talk,
+replacing L. N. Vicente, \[[docs/talks/20130730-iccopt-subdcp.pdf slides]\]
+
 - July 29, 2013, Lisbon, Portugal, [http://eventos.fct.unl.pt/iccopt2013 The Fourth International Conference] [docs/conferences/201307-iccopt.pdf on Continuous Optimization] (ICCOPT 2013), "A derivative-free optimization algorithm with low-dimensional subspace techniques for large-scale problems", [http://www.norg.uminho.pt/iccopt2013-SP-contents/mon_a_15_2.htm invited-session] talk, based on section 5.3 of my [docs/publications/thesis.pdf thesis] \[[docs/talks/20130729-iccopt-lstlsp.pdf slides]\]
 
-- July 25, 2013, Toulouse, France, [http://www.cerfacs.fr/6-27084-Recent-Advances-on-Optimization.php Recent] [http://www.fondation-stae.net/fr/optimization-july2013.html Advances] [docs/conferences/201307-toint.pdf on Optimization] (dedicated to [http://perso.fundp.ac.be/~phtoint/toint.html Ph. Toint]'s 60th birthday), "A subspace decomposition framework for nonlinear optimization: Global convergence and global rates", contributed talk, joint work with S. Gratton and L. N. Vicente 
+- July 25, 2013, Toulouse, France, [http://www.cerfacs.fr/6-27084-Recent-Advances-on-Optimization.php Recent] [http://www.fondation-stae.net/fr/optimization-july2013.html Advances] [docs/conferences/201307-toint.pdf on Optimization] (dedicated to [http://perso.fundp.ac.be/~phtoint/toint.html Ph. Toint]'s 60th birthday), "A subspace decomposition framework for nonlinear optimization: Global convergence and global rates", contributed talk, joint work with S. Gratton and L. N. Vicente
 
 - Nov. 8, 2011, Xiamen, China, [http://lsec.cc.ac.cn/~icnonla/ The Eighth International Conference] [docs/conferences/201111-icnonla.pdf on Numerical Optimization and Numerical Linear Algebra] (ICNONLA 2011), "Sobolev seminorm of quadratic functions with applications to derivative-free optimization", contributed talk \[[docs/publications/2014snq.pdf paper]\]
 
@@ -82,7 +92,7 @@
 #- July 12--17, 2015, Pittsburgh, U.S., [http://www.ismp2015.org/ The 22nd International Symposium on Mathematical Programming] (ISMP 2015)
 #\n Organizing sessions in the [http://www.ismp2015.org/?page_id=60 cluster] "Derivative-Free and Simulation-Based Optimization" chaired by [http://coral.ie.lehigh.edu/~katyas/ K. Scheinberg] and [http://mat.uc.pt/~lnv L. N. Vicente] (speakers: [http://cerfacs.fr/~diouane/ Y. Diouane], D. G. Ferreira, G. N. Grapiglia, [http://www.mcs.anl.gov/person/jeffrey-larson J. Larson], [https://people.ok.ubc.ca/ylucet/ Y. Lucet], [http://ise.lehigh.edu/content/matt-menickelly-0 M. Menickelly], [http://naturalsciences.ucmerced.edu/people/juan-c-meza J. C.  Meza], [https://www.gerad.ca/en/people/mathilde-peyrega M. Peyrega], and [http://royer.perso.enseeiht.fr/ C. W. Royer])
 #
-#- June 16, 2015, Montréal, Canada, [http://meetings2.informs.org/montreal2015/ The CORS/INFORMS 2015] [docs/conferences/201506-cors_informs.pdf Joint International Meeting], organizing the session "Derivative-free Optimization Using Models" (speakers: [https://www.gerad.ca/en/people/nadir-amaioua N. Amaioua] and [http://math.ok.ubc.ca/faculty/hare.html W. Hare]) within the stream "Derivative-Free Optimization" chaired by W. Hare and [https://www.gerad.ca/Sebastien.Le.Digabel/ S. Le Digabel] 
+#- June 16, 2015, Montréal, Canada, [http://meetings2.informs.org/montreal2015/ The CORS/INFORMS 2015] [docs/conferences/201506-cors_informs.pdf Joint International Meeting], organizing the session "Derivative-free Optimization Using Models" (speakers: [https://www.gerad.ca/en/people/nadir-amaioua N. Amaioua] and [http://math.ok.ubc.ca/faculty/hare.html W. Hare]) within the stream "Derivative-Free Optimization" chaired by W. Hare and [https://www.gerad.ca/Sebastien.Le.Digabel/ S. Le Digabel]
 #
 #- 2013, [http://eventos.fct.unl.pt/iccopt2013/pages/organizing-committee Organizing Committee] member of [http://eventos.fct.unl.pt/iccopt2013 The Fourth International Conference] [docs/conferences/201307-iccopt.pdf on Continuous Optimization] (July 27--Aug. 1, 2013, Lisbon)
 #
@@ -91,14 +101,14 @@
 
 == {{<a id="othertalk"></a>}}Selected seminar talks
 
-- May. 13, 2020, [http://lsec.cc.ac.cn/ LSEC], Beijing, China, "PDFO: Powell’s Derivative-Free Optimization Solvers with MATLAB and Python Interfaces", 
+- May. 13, 2020, [http://lsec.cc.ac.cn/ LSEC], Beijing, China, "PDFO: Powell’s Derivative-Free Optimization Solvers with MATLAB and Python Interfaces",
 online seminar talk (科学计算论坛之青年在线讲堂) invited by [http://lsec.cc.ac.cn/~liuxin/ X. Liu] \[[docs/talks/20200513lsec.pdf slides]\]
 
 - Mar. 2, 2017, The  Hong Kong Polytechnic University, Hong Kong, China, "[figs/20170302_MASS_PolyU.jpg Optimization using primary school mathematics]", The 12th "[http://www.polyu.edu.hk/ama/math_learning_support_centre/ Mathematical and Statistical Salon]" (MASS) talk
 
 - Nov. 26, 2015, [http://www.stfc.ac.uk/about-us/rutherford-appleton-laboratory/ Rutherford Appleton Laboratory], Oxford, UK, "[https://www.maths.ox.ac.uk/node/14924 The worst case complexity of direct search and beyond]", seminar talk invited by the [http://www.numerical.rl.ac.uk/ Numerical Analysis Group]
 
-- Aug. 18, 2015, [http://lsec.cc.ac.cn/ LSEC], Beijing, China, "The worst case complexity of direct search and the (unexpected) mathematics in it", 
+- Aug. 18, 2015, [http://lsec.cc.ac.cn/ LSEC], Beijing, China, "The worst case complexity of direct search and the (unexpected) mathematics in it",
 seminar talk invited by [http://lsec.cc.ac.cn/~yafliu/ Y. Liu] \[[docs/talks/20150818-lsec.pdf slides]\]
 
-- Sept. 3, 2013, [http://lsec.cc.ac.cn/ LSEC], Beijing, China, "Direct search based on probabilistic descent", seminar talk invited by [http://lsec.cc.ac.cn/~yyx/ Y. Yuan] \[[docs/publications/2015dspd.pdf paper]\] 
+- Sept. 3, 2013, [http://lsec.cc.ac.cn/ LSEC], Beijing, China, "Direct search based on probabilistic descent", seminar talk invited by [http://lsec.cc.ac.cn/~yyx/ Y. Yuan] \[[docs/publications/2015dspd.pdf paper]\]
