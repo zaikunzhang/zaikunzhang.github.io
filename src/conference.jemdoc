@@ -69,10 +69,9 @@ invited-session] talk, joint work with S. Gratton, C. W. Royer, and L. N. Vicent
 - Sept. 12, 2013, Changchun, China, [http://lsec.cc.ac.cn/~icnonla13/ The Ninth International Conference] [docs/conferences/201309-icnonla.pdf on Numerical Optimization and Numerical Linear Algebra] (ICNONLA 2013), "A subspace decomposition framework for nonlinear optimization: Global convergence and global rates", contributed talk, joint work with S. Gratton and L. N. Vicente \[[docs/talks/20130912-icnonla-subdcp.pdf slides]\]
 
 - July 30, 2013, Lisbon, Portugal, [http://eventos.fct.unl.pt/iccopt2013 The Fourth International
-Conference] [docs/conferences/201307-iccopt.pdf on Continuous Optimization] (ICCOPT 2013), "A
-derivative-free optimization algorithm with low-dimensional subspace techniques for large-scale
-problems", [http://www.norg.uminho.pt/iccopt2013-SP-contents/mon_a_15_2.htm invited-session] talk,
-replacing L. N. Vicente, \[[docs/talks/20130730-iccopt-subdcp.pdf slides]\]
+Conference] [docs/conferences/201307-iccopt.pdf on Continuous Optimization] (ICCOPT 2013),
+"A Subspace Decomposition Framework for Nonlinear Optimization: Global Convergence and Global Rate",
+invited-session talk (replacing L. N. Vicente), joint work with S. Gratton and L. N. Vicente \[[docs/talks/20130730-iccopt-subdcp.pdf slides]\]
 
 - July 29, 2013, Lisbon, Portugal, [http://eventos.fct.unl.pt/iccopt2013 The Fourth International Conference] [docs/conferences/201307-iccopt.pdf on Continuous Optimization] (ICCOPT 2013), "A derivative-free optimization algorithm with low-dimensional subspace techniques for large-scale problems", [http://www.norg.uminho.pt/iccopt2013-SP-contents/mon_a_15_2.htm invited-session] talk, based on section 5.3 of my [docs/publications/thesis.pdf thesis] \[[docs/talks/20130729-iccopt-lstlsp.pdf slides]\]
 
