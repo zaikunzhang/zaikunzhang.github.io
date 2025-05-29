@@ -1,6 +1,6 @@
 # jemdoc: menu{MENU}{coauthor.html},title{Co-authors} showsource
-= {{<a id="top"></a>}}Co-authors
-This page lists my co-authors. The list is updated only after the joint work is submitted.
+= {{<a id="top"></a>}}Co-authors and students
+This page provides information about my co-authors and students.
 
 ~~~
 {}{raw}
@@ -15,61 +15,40 @@ This page lists my co-authors. The list is updated only after the joint work is 
 </div></div>
 ~~~
 
-== List of co-authors
-
-- [https://www.polyu.edu.hk/ama/staff/xjchen/ChenXJ.htm X. Chen]
-
-- M. Dodangeh
-
-- [http://gratton.perso.enseeiht.fr/ S. Gratton]
-
-- [http://www4.ncsu.edu/~ctk/ C. T. Kelley]
-
-- [http://lsec.cc.ac.cn/~liuxin X. Liu]
-
-- [http://www.math.hkbu.edu.hk/~mng/ M. K. Ng]
-
-- [http://pages.discovery.wisc.edu/~croyer/ C. W. Royer]
-
-- [http://mat.uc.pt/~lnv L. N. Vicente]
-
-- [http://gr.xjtu.edu.cn/web/fengminxu F. Xu]
-
-- R. Zhang
-
 == [http://goo.gl/uk6HYb Erdős number]: 3
 
 - [http://goo.gl/9Rsxmk Paul Erdős] --- [http://www.ams.org/mathscinet-getitem?mr=942479 Marc Aron Berger] --- [http://www.ams.org/mathscinet-getitem?mr=552338 C. T. Kelley] --- [http://www.ams.org/mathscinet/search/author.html?mrauthid=1070418 Z.]
 
-- Longer paths to Erdős
-\n Paul Erdős --- [https://en.wikipedia.org/wiki/Ronald_Graham Ronald L. Graham] --- [http://www.ise.ufl.edu/pardalos/ Panos M. Pardalos] --- Luís Nunes Vicente --- Z.
-\n Paul Erdős --- [http://cgm.cs.mcgill.ca/~avis/ David] [http://cgm.cs.mcgill.ca/~avis/Kyoto/ M. Avis] --- [http://www.mcgill.ca/bioeng/faculty-and-staff/david-titley-peloquin David Titley-Péloquin] --- Serge Gratton --- Z.
+#- Longer paths to Erdős
+#\n Paul Erdős --- [https://en.wikipedia.org/wiki/Ronald_Graham Ronald L. Graham] --- [http://www.ise.ufl.edu/pardalos/ Panos M. Pardalos] --- Luís Nunes Vicente --- Z.
+#\n Paul Erdős --- [http://cgm.cs.mcgill.ca/~avis/ David] [http://cgm.cs.mcgill.ca/~avis/Kyoto/ M. Avis] --- [http://www.mcgill.ca/bioeng/faculty-and-staff/david-titley-peloquin David Titley-Péloquin] --- Serge Gratton --- Z.
 
 
-== Remarks {{<span class="date">}}(made on Nov. 14, 2014 in Toulouse){{</span>}}
+== {{<a id="order"></a>}} Remark {{<span class="date">}}(initially made on Nov. 14, 2014 in Toulouse){{</span>}}
 
-- My co-authored [index.html\#paper works] {{<span class="dotunder">always</span>}} list the authors in the {{<span class="dotunder">alphabetical order</span>}} of their names.
+- Following the tradition of the mathematical community, my [index.html\#works mathematical papers]
+list the authors {{<span class="dotunder">alphabetically</span>}}.
 
-- If I am so lucky as to have the privilege of collaborating with you, I would like to {{<span class="dotunder">follow this order</span>}} as well.
+- If I am so lucky as to have the privilege of collaborating with you, I would like to {{<span class="dotunder">follow this tradition</span>}} as well.
 
-#~~~
-#{}{raw}
-#<h2>Note</h2>
-#<ul>
-#<li><p>My co-authored <a href="index.html#paper">works</a> <span class="dotunder">always</span> list all the authors in the <span class="dotunder">alphabetical order</span> of their names. </p>
-#</li>
-#<li><p>If I am so lucky as to have the privilege of collaborating with you, I would like to <span class="dotunder">follow this order</span> as well. </p>
-#</li>
-#</ul>
-#<p class="right"> Z. Zhang <br/> Nov. 14, 2014, Toulouse</p>
-#~~~
+- See statements from the [https://www.cms.org.cn/en/ Chinese Mathematical Society]
+and the [https://www.ams.org/ American Mathematical Society] for your reference:
+-- [docs/2020_cms_statement.pdf 中国数学会关于数学学术评价的意见]
+([https://www.cms.org.cn/home/notices/notices_details/id/216.html source])
+-- [docs/2015_ams_statement.pdf AMS Statement on ``The Culture of Research and Scholarship in Mathematics: Joint Research and Its Publication'']
+([https://www.ams.org/about-us/governance/policy-statements/sec-ams-policystatements source])
 
-== Student
+== [https://genealogy.math.ndsu.nodak.edu/id.php?id=164992 Graduate students] as chief supervisor
 
-- [https://ragonneau.github.io/ Tom M. Ragonneau] (awardee of the
-[https://cerg1.ugc.edu.hk/hkpfs/index.html Hong Kong PhD Fellowship
-Scheme] 2019/20, ref. PF18-24698); works:
--- [https://www.pdfo.net PDFO]: a cross-platform package providing interfaces for using late [powell.html Professor M. J. D. Powell]'s derivative-free optimization solver
+- Sept. 2024--present, Zao Jiang, MPhil, Sun Yat-sen University
+- Sept. 2022--present, [https://opthuang.github.io/ Cunxin Huang], PhD, The Hong Kong Polytechnic University,
+awardee of the [https://cerg1.ugc.edu.hk/hkpfs/index.html Hong Kong PhD Fellowship Scheme] 2022\/23 (ref. PF21-56718),
+co-supervised with Prof. Xiaojun Chen
+- Sept. 2021--present, [https://lht97.github.io/ Haitian Li], PhD, The Hong Kong Polytechnic University,
+co-supervised with Prof. Xiaojun Chen
+- Sept. 2019--Aug. 2022, [https://ragonneau.github.io/ Tom M. Ragonneau], PhD, The Hong Kong Polytechnic University,
+awardee of the [https://cerg1.ugc.edu.hk/hkpfs/index.html Hong Kong PhD Fellowship Scheme] 2019\/20 (ref. PF18-24698),
+co-supervised with Prof. Xiaojun Chen, thesis: [https://theses.lib.polyu.edu.hk/handle/200/12294 /Model-Based Derivative-Free Optimization Methods and Software/]
 
 
 # Put 124 "&nbsp\ " to avoid a too narrow page. The same for 403.jemdoc and 404.jemdoc.

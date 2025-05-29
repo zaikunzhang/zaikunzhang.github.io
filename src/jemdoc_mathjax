@@ -22,25 +22,27 @@
 # latexmath2png, by Kamil Kisiel (kamil@kamikisiel.net).
 #
 
+from __future__ import print_function
 import sys
 import os
 import re
 import time
-import StringIO
+import io
 from subprocess import *
+from types import *
 import tempfile
 
 def info():
-  print __doc__
-  print 'Platform: ' + sys.platform + '.'
-  print 'Python: %s, located at %s.' % (sys.version[:5], sys.executable)
-  print 'Equation support:',
+  print(__doc__)
+  print('Platform: ' + sys.platform + '.')
+  print('Python: %s, located at %s.' % (sys.version[:5], sys.executable))
+  print('Equation support:', end=' ')
   (supported, message) = testeqsupport()
   if supported:
-    print 'yes.'
+    print('yes.')
   else:
-    print 'no.'
-  print message
+    print('no.')
+  print(message)
 
 def testeqsupport():
   supported = True
@@ -85,14 +87,14 @@ class controlstruct(object):
 
   def pushfile(self, newfile):
     self.otherfiles.insert(0, self.inf)
-    self.inf = open(newfile, 'rb')
+    self.inf = io.open(newfile, 'rb')
 
   def nextfile(self):
     self.inf.close()
     self.inf = self.otherfiles.pop(0)
 
 def showhelp():
-  a = """Usage: jemdoc [OPTIONS] [SOURCEFILE] 
+  a = """Usage: jemdoc [OPTIONS] [SOURCEFILE]
   Produces html markup from a jemdoc SOURCEFILE.
 
   Most of the time you can use jemdoc without any additional flags.
@@ -113,7 +115,7 @@ def showhelp():
   overwritten by including them in a configuration file, and running,
   for example,
 
-    jemdoc -c mywebsite.conf index.jemdoc 
+    jemdoc -c mywebsite.conf index.jemdoc
 
   You can view version and installation details with
 
@@ -127,7 +129,7 @@ def showhelp():
     else:
       b += l
 
-  print b
+  print(b)
 
 def standardconf():
   a = """[firstbit]
@@ -137,10 +139,10 @@ def standardconf():
   <head>
   <meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
   <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-  
+
   [defaultcss]
   <link rel="stylesheet" href="/jemdoc.css" type="text/css" />
-  
+
   [windowtitle]
   # used in header for window title.
   <title>|</title>
@@ -150,26 +152,26 @@ def standardconf():
 
   [fwtitleend]
   </div>
-  
+
   [doctitle]
   # used at top of document.
   <div id="toptitle">
   <h1>|</h1>
-  
+
   [subtitle]
   ##########################
   # Zaikun 14 Oct 2014
   # <div id="subtitle">|</div>
   <div class="subtitle" id="subtitle">|</div>
   ##########################
-  
+
   [doctitleend]
   </div>
-  
+
   [bodystart]
   </head>
   <body>
-  
+
   [analytics]
   <script type="text/javascript">
   var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
@@ -180,7 +182,7 @@ def standardconf():
       var pageTracker = _gat._getTracker("|");
       pageTracker._trackPageview();
   } catch(err) {}</script>
-  
+
   [menustart]
   ##########################
   # Zaikun 07 Feb 2014
@@ -192,18 +194,18 @@ def standardconf():
   <tr class="top">
   ##########################
   <td id="layout-menu">
-  
+
   [menuend]
   </td>
   <td id="layout-content">
-  
+
   [menucategory]
   <div class="menu-category">|</div>
 
   [menuitem]
-# Different from Jemdoc. For links that generate a new tab. Disabled because: 
-# 1. this behavor is sometime rude; 
-# 2. the inplementation is buggy because of the double quotes. 
+# Different from Jemdoc. For links that generate a new tab. Disabled because:
+# 1. this behavor is sometime rude;
+# 2. the implementation is buggy because of the double quotes.
 #  <div class="menu-item"><a href="|1"|3>|2</a></div>
   <div class="menu-item"><a href="|1">|2</a></div>
 ###########################################################################
@@ -213,63 +215,63 @@ def standardconf():
 
   [specificjs]
   <script src="|.js" type="text/javascript"></script>
-  
+
   [currentmenuitem]
-# Different from Jemdoc. For links that generate a new tab. Disabled. 
+# Different from Jemdoc. For links that generate a new tab. Disabled.
 #  <div class="menu-item"><a href="|1" class="current"|3>|2</a></div>
   <div class="menu-item"><a href="|1" class="current">|2</a></div>
-###########################################################################  
-  
+###########################################################################
+
   [nomenu]
   <div id="layout-content">
-  
+
   [menulastbit]
   </td>
   </tr>
   </table>
-  
+
   [nomenulastbit]
   </div>
-  
+
   [bodyend]
   </body>
   </html>
-  
+
   [infoblock]
   <div class="infoblock">
-  
+
   [codeblock]
   <div class="codeblock">
-  
+
   [blocktitle]
   <div class="blocktitle">|</div>
-  
+
   [infoblockcontent]
   <div class="blockcontent">
-  
+
   [codeblockcontent]
   <div class="blockcontent"><pre>
-  
+
   [codeblockend]
   </pre></div></div>
-  
+
   [codeblockcontenttt]
   <div class="blockcontent"><tt class="tthl">
-  
+
   [codeblockendtt]
   </tt></div></div>
-  
+
   [infoblockend]
   </div></div>
-  
+
   [footerstart]
   <div id="footer">
   <div id="footer-text">
-  
+
   [footerend]
   </div>
   </div>
-  
+
   [lastupdated]
   Page generated |, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
 
@@ -279,7 +281,9 @@ def standardconf():
   """
   b = ''
   for l in a.splitlines(True):
-    if l.startswith('  '):
+    if l.startswith('  #'):
+        continue
+    elif l.startswith('  '):
       b += l[2:]
     else:
       b += l
@@ -300,7 +304,7 @@ def raisejandal(msg, line=0):
   raise JandalError(s)
 
 def readnoncomment(f):
-  l = f.readline()
+  l = f.readline().decode('utf-8')
   if l == '':
     return l
   elif l[0] == '#': # jem: be a little more generous with the comments we accept?
@@ -312,9 +316,9 @@ def parseconf(cns):
   syntax = {}
   warn = False # jem. make configurable?
   # manually add the defaults as a file handle.
-  fs = [StringIO.StringIO(standardconf())]
+  fs = [io.BytesIO(standardconf().encode('utf-8'))]
   for sname in cns:
-    fs.append(open(sname, 'rb'))
+    fs.append(io.open(sname, 'rb'))
 
   for f in fs:
     while pc(controlstruct(f)) != '':
@@ -337,7 +341,7 @@ def parseconf(cns):
   return syntax
 
 def insertmenuitems(f, mname, current, prefix):
-  m = open(mname, 'rb')
+  m = io.open(mname, 'rb')
   while pc(controlstruct(m)) != '':
     l = readnoncomment(m)
     l = l.strip()
@@ -348,7 +352,7 @@ def insertmenuitems(f, mname, current, prefix):
 
     if r: # then we have a menu item.
       link = r.group(2)
-# Different from Jemdoc. For links that generate a new tab. Disabled. 
+# Different from Jemdoc. For links that generate a new tab. Disabled.
 #      if link[0] == '\\':
 #        option = ' target="blank"'
 #        link = link[1:]
@@ -380,12 +384,12 @@ def insertmenuitems(f, mname, current, prefix):
             menuitem += br(re.sub(r'(?<!\\n) +', '~', group), f)
 
       if link[-len(current):] == current:
-# Different from Jemdoc. For links that generate a new tab. Disabled. 
+# Different from Jemdoc. For links that generate a new tab. Disabled.
 #        hb(f.outf, f.conf['currentmenuitem'], link, menuitem, option)
         hb(f.outf, f.conf['currentmenuitem'], link, menuitem)
 ####################################################################
       else:
-# Different from Jemdoc. For links that generate a new tab. Disabled. 
+# Different from Jemdoc. For links that generate a new tab. Disabled.
 #        hb(f.outf, f.conf['menuitem'], link, menuitem, option)
         hb(f.outf, f.conf['menuitem'], link, menuitem)
 ####################################################################
@@ -396,7 +400,11 @@ def insertmenuitems(f, mname, current, prefix):
   m.close()
 
 def out(f, s):
-  f.write(s)
+#  print(type(s))
+  if sys.version_info[0] == 2 and type(s) is StringType:
+    f.write(s.decode('utf-8'))
+  else:
+    f.write(s)
 
 def mathjaxussub(link):
   link = link.replace('_', 'UNDERSCORE65358')
@@ -463,7 +471,7 @@ def hb(f, tag, content1, content2=None, content3=None):
 def pc(f, ditchcomments=True):
   """Peeks at next character in the file."""
   # Should only be used to look at the first character of a new line.
-  c = f.inf.read(1)
+  c = f.inf.read(1).decode('cp1252')
   if c: # only undo forward movement if we're not at the end.
     if ditchcomments and c == '#':
       l = nl(f)
@@ -486,12 +494,13 @@ def pc(f, ditchcomments=True):
 def doincludes(f, l):
   ir = 'includeraw{'
   i = 'include{'
+  l = l.rstrip()
   if l.startswith(ir):
-    nf = open(l[len(ir):-2], 'rb')
-    f.outf.write(nf.read())
+    nf = io.open(l[len(ir):-1], 'rb')
+    f.outf.write(nf.read().decode('utf-8'))
     nf.close()
   elif l.startswith(i):
-    f.pushfile(l[len(i):-2])
+    f.pushfile(l[len(i):-1])
   else:
     return False
 
@@ -499,7 +508,7 @@ def doincludes(f, l):
 
 def nl(f, withcount=False, codemode=False):
   """Get input file line."""
-  s = f.inf.readline()
+  s = f.inf.readline().decode('utf-8')
   if not s and f.otherfiles:
     f.nextfile()
     return nl(f, withcount, codemode)
@@ -542,17 +551,35 @@ def np(f, withcount=False, eatblanks=True):
   else:
     s = nl(f)
 
-  while pc(f) not in ('\n', '-', '.', ':', '', '=', '~', '{', '\\(', '\\)'):
-    s += nl(f)
+  # Determine if the current line has an open inline equation block or not.
+  r = re.compile(r'(?<!\\)\$')
+  m = r.findall(s)
+  lm = len(m) % 2
+  isopeneq = lm == 1
+
+  # The followings characters signal a new paragraph when appeared right after '\n'.
+  # The original list included '-', which should not signal a new paragraph when used as the first character of a matrix row inside inline equation blocks.  Therefore, '-' is handled separately.
+  nl_signals = ('\n', '.', ':', '', '=', '~', '{', '\\(', '\\)')
+
+  pcf = pc(f)
+  while (not isopeneq and pcf != '-' and pcf not in nl_signals) or (isopeneq and pcf not in nl_signals):
+    if isopeneq and pcf == '-':
+      s += '-'
+    ns = nl(f)
+    m = r.findall(ns)
+    lm = (lm + len(m)) % 2
+    isopeneq = lm == 1
+    s += ns
+    pcf = pc(f)
 
   while eatblanks and pc(f) == '\n':
     nl(f) # burn blank line.
 
   # in both cases, ditch the trailing \n.
   if withcount:
-    return (s[:-1], c)
+    return (s, c)
   else:
-    return s[:-1]
+    return s
 
 def quote(s):
   return re.sub(r"""[\\*/+"'<>&$%\.~[\]-]""", r'\\\g<0>', s)
@@ -672,7 +699,7 @@ def replacelinks(b):
   while m:
     m1 = m.group(1).strip()
 
-# Different from Jemdoc. For links that generate a new tab. Disabled. 
+# Different from Jemdoc. For links that generate a new tab. Disabled.
 #    if m1[0] == '/':
 #        option = ''
 #        m1 = m1[1:]
@@ -701,7 +728,7 @@ def replacelinks(b):
       # remove any mailto before labelling.
       linkname = re.sub('^mailto:', '', link)
 
-# Different from Jemdoc. For links that generate a new tab. Disabled. 
+# Different from Jemdoc. For links that generate a new tab. Disabled.
 #    b = b[:m.start()] + r'<a href=\"%s\"%s>%s<\/a>' % (link, option, linkname) + b[m.end():]
     b = b[:m.start()] + r'<a href=\"%s\">%s<\/a>' % (link, linkname) + b[m.end():]
 ###################################################################
@@ -752,12 +779,12 @@ def br(b, f, tableblock=False):
   # Deal with *bold*.
   r = re.compile(r'(?<!\\)\*(.*?)(?<!\\)\*', re.M + re.S)
   b = re.sub(r, r'<b>\1</b>', b)
- 
+
   # Deal with _underscore_.
   r = re.compile(r'(?<!\\)_(.*?)(?<!\\)_', re.M + re.S)
   b = re.sub(r, r'<u>\1</u>', b)
   b = mathjaxusresub(b)
- 
+
   # Deal with +monospace+.
   r = re.compile(r'(?<!\\)\+(.*?)(?<!\\)\+', re.M + re.S)
   b = re.sub(r, r'<tt>\1</tt>', b)
@@ -854,6 +881,7 @@ def br(b, f, tableblock=False):
 
 def allreplace(b):
   """Replacements that should be done on everything."""
+  # The following replace &, >, < in LaTeX code with &amp;, &gt;, &lt;.  Is this necessary?
   r = re.compile(r"(?<!\\)&", re.M + re.S)
   b = re.sub(r, r'&amp;', b)
 
@@ -1017,7 +1045,7 @@ def geneq(f, eq, dpi, wl, outname):
   eqdepths = {}
   if f.eqcache:
     try:
-      dc = open(os.path.join(f.eqdir, '.eqdepthcache'), 'rb')
+      dc = io.open(os.path.join(f.eqdir, '.eqdepthcache'), 'rb')
       for l in dc:
         a = l.split()
         eqdepths[a[0]] = int(a[1])
@@ -1026,7 +1054,7 @@ def geneq(f, eq, dpi, wl, outname):
       if os.path.exists(eqname) and eqname in eqdepths:
         return (eqdepths[eqname], eqname)
     except IOError:
-      print 'eqdepthcache read failed.'
+      print('eqdepthcache read failed.')
 
   # Open tex file.
   tempdir = tempfile.gettempdir()
@@ -1036,14 +1064,14 @@ def geneq(f, eq, dpi, wl, outname):
 
   preamble = '\documentclass{article}\n'
   for p in f.eqpackages:
-    preamble += '\usepackage{%s}\n' % p
+    preamble += '\\usepackage{%s}\n' % p
   for p in f.texlines:
     # Replace \{ and \} in p with { and }.
     # XXX hack.
     preamble += re.sub(r'\\(?=[{}])', '', p + '\n')
   preamble += '\pagestyle{empty}\n\\begin{document}\n'
   g.write(preamble)
-  
+
   # Write the equation itself.
   if wl:
     g.write('\\[%s\\]' % eq)
@@ -1063,7 +1091,7 @@ def geneq(f, eq, dpi, wl, outname):
     rc = p.wait()
     if rc != 0:
       for l in p.stdout.readlines():
-        print '  ' + l.rstrip()
+        print('  ' + l.rstrip())
       exts.remove('.tex')
       raise Exception('latex error')
 
@@ -1073,7 +1101,7 @@ def geneq(f, eq, dpi, wl, outname):
     p = Popen(dvicmd, shell=True, stdout=PIPE, stderr=PIPE)
     rc = p.wait()
     if rc != 0:
-      print p.stderr.readlines()
+      print(p.stderr.readlines())
       raise Exception('dvipng error')
     depth = int(p.stdout.readlines()[-1].split('=')[-1])
   finally:
@@ -1086,11 +1114,11 @@ def geneq(f, eq, dpi, wl, outname):
   # Update the cache if we're using it.
   if f.eqcache and eqname not in eqdepths:
     try:
-      dc = open(os.path.join(f.eqdir, '.eqdepthcache'), 'ab')
+      dc = io.open(os.path.join(f.eqdir, '.eqdepthcache'), 'ab')
       dc.write(eqname + ' ' + str(depth) + '\n')
       dc.close()
     except IOError:
-      print 'eqdepthcache update failed.'
+      print('eqdepthcache update failed.')
   return (depth, eqname)
 
 def dashlist(f, ordered=False):
@@ -1230,7 +1258,7 @@ def codeblock(f, g):
   if raw:
     return
   elif ext_prog:
-    print 'filtering through %s...' % ext_prog
+    print('filtering through %s...' % ext_prog)
 
     output,_ = Popen(ext_prog, shell=True, stdin=PIPE,
                      stdout=PIPE).communicate(buff)
@@ -1270,7 +1298,7 @@ def procfile(f):
   js = []
   title = None
   while pc(f, False) == '#':
-    l = f.inf.readline()
+    l = f.inf.readline().decode('utf-8')
     f.linenum += 1
     if doincludes(f, l[1:]):
       continue
@@ -1495,7 +1523,7 @@ def procfile(f):
         if len(g) in (0, 1): # info block.
           out(f.outf, f.conf['infoblock'])
           infoblock = True
-          
+
           if len(g) == 1: # info block.
             hb(f.outf, f.conf['blocktitle'], g[0])
 
@@ -1522,7 +1550,7 @@ def procfile(f):
           # handles
           # {}{img_left}{source}{alttext}{width}{height}{linktarget}.
           g += ['']*(7 - len(g))
-          
+
           if g[4].isdigit():
             g[4] += 'px'
 
@@ -1588,7 +1616,7 @@ def main():
     showhelp()
     raise SystemExit
   if sys.argv[1] == '--show-config':
-    print standardconf()
+    print(standardconf())
     raise SystemExit
   if sys.argv[1] == '--version':
     info()
@@ -1638,9 +1666,10 @@ def main():
     else:
       thisout = outname
 
-    infile = open(inname, 'rUb')
-    outfile = open(thisout, 'w')
+    infile = io.open(inname, 'rb')
+    outfile = io.open(thisout, 'w')
 
+#    print(infile.read())
     f = controlstruct(infile, outfile, conf, inname)
     procfile(f)
 
