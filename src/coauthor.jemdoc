@@ -1,6 +1,6 @@
 # jemdoc: menu{MENU}{coauthor.html},title{Coauthors} showsource
 = {{<a id="top"></a>}}Coauthors and students
-This page provides information about my co-authors and students.
+This page provides information about my coauthors and students.
 
 ~~~
 {}{raw}
@@ -37,6 +37,11 @@ and the [https://www.ams.org/ American Mathematical Society] for your reference:
 ([https://www.cms.org.cn/home/notices/notices_details/id/216.html source])
 -- [docs/2015_ams_statement.pdf AMS Statement on ``The Culture of Research and Scholarship in Mathematics: Joint Research and Its Publication'']
 ([https://www.ams.org/about-us/governance/policy-statements/sec-ams-policystatements source])
+
+== My research team: L'Équipe Z
+
+- [https://equipez.github.io Homepage]
+- [https://github.com/equipez GitHub]
 
 == [https://genealogy.math.ndsu.nodak.edu/id.php?id=164992 Graduate students] as chief supervisor
 
